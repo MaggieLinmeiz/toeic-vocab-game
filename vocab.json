@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Contracts & Legal (合約法務)",
+    "word": "stipulate",
+    "pos": "v.",
+    "zh": "規定、約定、明訂",
+    "collocations": "stipulate that... / as stipulated in the contract",
+    "tip": "多益聽力與閱讀常考商業合約條款，後面常接子句。",
+    "sentence": "The contract stipulates that all deliveries must be made within 30 days.",
+    "sentenceZh": "合約規定所有交貨必須在 30 天內完成。"
+  },
+  {
+    "category": "General Business (一般商務)",
+    "word": "merger",
+    "pos": "n.",
+    "zh": "（企業）合併、併購",
+    "collocations": "merger and acquisition (M&A)",
+    "tip": "多益財經與企業新聞題組常客，動詞為 merge。",
+    "sentence": "The proposed merger will be finalized next month.",
+    "sentenceZh": "擬議中的合併案將於下個月底定。"
+  },
+  {
+    "category": "Finance & Budgeting (財務預算)",
+    "word": "accountant",
+    "pos": "n.",
+    "zh": "會計師、會計人員",
+    "collocations": "certified public accountant (CPA)",
+    "tip": "負責處理公司的 accounting（會計）與 financial reports。",
+    "sentence": "Our chief accountant will audit the annual balance sheet.",
+    "sentenceZh": "我們的首席會計師將審核年度資產負債表。"
+  }
+]
