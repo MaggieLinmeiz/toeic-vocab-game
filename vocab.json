@@ -1,32 +1,392 @@
 [
   {
     "category": "Contracts & Legal (合約法務)",
-    "word": "stipulate",
+    "word": "Stipulate",
     "pos": "v.",
     "zh": "規定、約定、明訂",
     "collocations": "stipulate that... / as stipulated in the contract",
-    "tip": "多益聽力與閱讀常考商業合約條款，後面常接子句。",
+    "tip": "多益聽力與閱讀常考商業合約條款，後面常接子句或與 'specify'、'state' 替換。",
     "sentence": "The contract stipulates that all deliveries must be made within 30 days.",
     "sentenceZh": "合約規定所有交貨必須在 30 天內完成。"
   },
   {
+    "category": "Contracts & Legal (合約法務)",
+    "word": "Breach",
+    "pos": "n. / v.",
+    "zh": "違背、違反（合約等）",
+    "collocations": "breach of contract / breach confidentiality",
+    "tip": "多益最愛考的法務單字之一！動詞名詞同形，常考 'breach of contract'（違約）。",
+    "sentence": "Failing to meet the deadline will be considered a breach of contract.",
+    "sentenceZh": "未能在期限前完成將被視為違約。"
+  },
+  {
+    "category": "Contracts & Legal (合約法務)",
+    "word": "Jurisdiction",
+    "pos": "n.",
+    "zh": "司法權、管轄權",
+    "collocations": "fall under the jurisdiction of / local jurisdiction",
+    "tip": "多益高階合約題常考，用來規範若發生訴訟要在哪個國家或地區審理。",
+    "sentence": "Any legal disputes arising from this contract will be under the jurisdiction of Taipei courts.",
+    "sentenceZh": "因本合約引發的任何法律爭議將歸台北法院管轄。"
+  },
+  {
     "category": "General Business (一般商務)",
-    "word": "merger",
+    "word": "Enterprise",
+    "pos": "n.",
+    "zh": "企業、公司、事業",
+    "collocations": "joint enterprise / private enterprise",
+    "tip": "常指規模較大或具有冒險精神的商業企業，多益商業閱讀中常見。",
+    "sentence": "The small startup has grown into a successful global enterprise.",
+    "sentenceZh": "這家小型新創公司已經成長為一家成功的全球企業。"
+  },
+  {
+    "category": "General Business (一般商務)",
+    "word": "Venture",
+    "pos": "n. / v.",
+    "zh": "企業營利、風險投資",
+    "collocations": "joint venture / business venture",
+    "tip": "常考固定片語 'joint venture'（合資企業 / 聯合事業）。",
+    "sentence": "The two tech giants entered into a joint venture to develop new AI software.",
+    "sentenceZh": "這兩家科技巨頭合資成立了一家公司來開發新的人工智慧軟體。"
+  },
+  {
+    "category": "General Business (一般商務)",
+    "word": "Merger",
     "pos": "n.",
     "zh": "（企業）合併、併購",
-    "collocations": "merger and acquisition (M&A)",
-    "tip": "多益財經與企業新聞題組常客，動詞為 merge。",
-    "sentence": "The proposed merger will be finalized next month.",
-    "sentenceZh": "擬議中的合併案將於下個月底定。"
+    "collocations": "merger and acquisition (M&A) / corporate merger",
+    "tip": "多益財經與企業新聞題組常客，動詞為 merge（合併）。",
+    "sentence": "The proposed merger between the two banks will be finalized next month.",
+    "sentenceZh": "這兩家銀行擬議中的合併案將於下個月底定。"
   },
   {
     "category": "Finance & Budgeting (財務預算)",
-    "word": "accountant",
+    "word": "Allocation",
     "pos": "n.",
-    "zh": "會計師、會計人員",
-    "collocations": "certified public accountant (CPA)",
-    "tip": "負責處理公司的 accounting（會計）與 financial reports。",
-    "sentence": "Our chief accountant will audit the annual balance sheet.",
-    "sentenceZh": "我們的首席會計師將審核年度資產負債表。"
+    "zh": "配置、分配、撥款",
+    "collocations": "budget allocation / resource allocation",
+    "tip": "動詞為 allocate（分配、撥出）。多益測驗常考預算分配與經費運用。",
+    "sentence": "The committee approved the budget allocation for the marketing department.",
+    "sentenceZh": "委員會批准了行銷部門的預算分配。"
+  },
+  {
+    "category": "Finance & Budgeting (財務預算)",
+    "word": "Fiscal",
+    "pos": "adj.",
+    "zh": "會計年度的、財政的",
+    "collocations": "fiscal year / fiscal policy",
+    "tip": "多益商業常考 'fiscal year'（會計年度 / 財政年度），注意與 'financial' 的區別。",
+    "sentence": "Our company's fiscal year ends on December 31st.",
+    "sentenceZh": "我們公司的會計年度於 12 月 31 日結束。"
+  },
+  {
+    "category": "Finance & Budgeting (財務預算)",
+    "word": "Deficit",
+    "pos": "n.",
+    "zh": "赤字、虧損",
+    "collocations": "budget deficit / trade deficit",
+    "tip": "相反詞為 surplus（盈餘、順差），多益經濟與財務題組常同時出現。",
+    "sentence": "The government is trying to reduce the national trade deficit.",
+    "sentenceZh": "政府正試圖減少國家貿易赤字。"
+  },
+  {
+    "category": "Human Resources (人力資源)",
+    "word": "Candidate",
+    "pos": "n.",
+    "zh": "候選人、應徵者",
+    "collocations": "qualified candidate / prospective candidate",
+    "tip": "多益求職與面試情境必考字，常與 'applicant'（申請人）替換。",
+    "sentence": "We interviewed several strong candidates for the position of project manager.",
+    "sentenceZh": "我們為專案經理一職面試了几位優秀的應徵者。"
+  },
+  {
+    "category": "Human Resources (人力資源)",
+    "word": "Recruit",
+    "pos": "v. / n.",
+    "zh": "招募、吸收（新成員）",
+    "collocations": "recruit new employees / recruitment process",
+    "tip": "名詞為 recruitment（招募），多益人資廣告常出現 'now recruiting'。",
+    "sentence": "The firm plans to recruit top talent from local universities.",
+    "sentenceZh": "該公司計畫從當地大學招募頂尖人才。"
+  },
+  {
+    "category": "Human Resources (人力資源)",
+    "word": "Appraisal",
+    "pos": "n.",
+    "zh": "評價、評估、考核",
+    "collocations": "performance appraisal / employee appraisal",
+    "tip": "動詞為 appraise（評估、評價）。多益職場常考 'performance appraisal'（績效考核）。",
+    "sentence": "Annual performance appraisals will take place at the end of this quarter.",
+    "sentenceZh": "年度績效考核將在本季末舉行。"
+  },
+  {
+    "category": "Office Technology (辦公科技)",
+    "word": "Compatible",
+    "pos": "adj.",
+    "zh": "相容的、能共處的",
+    "collocations": "compatible with... / fully compatible",
+    "tip": "常搭配介系詞 with，多益 IT 軟硬體採購與說明書題組必考。",
+    "sentence": "Make sure the new software is compatible with your operating system.",
+    "sentenceZh": "請確保新軟體與您的作業系統相容。"
+  },
+  {
+    "category": "Office Technology (辦公科技)",
+    "word": "Upgrade",
+    "pos": "v. / n.",
+    "zh": "升級、改善",
+    "collocations": "system upgrade / upgrade to a higher version",
+    "tip": "多益辦公室設備更新與電腦系統維護公告常見用語。",
+    "sentence": "IT department will perform a network system upgrade this weekend.",
+    "sentenceZh": "資訊部門將於本週末進行網路系統升級。"
+  },
+  {
+    "category": "Office Technology (辦公科技)",
+    "word": "Automate",
+    "pos": "v.",
+    "zh": "使自動化",
+    "collocations": "automate production / automated process",
+    "tip": "名詞為 automation（自動化），形容詞為 automated（自動化的）。",
+    "sentence": "The factory decided to automate its assembly line to increase efficiency.",
+    "sentenceZh": "工廠決定將其裝配線自動化以提高效率。"
+  },
+  {
+    "category": "Corporate Travel (商務差旅)",
+    "word": "Itinerary",
+    "pos": "n.",
+    "zh": "行程、旅行計畫",
+    "collocations": "travel itinerary / flight itinerary",
+    "tip": "多益旅遊及出差規劃題組高頻字，常出現在確認信或電子郵件中。",
+    "sentence": "I have emailed you the detailed travel itinerary for your upcoming business trip.",
+    "sentenceZh": "我已經將您即將到來的出差詳細行程表寄到您的信箱了。"
+  },
+  {
+    "category": "Corporate Travel (商務差旅)",
+    "word": "Accommodation",
+    "pos": "n.",
+    "zh": "住宿、膳宿",
+    "collocations": "hotel accommodation / provide accommodation",
+    "tip": "雖然常用複數形式 accommodations，但單數也常見。多益差旅報銷常客。",
+    "sentence": "The company will cover all travel and accommodation expenses for the conference.",
+    "sentenceZh": "公司將負擔此次會議的所有差旅與住宿費用。"
+  },
+  {
+    "category": "Corporate Travel (商務差旅)",
+    "word": "Reimbursement",
+    "pos": "n.",
+    "zh": "費用核銷、償還、報銷",
+    "collocations": "travel reimbursement / expense reimbursement",
+    "tip": "動詞為 reimburse（核銷、補償）。員工出差回來後提交 'reimbursement form'。",
+    "sentence": "Please submit your receipts for travel expense reimbursement by Friday.",
+    "sentenceZh": "請於周五前提交您的差旅費收據以進行報銷。"
+  },
+  {
+    "category": "Purchasing & Inventory (採購庫存)",
+    "word": "Wholesale",
+    "pos": "n. / adj.",
+    "zh": "批發（的）",
+    "collocations": "wholesale price / wholesale distributor",
+    "tip": "相反詞為 retail（零售），多益商業採購與供應鏈題組常考。",
+    "sentence": "The company buys office supplies in bulk at wholesale prices.",
+    "sentenceZh": "該公司以批發價大量購買辦公用品。"
+  },
+  {
+    "category": "Purchasing & Inventory (採購庫存)",
+    "word": "Vendor",
+    "pos": "n.",
+    "zh": "供應商、小販",
+    "collocations": "approved vendor / reliable vendor / third-party vendor",
+    "tip": "多益採購部門（Purchasing Department）與合約管理常見的重要角色。",
+    "sentence": "We need to evaluate three new potential vendors before signing the contract.",
+    "sentenceZh": "在簽署合約之前，我們需要評估三個新的潛在供應商。"
+  },
+  {
+    "category": "Purchasing & Inventory (採購庫存)",
+    "word": "Inventory",
+    "pos": "n.",
+    "zh": "庫存、存貨清單",
+    "collocations": "take inventory / inventory control / out of stock",
+    "tip": "多益倉儲物流與零售題組必考，常與 'stock' 替換。",
+    "sentence": "The warehouse will be closed next Monday for annual inventory check.",
+    "sentenceZh": "倉庫將於下周一關閉以進行年度庫存盤點。"
+  },
+  {
+    "category": "Customer Service (客戶服務)",
+    "word": "Inquiry",
+    "pos": "n.",
+    "zh": "詢問、查詢",
+    "collocations": "customer inquiry / general inquiry / make an inquiry",
+    "tip": "動詞為 inquire（詢問）。多益客服中心（Call Center）信件常見標題。",
+    "sentence": "Our customer service team handles dozens of inquiries every day.",
+    "sentenceZh": "我們的客戶服務團隊每天處理數十起客戶查詢。"
+  },
+  {
+    "category": "Customer Service (客戶服務)",
+    "word": "Warranty",
+    "pos": "n.",
+    "zh": "保固、保證書",
+    "collocations": "under warranty / extended warranty / manufacturer warranty",
+    "tip": "多益消費電子產品與消費糾紛題組必考，注意與 guarantee 的區別。",
+    "sentence": "The laptop comes with a two-year manufacturer warranty.",
+    "sentenceZh": "這台筆記型電腦附帶兩年原廠保固。"
+  },
+  {
+    "category": "Customer Service (客戶服務)",
+    "word": "Compensation",
+    "pos": "n.",
+    "zh": "補償、賠償金、薪酬",
+    "collocations": "financial compensation / seek compensation",
+    "tip": "動詞為 compensate（補償）。在多益中可指工作薪資或損害賠償金。",
+    "sentence": "The airline offered travel vouchers as compensation for the delayed flight.",
+    "sentenceZh": "航空公司提供旅遊禮券作為班機延誤的補償。"
+  },
+  {
+    "category": "Marketing & Advertising (行銷廣告)",
+    "word": "Promote",
+    "pos": "v.",
+    "zh": "促銷、宣傳、晉升",
+    "collocations": "promote a new product / be promoted to manager",
+    "tip": "多益多義字！在行銷情境解作「促銷/推廣」，在人資情境解作「升職」。",
+    "sentence": "The advertising agency launched a new campaign to promote the brand.",
+    "sentenceZh": "廣告公司發起了一項新活動來宣傳該品牌。"
+  },
+  {
+    "category": "Marketing & Advertising (行銷廣告)",
+    "word": "Endorsement",
+    "pos": "n.",
+    "zh": "（名人）代言、背書、贊同",
+    "collocations": "celebrity endorsement / political endorsement",
+    "tip": "動詞為 endorse（背書、贊同）。多益廣告行銷題組常考名人代言效益。",
+    "sentence": "Sales increased dramatically after the famous actor signed the endorsement deal.",
+    "sentenceZh": "在這位知名演員簽署代言合約後，銷售額大幅成長。"
+  },
+  {
+    "category": "Marketing & Advertising (行銷廣告)",
+    "word": "Demographic",
+    "pos": "n. / adj.",
+    "zh": "人口統計資料、客群族群",
+    "collocations": "target demographic / demographic group",
+    "tip": "多益市場調查與廣告投放策略題組高頻字，指特定年齡或收入的消費族群。",
+    "sentence": "The new product is specifically designed for the younger demographic.",
+    "sentenceZh": "這項新產品是專門為年輕客群設計的。"
+  },
+  {
+    "category": "Manufacturing & Operations (生產營運)",
+    "word": "Assembly",
+    "pos": "n.",
+    "zh": "組裝、裝配、集會",
+    "collocations": "assembly line / assembly plant",
+    "tip": "多益工廠製造題組必考 'assembly line'（裝配線 / 生產線）。",
+    "sentence": "Workers on the assembly line ensure that every product meets quality standards.",
+    "sentenceZh": "生產線上的工人確保每項產品都符合品質標準。"
+  },
+  {
+    "category": "Manufacturing & Operations (生產營運)",
+    "word": "Inspection",
+    "pos": "n.",
+    "zh": "檢查、檢驗、視察",
+    "collocations": "quality inspection / safety inspection",
+    "tip": "動詞為 inspect（檢查、審視）。多益海關、工廠與安檢題組常見。",
+    "sentence": "All items must undergo strict quality inspection before packaging.",
+    "sentenceZh": "所有商品在包裝前都必須經過嚴格的品質檢驗。"
+  },
+  {
+    "category": "Manufacturing & Operations (生產營運)",
+    "word": "Capacity",
+    "pos": "n.",
+    "zh": "容量、生產力、職位身分",
+    "collocations": "full capacity / production capacity / seating capacity",
+    "tip": "多益常考 'at full capacity'（全滿/全力運轉）或 'production capacity'（產能）。",
+    "sentence": "The factory is currently operating at maximum production capacity.",
+    "sentenceZh": "該工廠目前正以最大產能運作。"
+  },
+  {
+    "category": "Real Estate & Property (房地產物管)",
+    "word": "Lease",
+    "pos": "n. / v.",
+    "zh": "租約、出租",
+    "collocations": "sign a lease / lease agreement / commercial lease",
+    "tip": "多益商辦租賃合約題組必考，常與 'rent'（租金/租用）搭配考察。",
+    "sentence": "Our office building lease expires at the end of next month.",
+    "sentenceZh": "我們辦公大樓的租約将在下月底到期。"
+  },
+  {
+    "category": "Real Estate & Property (房地產物管)",
+    "word": "Tenant",
+    "pos": "n.",
+    "zh": "承租人、房客",
+    "collocations": "commercial tenant / reliable tenant",
+    "tip": "房東為 landlord，多益物業管理與租賃廣告常見字彙。",
+    "sentence": "The landlord is responsible for major repairs, but tenants must keep the place clean.",
+    "sentenceZh": "房東負責大修繕，但房客必須保持地方整潔。"
+  },
+  {
+    "category": "Real Estate & Property (房地產物管)",
+    "word": "Maintenance",
+    "pos": "n.",
+    "zh": "維護、保養、維持",
+    "collocations": "routine maintenance / building maintenance",
+    "tip": "動詞為 maintain（維持、保養）。多益大樓管理與設備維修公告常客。",
+    "sentence": "The elevator will be out of service today for scheduled maintenance.",
+    "sentenceZh": "電梯今天將因例行維修而暫停使用。"
+  },
+  {
+    "category": "Dining & Entertainment (餐飲娛樂)",
+    "word": "Reservation",
+    "pos": "n.",
+    "zh": "預約、保留",
+    "collocations": "make a reservation / dinner reservation",
+    "tip": "動詞為 reserve（預訂）。多益聽力 Part 2/3 常考餐廳或飯店預約情境。",
+    "sentence": "I would like to make a table reservation for four people at 7 PM.",
+    "sentenceZh": "我想預訂晚上 7 點四人座的位子。"
+  },
+  {
+    "category": "Dining & Entertainment (餐飲娛樂)",
+    "word": "Catering",
+    "pos": "n.",
+    "zh": "外燴服務、餐飲服務",
+    "collocations": "catering service / catering company",
+    "tip": "動詞為 cater（迎合、提供伙食）。多益公司年會或研討會籌辦常見。",
+    "sentence": "We hired a local catering company for the corporate annual dinner.",
+    "sentenceZh": "我們為公司年度晚宴聘請了一家當地的外燴公司。"
+  },
+  {
+    "category": "Dining & Entertainment (餐飲娛樂)",
+    "word": "Hospitality",
+    "pos": "n.",
+    "zh": "慇勤款待、餐旅業",
+    "collocations": "hospitality industry / hospitality management",
+    "tip": "多益旅遊、飯店與觀光產業相關測驗的高頻字彙。",
+    "sentence": "She has over ten years of management experience in the hospitality industry.",
+    "sentenceZh": "她在餐旅業擁有十多年的管理經驗。"
+  },
+  {
+    "category": "Health & Safety (健康安全)",
+    "word": "Precaution",
+    "pos": "n.",
+    "zh": "預防措施、防備",
+    "collocations": "safety precaution / take precautions",
+    "tip": "形容詞為 precautionary（預防的）。多益工廠安全與防疫公告常考。",
+    "sentence": "Workers must wear helmets and gloves as a safety precaution.",
+    "sentenceZh": "作為安全預防措施，工人的配戴安全帽與手套。"
+  },
+  {
+    "category": "Health & Safety (健康安全)",
+    "word": "Hazard",
+    "pos": "n.",
+    "zh": "危害、危險物",
+    "collocations": "fire hazard / safety hazard / potential hazard",
+    "tip": "形容詞為 hazardous（有害的、危險的，如 hazardous waste 危害廢棄物）。",
+    "sentence": "Loose cables on the floor can create a serious safety hazard for employees.",
+    "sentenceZh": "地板上鬆動的電纜可能會對員工構成嚴重的安全危害。"
+  },
+  {
+    "category": "Health & Safety (健康安全)",
+    "word": "Regulation",
+    "pos": "n.",
+    "zh": "規章、法規、管制",
+    "collocations": "safety regulations / government regulations / comply with regulations",
+    "tip": "動詞為 regulate（管制、調節）。多益法務與合規（compliance）題組必考核心。",
+    "sentence": "All businesses must strictly follow environmental regulations.",
+    "sentenceZh": "所有企業都必須嚴格遵守環保法規。"
   }
 ]
