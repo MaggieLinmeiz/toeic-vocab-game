@@ -128,6 +128,20 @@
             font-weight: 700;
         }
 
+        .audio-btn {
+            background: none;
+            border: none;
+            font-size: 1.25rem;
+            cursor: pointer;
+            padding: 0.25rem;
+            border-radius: 50%;
+            transition: background 0.2s;
+        }
+
+        .audio-btn:hover {
+            background: #f1f5f9;
+        }
+
         .card-content-center {
             text-align: center;
             margin: auto 0;
@@ -229,4 +243,260 @@
             background: #e2e8f0;
             color: var(--text-main);
         }
- 
+
+        .btn-secondary:hover {
+            background: #cbd5e1;
+        }
+
+        .btn-success {
+            background: var(--accent);
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #059669;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>TOEIC Gold Master</h1>
+        <p>合約法務特訓營 3D 翻牌學習</p>
+    </header>
+
+    <div class="container">
+        <!-- 統計進度條 -->
+        <div class="stats-bar">
+            <span id="progress-text">進度：1 / 10</span>
+            <span id="score-text">已掌握：0</span>
+        </div>
+
+        <!-- 3D 翻牌閃卡容器 -->
+        <div class="flashcard-container" id="card-container">
+            <div class="flashcard" id="flashcard">
+                <!-- 正面 -->
+                <div class="card-face card-front">
+                    <div class="card-top">
+                        <span class="tag" id="card-tag">合約法務</span>
+                        <button class="audio-btn" id="audio-btn" title="發音">🔊</button>
+                    </div>
+                    <div class="card-content-center">
+                        <div class="word-title" id="card-word">Loading...</div>
+                        <div class="word-pos" id="card-pos"></div>
+                        <div class="word-zh" id="card-zh"></div>
+                    </div>
+                    <div class="card-footer-hint">點擊卡片任意處翻轉看解析 ⟲</div>
+                </div>
+
+                <!-- 背面 -->
+                <div class="card-face card-back">
+                    <div>
+                        <div class="section-title">常考搭配詞 (Collocations)</div>
+                        <div class="collocations-box" id="card-collocations"></div>
+
+                        <div class="section-title">法務多益陷阱/考點 (Exam Tip)</div>
+                        <div class="tip-box">
+                            <div class="tip-content" id="card-tip"></div>
+                        </div>
+
+                        <div class="section-title">情境例句 (Example)</div>
+                        <div class="sentence-box">
+                            <div class="sentence-content" id="card-sentence"></div>
+                            <div class="sentence-zh" id="card-sentence-zh"></div>
+                        </div>
+                    </div>
+                    <div class="card-footer-hint">再次點擊卡片可翻回正面 ⟲</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 按鈕群組 -->
+        <div class="action-buttons">
+            <button class="btn btn-secondary" id="prev-btn">上一題</button>
+            <button class="btn btn-success" id="mastered-btn">記住了 ✓</button>
+            <button class="btn btn-secondary" id="next-btn">下一題</button>
+        </div>
+    </div>
+
+    <script>
+        // 多益合約法務單字資料庫
+        const vocabData = [
+            {
+                word: "Stipulate",
+                pos: "v.",
+                zh: "規定、約定、明訂",
+                collocations: "stipulate that... / as stipulated in the contract",
+                tip: "多益聽力與閱讀常考商業合約條款，後面常接子句或與 'specify'、'state' 替換。",
+                sentence: "The contract stipulates that all deliveries must be made within 30 days.",
+                sentenceZh: "合約規定所有交貨必須在 30 天內完成。"
+            },
+            {
+                word: "Infringe",
+                pos: "v.",
+                zh: "侵犯、違反（法律/合約/版權）",
+                collocations: "infringe on/upon rights / infringe a patent",
+                tip: "注意常搭配介系詞 on/upon，名詞形式為 infringement（侵權）。",
+                sentence: "Using this software without a proper license may infringe copyright laws.",
+                sentenceZh: "在沒有適當授權的情況下使用此軟體可能會違反版權法。"
+            },
+            {
+                word: "Pertain",
+                pos: "v.",
+                zh: "關於、與……有關",
+                collocations: "pertain to regulations / documents pertaining to the merger",
+                tip: "多益閱讀測驗 Part 7 常見用法，常與 'relate to' 或 'regarding' 意思相近。",
+                sentence: "Please review all files pertaining to the upcoming corporate merger.",
+                sentenceZh: "請審閱所有與即將到來的企業合併相關的文件。"
+            },
+            {
+                word: "Liability",
+                pos: "n.",
+                zh: "法律責任、債務、負擔",
+                collocations: "limited liability / assume liability / legal liability",
+                tip: "高頻商用字彙，形容詞為 liable（應負責任的）。常出現在保險與合約條款中。",
+                sentence: "The company denies any liability for the damage caused during transit.",
+                sentenceZh: "公司否認對運輸過程中造成的損壞承擔任何法律責任。"
+            },
+            {
+                word: "Breach",
+                pos: "n. / v.",
+                zh: "違背、違反（合約等）",
+                collocations: "breach of contract / breach confidentiality",
+                tip: "多益最愛考的法務單字之一！動詞名詞同形，常考 'breach of contract'（違約）。",
+                sentence: "Failing to meet the deadline will be considered a breach of contract.",
+                sentenceZh: "未能在期限前完成將被視為違約。"
+            },
+            {
+                word: "Clause",
+                pos: "n.",
+                zh: "（法律、合約的）條款",
+                collocations: "termination clause / confidentiality clause / legal clause",
+                tip: "合約裡細部的每一條都叫 clause，注意不要和 cause（原因）搞混。",
+                sentence: "Both parties agreed to add a penalty clause for delayed payments.",
+                sentenceZh: "雙方同意增加一條關於延遲付款的罰則條款。"
+            },
+            {
+                word: "Comply",
+                pos: "v.",
+                zh: "遵守、依從",
+                collocations: "comply with regulations / comply with safety standards",
+                tip: "必須搭配介系詞 with！多益 Part 5 文法題極愛考 'comply with' vs 'fulfill' / 'obey'。",
+                sentence: "Failure to comply with environmental laws will result in heavy fines.",
+                sentenceZh: "未能遵守環保法規將導致巨額罰款。"
+            },
+            {
+                word: "Termination",
+                pos: "n.",
+                zh: "終止、解約",
+                collocations: "contract termination / grounds for termination",
+                tip: "動詞為 terminate（終止、解雇）。合約書中常見 'termination notice'（解約通知）。",
+                sentence: "The agreement includes a 30-day notice period for early termination.",
+                sentenceZh: "該協議包含提前終止合約需 30 天前通知的規定。"
+            },
+            {
+                word: "Jurisdiction",
+                pos: "n.",
+                zh: "司法權、管轄權",
+                collocations: "fall under the jurisdiction of / local jurisdiction",
+                tip: "多益高階合約題常考，用來規範若發生訴訟要在哪個國家或地區審理。",
+                sentence: "Any legal disputes arising from this contract will be under the jurisdiction of Taipei courts.",
+                sentenceZh: "因本合約引發的任何法律爭議將歸台北法院管轄。"
+            },
+            {
+                word: "Binding",
+                pos: "adj.",
+                zh: "有約束力的、具法律效力的",
+                collocations: "legally binding agreement / binding contract",
+                tip: "動詞為 bind（約束、綁定）。多益常考 'legally binding'（具法律約束力）。",
+                sentence: "Once signed by both directors, the memorandum becomes a legally binding document.",
+                sentenceZh: "一旦經雙方董事簽署，該備忘錄便成為具法律約束力的文件。"
+            }
+        ];
+
+        let currentIndex = 0;
+        let masteredCount = 0;
+
+        // DOM 元素
+        const flashcard = document.getElementById('flashcard');
+        const cardContainer = document.getElementById('card-container');
+        const cardTag = document.getElementById('card-tag');
+        const cardWord = document.getElementById('card-word');
+        const cardPos = document.getElementById('card-pos');
+        const cardZh = document.getElementById('card-zh');
+        const cardCollocations = document.getElementById('card-collocations');
+        const cardTip = document.getElementById('card-tip');
+        const cardSentence = document.getElementById('card-sentence');
+        const cardSentenceZh = document.getElementById('card-sentence-zh');
+        const progressText = document.getElementById('progress-text');
+        const scoreText = document.getElementById('score-text');
+        
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const masteredBtn = document.getElementById('mastered-btn');
+        const audioBtn = document.getElementById('audio-btn');
+
+        // 更新畫面資料
+        function loadCard(index) {
+            const data = vocabData[index];
+            cardWord.textContent = data.word;
+            cardPos.textContent = data.pos;
+            cardZh.textContent = data.zh;
+            cardCollocations.textContent = data.collocations;
+            cardTip.textContent = data.tip;
+            cardSentence.textContent = data.sentence;
+            cardSentenceZh.textContent = data.sentenceZh;
+
+            progressText.textContent = `進度：${index + 1} / ${vocabData.length}`;
+            scoreText.textContent = `已掌握：${masteredCount}`;
+
+            // 切換時確保卡片是正面
+            flashcard.classList.remove('is-flipped');
+        }
+
+        // 翻牌互動
+        cardContainer.addEventListener('click', (e) => {
+            if (e.target.closest('#audio-btn')) return; // 如果點到發音按鈕不觸發翻牌
+            flashcard.classList.toggle('is-flipped');
+        });
+
+        // 發音功能 (使用 Web Speech API)
+        audioBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const word = vocabData[currentIndex].word;
+            const utterance = new SpeechSynthesisUtterance(word);
+            utterance.lang = 'en-US';
+            window.speechSynthesis.speak(utterance);
+        });
+
+        // 上一題
+        prevBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + vocabData.length) % vocabData.length;
+            loadCard(currentIndex);
+        });
+
+        // 下一題
+        nextBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % vocabData.length;
+            loadCard(currentIndex);
+        });
+
+        // 記住了按鈕
+        masteredBtn.addEventListener('click', () => {
+            masteredCount++;
+            scoreText.textContent = `已掌握：${masteredCount}`;
+            if (currentIndex < vocabData.length - 1) {
+                currentIndex++;
+                loadCard(currentIndex);
+            } else {
+                alert('太棒了！您已經完成所有合約法務單字的特訓！');
+                currentIndex = 0;
+                loadCard(currentIndex);
+            }
+        });
+
+        // 初始化載入第一張卡片
+        loadCard(currentIndex);
+    </script>
+</body>
+</html>
