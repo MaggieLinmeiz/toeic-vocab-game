@@ -109,7 +109,7 @@
       font-weight: 600;
     }
     .word-title {
-      font-size: 38px;
+      font-size: 36px;
       font-weight: 800;
       margin: 10px 0 5px;
       color: #111827;
@@ -130,6 +130,7 @@
     .btn-prev, .btn-next { background: #e5e7eb; color: #374151; border: none; }
     .btn-master { background: var(--success); color: white; border: none; }
     
+    /* 拼字測驗專用樣式 */
     .test-input {
       width: 80%;
       margin: 15px auto;
@@ -149,11 +150,13 @@
 <body>
 
 <div class="container">
+  <!-- 每日打卡天數欄位 -->
   <div class="streak-bar">
     <span>📅 每日學習打卡</span>
     <span id="streakText" class="streak-badge">🔥 連續 1 天</span>
   </div>
 
+  <!-- 功能與分類列 -->
   <div class="header-tools">
     <select id="categorySelect" onchange="changeFilter()">
       <option value="ALL">所有情境分類</option>
@@ -168,23 +171,27 @@
     <button id="btnModeMaster" class="mode-btn" onclick="switchMode('mastered')">已掌握</button>
   </div>
 
+  <!-- 數據資訊 -->
   <div class="stats-bar">
     <span id="progressText">進度：0 / 0</span>
     <span id="statsSummary">已掌握: 0 | 錯題: 0</span>
   </div>
 
+  <!-- 學習／測驗卡片區域 -->
   <div class="card" id="cardElement" onclick="handleCardClick()">
     <div id="categoryTag" class="category-tag">General</div>
     <div id="wordTitle" class="word-title">載入中...</div>
     <div id="posText" class="pos-tag"></div>
     <div id="zhText" class="meaning"></div>
 
+    <!-- 拼字輸入區域 (測驗模式開啟) -->
     <div id="testArea" style="display: none;" onclick="event.stopPropagation()">
       <input type="text" id="spellInput" class="test-input" placeholder="請輸入英文單字" autocomplete="off" onkeydown="if(event.key==='Enter') checkSpelling()">
       <button onclick="checkSpelling()" style="background: var(--primary); color: white; border: none; margin-top: 5px;">送出檢查</button>
       <div id="testFeedback" class="test-feedback"></div>
     </div>
 
+    <!-- 學習解析區 -->
     <div id="detailsArea" class="details">
       <strong>【高頻搭配詞】</strong>
       <div id="collocationsList"></div>
@@ -197,6 +204,7 @@
     <div id="flipHint" style="font-size: 12px; color: #9ca3af; margin-top: 10px;">點擊卡片任意處看解析 ↺</div>
   </div>
 
+  <!-- 控制按鈕 -->
   <div class="action-btns">
     <button class="btn-prev" onclick="prevWord()">上一題</button>
     <button id="masterBtn" class="btn-master" onclick="markMastered()">標記為已掌握 ✓</button>
@@ -211,7 +219,7 @@
   
   let masteredWords = new Set();
   let wrongWords = new Set();
-  let currentMode = 'learn'; 
+  let currentMode = 'learn'; // 'learn', 'test', 'wrong', 'mastered'
 
   window.onload = async () => {
     updateStreak();
@@ -222,6 +230,7 @@
     renderCard();
   };
 
+  // 1. 每日連續登入天數計算
   function updateStreak() {
     const today = new Date().toISOString().split('T')[0];
     const lastDate = localStorage.getItem('toeic_last_login');
@@ -229,8 +238,11 @@
 
     if (lastDate) {
       const diffDays = (new Date(today) - new Date(lastDate)) / (1000 * 3600 * 24);
-      if (diffDays === 1) streak += 1;
-      else if (diffDays > 1) streak = 1;
+      if (diffDays === 1) {
+        streak += 1;
+      } else if (diffDays > 1) {
+        streak = 1;
+      }
     } else {
       streak = 1;
     }
@@ -240,6 +252,7 @@
     document.getElementById('streakText').textContent = `🔥 連續 ${streak} 天`;
   }
 
+  // 2. 載入 LocalStorage
   function loadLocalStorageData() {
     const savedMastered = localStorage.getItem('toeic_mastered_words');
     if (savedMastered) masteredWords = new Set(JSON.parse(savedMastered));
@@ -253,26 +266,28 @@
     localStorage.setItem('toeic_wrong_words', JSON.stringify([...wrongWords]));
   }
 
+  // 3. 一鍵重置所有學習進度
   function resetAllProgress() {
-    if (confirm('確定要清除所有已掌握與錯題紀錄，重新展開挑戰嗎？')) {
+    if (confirm('確定要清除所有已掌握與錯題紀錄，重新展開 1,800 單全新挑戰嗎？')) {
       localStorage.removeItem('toeic_mastered_words');
       localStorage.removeItem('toeic_wrong_words');
+      localStorage.removeItem('toeic_current_index');
       masteredWords.clear();
       wrongWords.clear();
       currentIndex = 0;
       updateCurrentList();
       renderCard();
-      alert('已成功重置所有進度！');
+      alert('已成功重置所有進度，重新出發！');
     }
   }
 
+  // 4. 抓取 JSON 資料
   async function fetchVocabData() {
     try {
-      const res = await fetch('vocab.json?' + new Date().getTime());
-      if (!res.ok) throw new Error('HTTP status ' + res.status);
+      const res = await fetch('vocab.json');
       allVocab = await res.json();
     } catch (err) {
-      alert('無法讀取 vocab.json 檔案！錯誤：' + err.message);
+      alert('無法讀取 vocab.json 檔案！');
     }
   }
 
@@ -287,11 +302,14 @@
     });
   }
 
+  // 5. 更新當前運作的單字清單 (自動扣除已掌握單字)
   function updateCurrentList() {
     const cat = document.getElementById('categorySelect').value;
     let list = (cat === 'ALL') ? allVocab : allVocab.filter(item => item.category === cat);
 
-    if (currentMode === 'learn' || currentMode === 'test') {
+    if (currentMode === 'learn') {
+      currentList = list.filter(item => !masteredWords.has(item.word));
+    } else if (currentMode === 'test') {
       currentList = list.filter(item => !masteredWords.has(item.word));
     } else if (currentMode === 'wrong') {
       currentList = list.filter(item => wrongWords.has(item.word));
@@ -302,6 +320,7 @@
     if (currentIndex >= currentList.length) currentIndex = 0;
   }
 
+  // 6. 畫面渲染
   function renderCard() {
     document.getElementById('statsSummary').textContent = `已掌握: ${masteredWords.size} | 錯題: ${wrongWords.size}`;
     const testArea = document.getElementById('testArea');
@@ -324,6 +343,7 @@
     document.getElementById('posText').textContent = item.pos;
     document.getElementById('zhText').textContent = item.zh;
 
+    // 模式判斷
     if (currentMode === 'test') {
       document.getElementById('wordTitle').textContent = "❓ 拼字挑戰";
       testArea.style.display = 'block';
@@ -336,9 +356,15 @@
       testArea.style.display = 'none';
       masterBtn.style.display = 'block';
       flipHint.style.display = 'block';
-      masterBtn.textContent = (currentMode === 'mastered') ? '移出已掌握' : '標記為已掌握 ✓';
+      
+      if (currentMode === 'mastered') {
+        masterBtn.textContent = '移出已掌握';
+      } else {
+        masterBtn.textContent = '標記為已掌握 ✓';
+      }
     }
 
+    // 搭配詞與例句
     const colList = document.getElementById('collocationsList');
     colList.innerHTML = '';
     (item.collocations || []).forEach(c => {
@@ -353,6 +379,7 @@
     document.getElementById('detailsArea').classList.remove('show');
   }
 
+  // 7. 拼字檢查邏輯
   function checkSpelling() {
     if (currentList.length === 0) return;
     const item = currentList[currentIndex];
@@ -363,27 +390,31 @@
     if (inputVal === item.word.toLowerCase()) {
       feedback.textContent = "🎉 完全正確！已晉升至【已掌握】！";
       feedback.className = "test-feedback feedback-correct";
+      
       masteredWords.add(item.word);
       wrongWords.delete(item.word);
       saveData();
+
       setTimeout(() => {
         updateCurrentList();
         renderCard();
       }, 1200);
+
     } else {
       feedback.textContent = `❌ 拼錯囉！正確答案是：${item.word}`;
       feedback.className = "test-feedback feedback-wrong";
       details.classList.add('show');
+      
       wrongWords.add(item.word);
       saveData();
     }
   }
 
+  // 8. 切換模式按鈕
   function switchMode(mode) {
     currentMode = mode;
     ['Learn', 'Test', 'Wrong', 'Master'].forEach(m => {
-      const btn = document.getElementById(`btnMode${m}`);
-      if (btn) btn.classList.remove('active');
+      document.getElementById(`btnMode${m}`).classList.remove('active');
     });
     
     if (mode === 'learn') document.getElementById('btnModeLearn').classList.add('active');
@@ -400,3 +431,42 @@
     currentIndex = 0;
     updateCurrentList();
     renderCard();
+  }
+
+  function handleCardClick() {
+    if (currentMode !== 'test') {
+      document.getElementById('detailsArea').classList.toggle('show');
+    }
+  }
+
+  function markMastered() {
+    if (currentList.length === 0) return;
+    const item = currentList[currentIndex];
+    
+    if (masteredWords.has(item.word)) {
+      masteredWords.delete(item.word);
+    } else {
+      masteredWords.add(item.word);
+      wrongWords.delete(item.word);
+    }
+    
+    saveData();
+    updateCurrentList();
+    renderCard();
+  }
+
+  function nextWord() {
+    if (currentList.length === 0) return;
+    currentIndex = (currentIndex + 1) % currentList.length;
+    renderCard();
+  }
+
+  function prevWord() {
+    if (currentList.length === 0) return;
+    currentIndex = (currentIndex - 1 + currentList.length) % currentList.length;
+    renderCard();
+  }
+</script>
+
+</body>
+</html>
