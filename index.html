@@ -257,4 +257,112 @@
 
     localStorage.setItem('toeic_last_login', today);
     localStorage.setItem('toeic_streak_count', streak);
-    document.
+    document.getElementById('streakText').textContent = `🔥 連續 ${streak} 天`;
+  }
+
+  function loadLocalStorageData() {
+    const savedMastered = localStorage.getItem('toeic_mastered_words');
+    if (savedMastered) masteredWords = new Set(JSON.parse(savedMastered));
+    
+    const savedWrong = localStorage.getItem('toeic_wrong_words');
+    if (savedWrong) wrongWords = new Set(JSON.parse(savedWrong));
+  }
+
+  function saveData() {
+    localStorage.setItem('toeic_mastered_words', JSON.stringify([...masteredWords]));
+    localStorage.setItem('toeic_wrong_words', JSON.stringify([...wrongWords]));
+  }
+
+  function resetAllProgress() {
+    if (confirm('確定要清除所有已掌握與錯題紀錄，重新展開挑戰嗎？')) {
+      localStorage.removeItem('toeic_mastered_words');
+      localStorage.removeItem('toeic_wrong_words');
+      masteredWords.clear();
+      wrongWords.clear();
+      currentIndex = 0;
+      updateCurrentList();
+      renderCard();
+      alert('已成功重置所有進度！');
+    }
+  }
+
+  async function fetchVocabData() {
+    try {
+      const res = await fetch('vocab.json?' + new Date().getTime());
+      if (!res.ok) throw new Error('HTTP status ' + res.status);
+      allVocab = await res.json();
+    } catch (err) {
+      alert('無法讀取 vocab.json 檔案！錯誤：' + err.message);
+    }
+  }
+
+  function setupCategories() {
+    const select = document.getElementById('categorySelect');
+    const categories = [...new Set(allVocab.map(item => item.category))];
+    categories.forEach(cat => {
+      const opt = document.createElement('option');
+      opt.value = cat;
+      opt.textContent = cat;
+      select.appendChild(opt);
+    });
+  }
+
+  function updateCurrentList() {
+    const cat = document.getElementById('categorySelect').value;
+    let list = (cat === 'ALL') ? allVocab : allVocab.filter(item => item.category === cat);
+
+    if (currentMode === 'learn' || currentMode === 'test') {
+      currentList = list.filter(item => !masteredWords.has(item.word));
+    } else if (currentMode === 'wrong') {
+      currentList = list.filter(item => wrongWords.has(item.word));
+    } else if (currentMode === 'mastered') {
+      currentList = list.filter(item => masteredWords.has(item.word));
+    }
+
+    if (currentIndex >= currentList.length) currentIndex = 0;
+  }
+
+  function renderCard() {
+    document.getElementById('statsSummary').textContent = `已掌握: ${masteredWords.size} | 錯題: ${wrongWords.size}`;
+    const testArea = document.getElementById('testArea');
+    const masterBtn = document.getElementById('masterBtn');
+    const flipHint = document.getElementById('flipHint');
+    const wordHeaderBox = document.getElementById('wordHeaderBox');
+
+    if (currentList.length === 0) {
+      document.getElementById('progressText').textContent = `進度：0 / 0`;
+      document.getElementById('wordTitle').textContent = "恭喜通關！";
+      if (wordHeaderBox) wordHeaderBox.style.display = 'none';
+      document.getElementById('posText').textContent = "";
+      document.getElementById('zhText').textContent = currentMode === 'learn' ? "此分類的未掌握單字已全部清空！" : "此清單目前沒有單字喔！";
+      document.getElementById('detailsArea').classList.remove('show');
+      testArea.style.display = 'none';
+      return;
+    }
+
+    if (wordHeaderBox) wordHeaderBox.style.display = 'flex';
+    const item = currentList[currentIndex];
+    document.getElementById('progressText').textContent = `進度：${currentIndex + 1} / ${currentList.length}`;
+    document.getElementById('categoryTag').textContent = item.category || 'General';
+    document.getElementById('posText').textContent = item.pos;
+    document.getElementById('zhText').textContent = item.zh;
+
+    if (currentMode === 'test') {
+      document.getElementById('wordTitle').textContent = "❓ 拼字挑戰";
+      testArea.style.display = 'block';
+      document.getElementById('spellInput').value = '';
+      document.getElementById('testFeedback').textContent = '';
+      masterBtn.style.display = 'none';
+      flipHint.style.display = 'none';
+    } else {
+      document.getElementById('wordTitle').textContent = item.word;
+      testArea.style.display = 'none';
+      masterBtn.style.display = 'block';
+      flipHint.style.display = 'block';
+      masterBtn.textContent = (currentMode === 'mastered') ? '移出已掌握' : '標記為已掌握 ✓';
+    }
+
+    const colList = document.getElementById('collocationsList');
+    colList.innerHTML = '';
+    (item.collocations || []).forEach(c => {
+      const div
