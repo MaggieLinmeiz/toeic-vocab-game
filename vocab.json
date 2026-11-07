@@ -37368,5 +37368,3374 @@
     "tip": "行銷題必備核心字！動詞片語為 be targeted at / to（以…為目標對象）。名詞常見搭配：meet / reach / achieve a target（達成目標）。",
     "sentence": "The company’s latest marketing campaign is specifically targeted at tech-savvy young entrepreneurs.",
     "sentenceZh": "該公司的最新行銷宣傳活動專門以精通科技的年輕創業家為目標客群。"
+  },
+  {
+    "category": "General Business",
+    "word": "task",
+    "pos": "n",
+    "zh": "任務、工作",
+    "collocations": [
+      "assign a task (指派任務)",
+      "complete a task (完成工作)",
+      "task force (專案小組)"
+    ],
+    "tip": "在多益中常與 assign 連用，注意被動態 'be tasked with + V-ing' 表示「被賦予做...的任務」。",
+    "sentence": "The director has assembled a special task force to address the supply chain bottlenecks.",
+    "sentenceZh": "處長已召集特別專案小組，以解決供應鏈瓶頸問題。"
+  },
+  {
+    "category": "Dining & Entertainment",
+    "word": "taste",
+    "pos": "n",
+    "zh": "品味、味道；品嚐",
+    "collocations": [
+      "taste in (在...方面的品味)",
+      "suit one's taste (符合某人的口味)",
+      "give a taste of (讓人體驗/嘗試)"
+    ],
+    "tip": "作連繫動詞時後接形容詞（如 taste delicious），不使用副詞；作名詞常指出差接待客戶時的「餐飲口味」或「藝術品味」。",
+    "sentence": "The catering menu was carefully selected to suit the refined taste of our international clients.",
+    "sentenceZh": "外燴菜單經過精心挑選，以符合我們國際客戶的高雅品味。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "tax",
+    "pos": "n",
+    "zh": "稅金；課稅",
+    "collocations": [
+      "tax deduction (稅務扣除)",
+      "tax incentive (稅收優惠)",
+      "income tax (所得稅)"
+    ],
+    "tip": "商務對話中常考 tax refund（退稅）或 tax-exempt（免稅的）。作動詞時表示「對...課稅」。",
+    "sentence": "Corporations investing in renewable energy are eligible for substantial tax incentives.",
+    "sentenceZh": "投資再生能源的企業有資格獲得大幅度的稅收優惠。"
+  },
+  {
+    "category": "Manufacturing & Operations",
+    "word": "tear",
+    "pos": "v",
+    "zh": "撕裂、扯破；眼淚",
+    "collocations": [
+      "wear and tear (磨損、折舊)",
+      "tear down (拆除)",
+      "tear off (撕下)"
+    ],
+    "tip": "固定名詞片語 'wear and tear'（正常損耗/磨損）在多益租賃合約與保固條款中極常出現，必背！",
+    "sentence": "The rental agreement stipulates that the tenant is not liable for normal wear and tear of the office furniture.",
+    "sentenceZh": "租賃協議規定，承租人毋須對辦公家具的正常磨損負責。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "tease",
+    "pos": "v",
+    "zh": "取笑、戲弄；套出",
+    "collocations": [
+      "tease out (梳理出、探尋出)",
+      "tease coworkers (戲弄同事)"
+    ],
+    "tip": "在職場多益語境中較少考童稚戲弄，偶爾出現在職場人際關係處理文章，或引申為 tease out data（從數據中梳理出趨勢）。",
+    "sentence": "Our analysts worked diligently to tease out valuable insights from the quarterly survey results.",
+    "sentenceZh": "我們的分析師努力不懈，從季度調查結果中梳理出有價值的洞見。"
+  },
+  {
+    "category": "Contracts & Legal",
+    "word": "technicality",
+    "pos": "n",
+    "zh": "技術性細節、法律專門細節",
+    "collocations": [
+      "legal technicality (法律技術性細節)",
+      "dismiss on a technicality (因程序瑕疵而駁回)"
+    ],
+    "tip": "常出現在合約爭議或訴訟聽證會情境，指因細微的技術規則或法律條款限制而影響整體結果。",
+    "sentence": "The merger was temporarily postponed due to an unforeseen legal technicality in the cross-border agreement.",
+    "sentenceZh": "由於跨國協議中一項不可預見的法律技術細節，該合併案被暫時推遲。"
+  },
+  {
+    "category": "Office Technology",
+    "word": "technician",
+    "pos": "n",
+    "zh": "技術人員、技師",
+    "collocations": [
+      "certified technician (合格技師)",
+      "maintenance technician (維修技師)",
+      "dispatch a technician (派遣技師)"
+    ],
+    "tip": "常考報修情境（Part 3/Part 7），注意 technician（人員）與 technique（技巧）、technology（科技）的詞性與意義混淆題。",
+    "sentence": "A service technician will be dispatched to inspect the faulty network router tomorrow morning.",
+    "sentenceZh": "維修技師將於明早被派往檢修故障的網路路由器。"
+  },
+  {
+    "category": "Manufacturing & Operations",
+    "word": "technique",
+    "pos": "n",
+    "zh": "技巧、技術、手法",
+    "collocations": [
+      "marketing technique (行銷手法)",
+      "advanced technique (先進技術)",
+      "management technique (管理技巧)"
+    ],
+    "tip": "不可數指「技術能力/手藝」，可數名詞指「特定具體的方法或招數」。常與 method, approach 作同義代換。",
+    "sentence": "The workshop focuses on teaching advanced negotiation techniques to senior sales representatives.",
+    "sentenceZh": "該工作坊專注於向資深業務代表傳授進階談判技巧。"
+  },
+  {
+    "category": "Office Technology",
+    "word": "technological",
+    "pos": "a",
+    "zh": "科技的、技術的",
+    "collocations": [
+      "technological advancement (技術進步)",
+      "technological innovation (科技創新)",
+      "technological breakthrough (科技突破)"
+    ],
+    "tip": "形容詞修飾名詞，常與 advancement, innovation, breakthrough 構成固定高頻商務搭配。",
+    "sentence": "Recent technological advancements have enabled the company to automate its inventory tracking system.",
+    "sentenceZh": "近期的科技進步使該公司能夠實現庫存追蹤系統的自動化。"
+  },
+  {
+    "category": "Office Technology",
+    "word": "technology",
+    "pos": "n",
+    "zh": "科技、技術",
+    "collocations": [
+      "information technology (資訊科技, IT)",
+      "cutting-edge technology (尖端科技)",
+      "adopt new technology (採用新技術)"
+    ],
+    "tip": "泛指科技時為不可數名詞；指某項具體科技應用時可作可數。常與 state-of-the-art（最先進的）搭配。",
+    "sentence": "Investing in state-of-the-art technology has significantly improved our manufacturing precision.",
+    "sentenceZh": "投資最先進的技術已顯著提升了我們的製造精度。"
+  },
+  {
+    "category": "General Business",
+    "word": "temper",
+    "pos": "n",
+    "zh": "脾氣、情緒；調和",
+    "collocations": [
+      "lose one's temper (發脾氣)",
+      "temper enthusiasm with caution (以謹慎調和熱情)"
+    ],
+    "tip": "名詞常見於投訴或職場溝通失控的情境；動詞用法為「使緩和、調和」，如 temper optimism with realism。",
+    "sentence": "Management urged department heads to temper their quarterly sales targets with current market realities.",
+    "sentenceZh": "管理層敦促部門主管應結合當前市場現實，適度調整其季度銷售目標。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "temporary",
+    "pos": "a",
+    "zh": "臨時的、暫時的",
+    "collocations": [
+      "temporary worker/staff (臨時工、派遣員工)",
+      "temporary replacement (臨時職務代理人)",
+      "temporary measure (暫時性措施)"
+    ],
+    "tip": "反義字為 permanent。多益常考 temporary employment agency（人力派遣公司）或 temporary outage（暫時中斷）。",
+    "sentence": "We hired five temporary employees to assist with the anticipated surge in customer orders during the holiday season.",
+    "sentenceZh": "我們雇用了五名臨時員工，以協助應對假期期間預期的客戶訂單激增。"
+  },
+  {
+    "category": "Real Estate & Property",
+    "word": "tenant",
+    "pos": "n",
+    "zh": "房客、承租人",
+    "collocations": [
+      "prospective tenant (潛在承租人)",
+      "commercial tenant (商用租戶)",
+      "tenant agreement (租約)"
+    ],
+    "tip": "不動產題型核心單字，常與 landlord（房東）、lease（租約）一同出現。注意其動詞為 rent 或 lease。",
+    "sentence": "The landlord requires all prospective tenants to submit proof of stable employment before signing the lease.",
+    "sentenceZh": "房東要求所有潛在租戶在簽署租賃合約前，必須提交穩定就業證明。"
+  },
+  {
+    "category": "Purchasing & Inventory",
+    "word": "tender",
+    "pos": "a",
+    "zh": "投標、提供；溫柔的",
+    "collocations": [
+      "submit a tender (提交投標書)",
+      "put out to tender (公開招標)",
+      "legal tender (法定貨幣)"
+    ],
+    "tip": "多益商業常考名詞「投標（標單）」及動詞「提出（辭呈/款項）」，如 'tender one's resignation'（提出辭呈）。",
+    "sentence": "Several international engineering firms submitted tenders for the high-speed rail construction project.",
+    "sentenceZh": "數家國際工程公司針對該高鐵建設項目提交了投標書。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "tense",
+    "pos": "a",
+    "zh": "緊張的、緊繃的",
+    "collocations": [
+      "tense atmosphere (緊張的氣氛)",
+      "tense negotiation (緊張激烈的談判)"
+    ],
+    "tip": "形容詞表示情勢緊繃；注意名詞為 tension。多益常考於勞資談判陷入僵局（impasse）時的氛圍描繪。",
+    "sentence": "The contract negotiations grew tense as neither side was willing to compromise on wage increases.",
+    "sentenceZh": "隨著雙方都不願在加薪問題上做出妥協，合約談判變得緊繃。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "tension",
+    "pos": "n",
+    "zh": "緊張情勢、拉緊",
+    "collocations": [
+      "ease tension (緩和緊張局勢)",
+      "heighten tension (加劇緊張)",
+      "workplace tension (職場緊張關係)"
+    ],
+    "tip": "常考搭配動詞 reduce/ease/defuse tension（緩解緊張關係），聽力與閱讀常見於團隊溝通與調解題型。",
+    "sentence": "The human resources manager organized a team-building retreat to reduce interpersonal tension among staff.",
+    "sentenceZh": "人力資源經理籌辦了一場團隊凝聚員工退修會，以減輕員工之間的人際緊張關係。"
+  },
+  {
+    "category": "General Business",
+    "word": "tentative",
+    "pos": "a",
+    "zh": "暫定的、試驗性的",
+    "collocations": [
+      "tentative agreement (暫定協議)",
+      "tentative schedule (暫定時程表)",
+      "tentatively scheduled for (暫定於...)"
+    ],
+    "tip": "多益聽力與閱讀超高頻詞彙！副詞 tentatively scheduled for + 日期（暫定於某日）為聽力 Part 3/4 換日程的固定考點。",
+    "sentence": "The board reached a tentative agreement with the supplier, pending final review by our legal counsel.",
+    "sentenceZh": "董事會已與供應商達成暫定協議，尚待我們法律顧問的最終審查。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "tenure",
+    "pos": "n",
+    "zh": "任期、終身聘用資格",
+    "collocations": [
+      "during one's tenure (在某人任職期間)",
+      "secure tenure (取得終身職位)"
+    ],
+    "tip": "多益閱讀常在主管離職、履歷表或年資介紹出現：'During his five-year tenure as CEO...'（在他擔任執行長的五年任期內）。",
+    "sentence": "During her tenure as chief financial officer, the company achieved unprecedented revenue growth.",
+    "sentenceZh": "在她擔任財務長期間，公司取得了前所未有的營收增長。"
+  },
+  {
+    "category": "Contracts & Legal",
+    "word": "term",
+    "pos": "n",
+    "zh": "條款、任期、術語",
+    "collocations": [
+      "terms and conditions (條款與條件)",
+      "in terms of (就...而言)",
+      "long-term contract (長期合約)"
+    ],
+    "tip": "合約情境中 terms（複數）指「條款」；in the long term / short term（長/短期來看）；come to terms with（達成協議/接納）。",
+    "sentence": "Please review the terms and conditions outlined in Section 4 before signing the vendor agreement.",
+    "sentenceZh": "在簽署供應商合約之前，請仔細審閱第 4 節中所列的條款與條件。"
+  },
+  {
+    "category": "Corporate Travel",
+    "word": "terminal",
+    "pos": "n",
+    "zh": "航廈、終點站；末期的",
+    "collocations": [
+      "airport terminal (機場航廈)",
+      "ferry terminal (渡輪碼頭)",
+      "computer terminal (電腦終端機)"
+    ],
+    "tip": "多益機場與出差情境核心字：Terminal 1, Terminal 2 指客運大樓；兼具形容詞「晚期的、致命的」。",
+    "sentence": "Passengers traveling to Frankfurt should proceed immediately to departure gate B12 in Terminal 2.",
+    "sentenceZh": "前往法蘭克福的旅客請立即前往第二航廈的 B12 登機門。"
+  },
+  {
+    "category": "General Business",
+    "word": "terminology",
+    "pos": "n",
+    "zh": "專門術語",
+    "collocations": [
+      "medical terminology (醫學術語)",
+      "technical terminology (技術術語)",
+      "industry terminology (行業術語)"
+    ],
+    "tip": "不可數名詞，指特定領域的術語體系。常出現在技術手冊編寫或向一般大眾簡化語言的商務溝通中。",
+    "sentence": "The presenter avoided complex financial terminology to ensure the presentation was accessible to all attendees.",
+    "sentenceZh": "演講者避免使用複雜的金融術語，以確保所有與會者都能理解簡報內容。"
+  },
+  {
+    "category": "Customer Service",
+    "word": "terrible",
+    "pos": "a",
+    "zh": "糟糕的、極差的",
+    "collocations": [
+      "terrible service (糟糕的服務)",
+      "terrible mistake (嚴重的錯誤)"
+    ],
+    "tip": "客訴信函（Part 7）中常出現客戶抱怨體驗極差；口語 Part 3/4 偶爾出現。不要與 terrific（極好的、極棒的）混淆！",
+    "sentence": "The customer filed a formal complaint regarding the terrible customer service she experienced at the branch.",
+    "sentenceZh": "該客戶就其在分行遭遇的極差客戶服務提出了正式投訴。"
+  },
+  {
+    "category": "Marketing & Advertising",
+    "word": "territory",
+    "pos": "n",
+    "zh": "銷售區域、業務責任區",
+    "collocations": [
+      "sales territory (業務銷售區域)",
+      "unfamiliar territory (未涉足的新領域)",
+      "assigned territory (所分配之區域)"
+    ],
+    "tip": "多益商業中 90% 出現於業務代表分配的「銷售轄區/市場範疇」（sales territory）。",
+    "sentence": "Each regional sales director is responsible for expanding market share within their designated territory.",
+    "sentenceZh": "每位區域銷售總監均負責在各自指定的責任區內擴大市場份額。"
+  },
+  {
+    "category": "Contracts & Legal",
+    "word": "testify",
+    "pos": "v",
+    "zh": "作證、證明",
+    "collocations": [
+      "testify before the board (在董事會前作證)",
+      "testify to (證實、表明)"
+    ],
+    "tip": "法律聽證會情境詞；testify to sth. 可引申為「證明/證實某事的真實性或品質」(= attest to)。",
+    "sentence": "The senior accountant was called to testify regarding the discrepancy found in the annual audit.",
+    "sentenceZh": "該資深會計師被傳喚就年度審計中發現的帳目出入進行作證。"
+  },
+  {
+    "category": "Marketing & Advertising",
+    "word": "testimonial",
+    "pos": "n",
+    "zh": "見證、客戶推薦函、好評",
+    "collocations": [
+      "client testimonial (客戶推薦詞)",
+      "testimonial video (用戶見證影片)",
+      "endorsement and testimonial (背書與推薦)"
+    ],
+    "tip": "行銷廣告（Part 7）必考單字！指滿意客戶對產品或服務發表的公開讚譽與推薦文。",
+    "sentence": "Our marketing team plans to feature positive client testimonials on the homepage to boost brand credibility.",
+    "sentenceZh": "我們的行銷團隊計畫在首頁展示客戶的正面推薦，以提升品牌公信力。"
+  },
+  {
+    "category": "General Business",
+    "word": "thorough",
+    "pos": "a",
+    "zh": "徹底的、詳盡周密的",
+    "collocations": [
+      "thorough inspection (徹底的檢查)",
+      "thorough investigation (詳盡的調查)",
+      "thorough review (周密審查)"
+    ],
+    "tip": "高頻混淆字辨析：thorough（徹底的）、through（穿過）、though（雖然）、thought（想法）。多益極愛考 thorough examination/inspection。",
+    "sentence": "A thorough inspection of the manufacturing plant is scheduled prior to the release of the new product line.",
+    "sentenceZh": "在推出新產品線之前，預定對製造工廠進行徹底的檢查。"
+  },
+  {
+    "category": "Manufacturing & Operations",
+    "word": "thoroughness",
+    "pos": "n",
+    "zh": "徹底、周密、嚴謹",
+    "collocations": [
+      "commend for thoroughness (稱讚其嚴謹周密)",
+      "exhibit great thoroughness (表現出極高的嚴密性)"
+    ],
+    "tip": "名詞形式，常用於主管在績效評估（Performance Review）中稱讚員工做事細心周到。",
+    "sentence": "The auditor was commended by the board for his thoroughness in reviewing the financial records.",
+    "sentenceZh": "該審計員因在審查財務記錄時的嚴謹周密而受到董事會的稱讚。"
+  },
+  {
+    "category": "General Business",
+    "word": "though",
+    "pos": "conj",
+    "zh": "雖然、儘管；然而",
+    "collocations": [
+      "even though (即使、縱使)",
+      "as though (彷彿)"
+    ],
+    "tip": "作連接詞連接子句；亦可作副詞放在句尾，意思等於 however（例如：We liked the venue; it was quite expensive, though.）。",
+    "sentence": "Though the initial production costs were high, the long-term energy savings justified the investment.",
+    "sentenceZh": "雖然初期生產成本很高，但長期節省的能源證明了這筆投資是值得的。"
+  },
+  {
+    "category": "General Business",
+    "word": "thought",
+    "pos": "n",
+    "zh": "想法、思想、深思",
+    "collocations": [
+      "give thought to (認真考慮...)",
+      "after much thought (經過深思熟慮後)",
+      "second thought (改變主意)"
+    ],
+    "tip": "常考商務寫作片語：'Thank you for your thoughtful feedback.'（感謝您體貼且有見地的反饋）。",
+    "sentence": "The executive committee gave careful thought to the proposal before voting to approve the budget.",
+    "sentenceZh": "執行委員會在投票批准預算之前，對該提案進行了審慎的考慮。"
+  },
+  {
+    "category": "Office Technology",
+    "word": "thread",
+    "pos": "n",
+    "zh": "討論串、執行緒；線",
+    "collocations": [
+      "email thread (電子郵件討論串)",
+      "message thread (留言討論串)"
+    ],
+    "tip": "在現代多益多篇閱讀（Part 7）中，常指往來多次的「電子郵件往來串」（email thread）。",
+    "sentence": "Please refer to the attached email thread for the full background on the project specifications.",
+    "sentenceZh": "請參閱隨附的電子郵件討論串，以了解該專案規格的完整背景。"
+  },
+  {
+    "category": "General Business",
+    "word": "threat",
+    "pos": "n",
+    "zh": "威脅、威嚇",
+    "collocations": [
+      "pose a threat to (對...構成威脅)",
+      "security threat (安全威脅)",
+      "threat of competition (競爭威脅)"
+    ],
+    "tip": "常搭配動詞 pose a threat to（構成威脅）；其動詞形為 threaten，形容詞為 threatening。",
+    "sentence": "The rapid entry of low-cost competitors poses a significant threat to our market dominance.",
+    "sentenceZh": "低成本競爭對手的迅速加入對我們的市場主導地位構成了重大威脅。"
+  },
+  {
+    "category": "General Business",
+    "word": "thrive",
+    "pos": "v",
+    "zh": "蓬勃發展、繁榮興盛",
+    "collocations": [
+      "thrive on (因...而蓬勃發展)",
+      "thrive in a competitive market (在競爭市場中蓬勃發展)"
+    ],
+    "tip": "常與 prosper, flourish 作為同義代換。主詞常為 business, enterprise, economy。",
+    "sentence": "Local businesses continue to thrive despite the economic downturn, thanks to strong community support.",
+    "sentenceZh": "由於強大的社區支持，儘管經濟低迷，當地企業依然持續蓬勃發展。"
+  },
+  {
+    "category": "General Business",
+    "word": "throughout",
+    "pos": "prep",
+    "zh": "遍及、貫穿；自始至終",
+    "collocations": [
+      "throughout the year (整年)",
+      "throughout the world/region (遍及全世界/全區)",
+      "throughout the process (在整個過程中)"
+    ],
+    "tip": "既可指時間「貫穿整段時期」（throughout the day），也可指空間「遍及各個角落」（throughout the building）。",
+    "sentence": "Safety regulations must be strictly adhered to by all personnel throughout the construction site.",
+    "sentenceZh": "施工現場的所有人員必須自始至終嚴格遵守各項安全法規。"
+  },
+  {
+    "category": "General Business",
+    "word": "thus",
+    "pos": "ad",
+    "zh": "因此、從而",
+    "collocations": [
+      "thus far (迄今為止)",
+      "and thus (因而)"
+    ],
+    "tip": "副詞，修飾句子或動詞，不能直接作連接詞連接兩個獨立子句（需配合分號或 and thus 連接）。",
+    "sentence": "The automated system reduces human error, thus lowering operational expenses over time.",
+    "sentenceZh": "自動化系統減少了人為疏失，從而長期降低了營運支出。"
+  },
+  {
+    "category": "Corporate Travel",
+    "word": "ticket",
+    "pos": "n",
+    "zh": "票券、入場券；工作傳票",
+    "collocations": [
+      "round-trip ticket (來回票)",
+      "electronic ticket (電子機票)",
+      "submit a support ticket (提交客服/報修工單)"
+    ],
+    "tip": "除了機票、車票外，在 IT 支援題型中 'trouble ticket' 或 'support ticket' 專指「故障回報單/技術支援工單」。",
+    "sentence": "Employees experiencing computer issues should submit a help desk ticket through the internal portal.",
+    "sentenceZh": "遇到電腦問題的員工應透過內部入口網站提交技術支援工單。"
+  },
+  {
+    "category": "General Business",
+    "word": "tie",
+    "pos": "v",
+    "zh": "繫緊、連結；平手",
+    "collocations": [
+      "be tied to (與...息息相關)",
+      "tie up loose ends (處理瑣碎結尾工作)",
+      "business ties (商業關係)"
+    ],
+    "tip": "常考被動片語：be closely tied to（與...緊密相關/相連）；名詞 ties 常指「商業/外交關係」。",
+    "sentence": "Annual bonuses are directly tied to individual performance evaluations and department profitability.",
+    "sentenceZh": "年度獎金與個人績效評估及部門獲利能力直接掛鉤。"
+  },
+  {
+    "category": "Purchasing & Inventory",
+    "word": "tight",
+    "pos": "a",
+    "zh": "緊湊的、嚴格的、緊縮的",
+    "collocations": [
+      "tight budget (緊縮的預算)",
+      "tight deadline (緊迫的截止日)",
+      "tight schedule (緊湊的行程)"
+    ],
+    "tip": "多益聽力與閱讀最常考 'on a tight budget'（在預算吃緊的情況下）及 'meet a tight deadline'（趕上緊迫的截止期限）。",
+    "sentence": "The production team managed to deliver the project on time despite an exceptionally tight deadline.",
+    "sentenceZh": "儘管截止期限異常緊迫，生產團隊仍設法按時交付了專案。"
+  },
+  {
+    "category": "General Business",
+    "word": "time",
+    "pos": "n",
+    "zh": "時間；計時、安排時間",
+    "collocations": [
+      "ahead of time (提前)",
+      "in a timely manner (及時地)",
+      "time card (出勤打卡紀錄卡)"
+    ],
+    "tip": "多益極常考 'ahead of time'（= in advance 提前）與形容詞 'timely'（及時的）。動詞用法表「安排適當時間」。",
+    "sentence": "All project deliverables must be submitted ahead of time to allow for final administrative review.",
+    "sentenceZh": "所有專案產出物必須提前提交，以便進行最終的行政審查。"
+  },
+  {
+    "category": "Customer Service",
+    "word": "timeliness",
+    "pos": "n",
+    "zh": "及時性、適時",
+    "collocations": [
+      "timeliness of response (回覆的及時性)",
+      "ensure timeliness (確保及時性)"
+    ],
+    "tip": "由形容詞 timely（及時的）衍生的名詞，多益常見於評估客戶服務回覆速度的滿意度問卷題目中。",
+    "sentence": "The client praised the technical support staff for their professionalism and the timeliness of their assistance.",
+    "sentenceZh": "客戶稱讚技術支援人員的專業素養及其提供協助的及時性。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "titl",
+    "pos": "n",
+    "zh": "頭銜、職稱、標題（註：title 之簡寫/誤植）",
+    "collocations": [
+      "job title (職稱)",
+      "official title (正式頭銜)",
+      "entitle to (賦予...權利)"
+    ],
+    "tip": "此單字為 title 之勘誤。多益極常考 job title（職稱）與衍生動詞 entitle（be entitled to + N/V 有權享有...）。",
+    "sentence": "Please ensure your current job title and contact information are updated in the employee directory.",
+    "sentenceZh": "請確保您的現職頭銜與聯絡資訊已在員工名錄中更新。"
+  },
+  {
+    "category": "Marketing & Advertising",
+    "word": "token",
+    "pos": "n",
+    "zh": "象徵、代幣、表示",
+    "collocations": [
+      "as a token of appreciation (作為感謝的象徵)",
+      "token gift (象徵性紀念禮品)"
+    ],
+    "tip": "超高頻商務感謝信片語：'as a token of our appreciation / gratitude'（作為我們的一點心意/感謝的象徵），幾乎每份考題必見。",
+    "sentence": "Please accept this gift certificate as a token of our appreciation for your continued patronage.",
+    "sentenceZh": "請收下這張禮券，以表達我們對您長期惠顧的一點感謝心意。"
+  },
+  {
+    "category": "Corporate Travel",
+    "word": "toll",
+    "pos": "n",
+    "zh": "通行費、通話費；傷亡代價",
+    "collocations": [
+      "toll booth (收費站)",
+      "toll road (收費公路)",
+      "toll-free number (免付費電話)"
+    ],
+    "tip": "常考 'toll-free number'（免付費專線電話，如 0800），出現在客服資訊或廣告傳單下方。",
+    "sentence": "Customers experiencing delivery delays can call our toll-free customer service line at any time.",
+    "sentenceZh": "遇到配送延誤的客戶可隨時撥打我們的免付費客戶服務專線。"
+  },
+  {
+    "category": "Manufacturing & Operations",
+    "word": "tool",
+    "pos": "n",
+    "zh": "工具、器具",
+    "collocations": [
+      "diagnostic tool (診斷工具)",
+      "productivity tool (生產力工具)",
+      "power tool (電動工具)"
+    ],
+    "tip": "實體可指五金工具；多益商務情境常延伸為「軟體工具、行銷工具或分析工具」（analysis/software tool）。",
+    "sentence": "The newly adopted project management software is an indispensable tool for tracking milestones.",
+    "sentenceZh": "新採用的專案管理軟體是追蹤工作里程碑不可或缺的工具。"
+  },
+  {
+    "category": "General Business",
+    "word": "top",
+    "pos": "a",
+    "zh": "最高的、頂尖的；頂部；超越",
+    "collocations": [
+      "top priority (最高優先事項)",
+      "top-performing employee (績效頂尖的員工)",
+      "top the list (位居榜首)"
+    ],
+    "tip": "最高頻片語為 'top priority'（首要之務）。作動詞時表示「超越、勝過」（top the previous sales record）。",
+    "sentence": "Ensuring data privacy and cybersecurity remains our company's top priority this fiscal year.",
+    "sentenceZh": "確保數據隱私和網路安全仍是我們公司本財政年度的最高優先事項。"
+  },
+  {
+    "category": "General Business",
+    "word": "topic",
+    "pos": "n",
+    "zh": "主題、話題",
+    "collocations": [
+      "topic of discussion (討論主題)",
+      "cover a wide range of topics (涵蓋廣泛主題)",
+      "off-topic (離題的)"
+    ],
+    "tip": "常用於會議議程（Agenda）或研討會（Seminar/Conference）介紹主題，同義字常換為 subject, theme。",
+    "sentence": "The upcoming workshop will cover various topics, including social media marketing and brand positioning.",
+    "sentenceZh": "即將舉辦的工作坊將涵蓋各類主題，包括社群媒體行銷與品牌定位。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "total",
+    "pos": "a",
+    "zh": "總計的；總額；合計為",
+    "collocations": [
+      "total expenditure (總支出)",
+      "total amount (總金額)",
+      "total to (總計達到)"
+    ],
+    "tip": "在發票（Invoice）與訂單中必備詞。動詞用法同 amount to（合計達到某數額）。",
+    "sentence": "The total cost of the renovation exceeded the initial budget estimate by roughly fifteen percent.",
+    "sentenceZh": "翻新工程的總費用比最初的預算估計超出了約百分之十五。"
+  },
+  {
+    "category": "Corporate Travel",
+    "word": "tour",
+    "pos": "n",
+    "zh": "參觀、導覽、旅行",
+    "collocations": [
+      "guided tour (有人導覽的參觀)",
+      "facility tour (工廠/設施參觀)",
+      "take a tour (進行參觀)"
+    ],
+    "tip": "多益非常愛考工廠或辦公室參觀（plant/factory tour）。注意導遊或導覽解說員是 tour guide。",
+    "sentence": "Prospective investors were invited to take a guided tour of the new manufacturing facility.",
+    "sentenceZh": "潛在投資者受邀參加新製造廠設施的專人導覽參觀。"
+  },
+  {
+    "category": "Corporate Travel",
+    "word": "tow",
+    "pos": "v",
+    "zh": "拖吊、拖拉",
+    "collocations": [
+      "tow truck (拖吊車)",
+      "be towed away (被拖吊走)",
+      "tow zone (拖吊區)"
+    ],
+    "tip": "常出現在停車場通知或租車合約：「違規停放車輛將被拖吊，費用由車主負擔」（Vehicles will be towed at the owner's expense）。",
+    "sentence": "Any unauthorized vehicle parked in the reserved executive spaces will be towed immediately at the owner's expense.",
+    "sentenceZh": "任何未經授權停放在主管專用車位的車輛，將立即被拖吊，費用由車主自行負擔。"
+  },
+  {
+    "category": "General Vocabulary",
+    "word": "town",
+    "pos": "n",
+    "zh": "城鎮、市鎮",
+    "collocations": [
+      "out of town (出差在外、不在城裡)",
+      "town hall meeting (全員大會、市民大會)"
+    ],
+    "tip": "多益職場常用片語 'out of town' 指主管出差不在辦公室；'town hall meeting' 在企業指管理層與全體員工溝通的全員座談大會。",
+    "sentence": "Ms. Gomez will be out of town on business all next week, so her deputy will handle urgent inquiries.",
+    "sentenceZh": "高梅茲女士下週整週都出差在外，因此將由其副手處理緊急諮詢。"
+  },
+  {
+    "category": "Manufacturing & Operations",
+    "word": "track",
+    "pos": "v",
+    "zh": "追蹤；行蹤、軌道",
+    "collocations": [
+      "track order status (追蹤訂單狀態)",
+      "keep track of (記錄、隨時掌握)",
+      "on track (按進度進行)"
+    ],
+    "tip": "商務情境雙核心：物流中 track a shipment（追蹤包裹）；管理中 'on track to finish'（按部就班如期完成）。",
+    "sentence": "Customers can easily track the delivery status of their packages in real time using the tracking number.",
+    "sentenceZh": "客戶可以使用追蹤號碼即時輕鬆追蹤其包裹的遞送進度。"
+  },
+  {
+    "category": "General Business",
+    "word": "trade",
+    "pos": "n",
+    "zh": "貿易、交易；行業",
+    "collocations": [
+      "international trade (國際貿易)",
+      "trade show/fair (商展、貿易展覽)",
+      "trade secret (商業機密)"
+    ],
+    "tip": "trade show（商展）是多益聽力與閱讀極高頻場景；注意 trade secret 常出現在非揭露合約（NDA）中。",
+    "sentence": "Our marketing representatives will be attending the annual trade fair in Munich next month.",
+    "sentenceZh": "我們的行銷代表將參加下個月在慕尼黑舉辦的年度商展。"
+  },
+  {
+    "category": "General Business",
+    "word": "tradition",
+    "pos": "n",
+    "zh": "傳統、慣例",
+    "collocations": [
+      "long-standing tradition (悠久的傳統)",
+      "by tradition (依照慣例)"
+    ],
+    "tip": "常出現在公司慶祝創辦週年、企業文化介紹的文章中。形容詞為 traditional（傳統的）。",
+    "sentence": "In keeping with company tradition, the firm hosts an annual banquet to honor long-serving staff members.",
+    "sentenceZh": "秉持公司傳統，該企業每年舉辦宴會以表彰資深員工。"
+  },
+  {
+    "category": "General Business",
+    "word": "traditional",
+    "pos": "a",
+    "zh": "傳統的、慣例的",
+    "collocations": [
+      "traditional media (傳統媒體)",
+      "traditional method (傳統做法)",
+      "traditional attire (傳統服飾)"
+    ],
+    "tip": "在廣告與商業轉型文章中，常與 digital / modern 對比（如 traditional advertising vs. digital marketing）。",
+    "sentence": "Many retailers are shifting their promotional budgets from traditional print media to online advertising.",
+    "sentenceZh": "許多零售商正將促銷預算從傳統紙本媒體轉移到線上廣告。"
+  },
+  {
+    "category": "General Business",
+    "word": "trail",
+    "pos": "v",
+    "zh": "落後；追蹤；步道、小徑",
+    "collocations": [
+      "trail behind competitors (落後競爭對手)",
+      "walking trail (步道)"
+    ],
+    "tip": "作動詞時常指「在業績或市佔率上落後競爭對手」；作名詞常出現在度假村/飯店戶外步道活動介紹。",
+    "sentence": "Our domestic sales figures trail slightly behind those of our main rival this quarter.",
+    "sentenceZh": "本季度我們的國內銷售數據略微落後於主要競爭對手。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "transact",
+    "pos": "v",
+    "zh": "辦理、進行交易",
+    "collocations": [
+      "transact business (洽談/進行生意)",
+      "transact online (在線上進行交易)"
+    ],
+    "tip": "動詞形式，名詞為超高頻的 transaction。注意主詞通常是企業或進行金融買賣的顧客。",
+    "sentence": "Modern banking apps permit account holders to transact business securely from any mobile device.",
+    "sentenceZh": "現代銀行應用程式允許帳戶持有人從任何行動裝置安全地辦理金融業務。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "transaction",
+    "pos": "n",
+    "zh": "交易、買賣",
+    "collocations": [
+      "financial transaction (金融交易)",
+      "transaction fee (交易手續費)",
+      "complete a transaction (完成交易)"
+    ],
+    "tip": "多益銀行業務與線上購物必考！注意 transaction fee（手續費）與 record of transaction（交易明細）。",
+    "sentence": "A minimal transaction fee will be applied to all international currency conversions conducted at the kiosk.",
+    "sentenceZh": "在該自動服務機台進行的所有國際外幣兌換均需收取最低交易手續費。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "transfer",
+    "pos": "v",
+    "zh": "調職、轉移；轉車",
+    "collocations": [
+      "transfer to another department (調動至另一部門)",
+      "wire transfer (電匯)",
+      "transfer station (轉運站)"
+    ],
+    "tip": "多益三大用法：HR 情境為「內部轉調/調職」；銀行為「轉帳/電匯」；交通題為「換乘大眾交通工具」。",
+    "sentence": "Mr. Henderson requested a transfer to the regional branch in Tokyo for personal reasons.",
+    "sentenceZh": "亨德森先生出於個人原因申請調派至東京的區域分行。"
+  },
+  {
+    "category": "Manufacturing & Operations",
+    "word": "trash",
+    "pos": "n",
+    "zh": "垃圾、廢棄物",
+    "collocations": [
+      "trash can/bin (垃圾桶)",
+      "dispose of trash (丟棄垃圾)"
+    ],
+    "tip": "辦公室與廠房清潔公告常見。注意 trash 是不可數名詞，同義字包含 garbage, refuse, waste。",
+    "sentence": "All packaging trash must be sorted properly and placed into designated recycling receptacles.",
+    "sentenceZh": "所有包裝廢棄物必須妥善分類，並放入指定的回收容器中。"
+  },
+  {
+    "category": "Corporate Travel",
+    "word": "travel",
+    "pos": "v",
+    "zh": "差旅、旅行、移動",
+    "collocations": [
+      "travel expenses (差旅費)",
+      "travel itinerary (旅行行程表)",
+      "travel arrangement (行程安排)"
+    ],
+    "tip": "多益極常考 'travel expense report'（差旅費用報銷單）或商務差旅政策（travel policy）。",
+    "sentence": "Employees who travel on company business are reimbursed for lodging and meals according to the per diem policy.",
+    "sentenceZh": "因公出差的員工將依據每日津貼政策報銷住宿與餐飲費用。"
+  },
+  {
+    "category": "Corporate Travel",
+    "word": "traveler",
+    "pos": "n",
+    "zh": "旅客、出差者",
+    "collocations": [
+      "frequent traveler (常客、經常出差者)",
+      "business traveler (商務旅客)"
+    ],
+    "tip": "航空公司常針對 frequent traveler 提供飛行哩程獎勵（frequent flyer program）。",
+    "sentence": "The hotel offers complimentary high-speed Internet and express checkout tailored for business travelers.",
+    "sentenceZh": "該飯店提供專為商務旅客量身打造的免費高速網路與快速退房服務。"
+  },
+  {
+    "category": "General Business",
+    "word": "treasure",
+    "pos": "v",
+    "zh": "珍視、珍惜；財寶",
+    "collocations": [
+      "treasure the partnership (珍視合作夥伴關係)",
+      "cherished treasure (珍視的寶物)"
+    ],
+    "tip": "在商務致謝信或退休祝賀中，常作動詞表示「深切珍惜」：We treasure your loyalty and dedication.",
+    "sentence": "We genuinely treasure our long-term partnership with your organization and look forward to future collaboration.",
+    "sentenceZh": "我們由衷珍惜與貴機構的長期合作夥伴關係，並期待未來的合作。"
+  },
+  {
+    "category": "Dining & Entertainment",
+    "word": "treat",
+    "pos": "v",
+    "zh": "款待、請客；對待、處理",
+    "collocations": [
+      "treat a client to dinner (請客戶吃晚餐)",
+      "treat as confidential (視為機密處理)"
+    ],
+    "tip": "商務社交常考 'treat someone to lunch/dinner'（招待某人吃午/晚餐）；作名詞意為「招待/難得的樂事」。",
+    "sentence": "The vice president offered to treat the visiting delegates to an authentic local dinner.",
+    "sentenceZh": "副總裁主動提議招待來訪的代表團享用道地的當地晚餐。"
+  },
+  {
+    "category": "Health & Safety",
+    "word": "treatment",
+    "pos": "n",
+    "zh": "治療；處理、待遇",
+    "collocations": [
+      "medical treatment (醫療處置)",
+      "waste treatment (廢物/污水處理)",
+      "equal treatment (平等對待)"
+    ],
+    "tip": "多益健康保險情境中指「醫療」（medical treatment）；環保工廠情境指「廢水/廢棄物處理」（wastewater treatment facility）。",
+    "sentence": "The company health insurance plan covers a comprehensive range of outpatient medical treatments.",
+    "sentenceZh": "公司的健康保險方案涵蓋廣泛的門診醫療處置項目。"
+  },
+  {
+    "category": "Contracts & Legal",
+    "word": "treaty",
+    "pos": "n",
+    "zh": "條約、協定",
+    "collocations": [
+      "sign a treaty (簽署條約)",
+      "trade treaty (貿易協定)",
+      "bilateral treaty (雙邊條約)"
+    ],
+    "tip": "涉及國際貿易規範、關稅協定的大型商務文章常考，同義字為 agreement, pact, accord。",
+    "sentence": "The international trade treaty lowered tariffs on electronic components imported from member nations.",
+    "sentenceZh": "該國際貿易條約降低了從成員國進口電子零件的關稅。"
+  },
+  {
+    "category": "General Business",
+    "word": "tremendous",
+    "pos": "a",
+    "zh": "巨大的、極大的、驚人的",
+    "collocations": [
+      "tremendous success (巨大的成功)",
+      "tremendous growth (驚人的增長)",
+      "tremendous effort (極大的努力)"
+    ],
+    "tip": "強烈修飾語，在業績回顧（Annual Report）中常修飾 success, growth, improvement, pressure。",
+    "sentence": "Thanks to the marketing campaign, the newly launched software has experienced tremendous sales growth.",
+    "sentenceZh": "多虧了行銷推廣活動，新推出的軟體獲得了驚人的銷售增長。"
+  },
+  {
+    "category": "General Business",
+    "word": "trial",
+    "pos": "n",
+    "zh": "試用、試驗；審判",
+    "collocations": [
+      "free trial (免費試用期)",
+      "trial period (試用期)",
+      "clinical trial (臨床試驗)"
+    ],
+    "tip": "軟體訂閱服務廣告常考 '30-day free trial'（三十天免費試用）；注意 trial basis（以試用為基礎）。",
+    "sentence": "New subscribers are entitled to a 14-day free trial before their credit cards are charged.",
+    "sentenceZh": "新訂閱用戶在信用卡被扣款前，有權享有 14 天的免費試用期。"
+  },
+  {
+    "category": "General Vocabulary",
+    "word": "triangle",
+    "pos": "n",
+    "zh": "三角形、三角關係",
+    "collocations": [
+      "warning triangle (三角警示牌)",
+      "love triangle (三角戀情)"
+    ],
+    "tip": "在工安標示中常提到 warning triangle（緊急三角警示標誌）。形容詞為 triangular（三角形的）。",
+    "sentence": "In case of a roadside breakdown, drivers must place the reflective warning triangle behind the vehicle.",
+    "sentenceZh": "若在路邊發生故障，駕駛人必須在車輛後方放置反光三角警示牌。"
+  },
+  {
+    "category": "General Business",
+    "word": "tribal",
+    "pos": "a",
+    "zh": "部落的、部族的",
+    "collocations": [
+      "tribal land (部族土地)",
+      "tribal community (部落社區)"
+    ],
+    "tip": "多益鮮少考純人類學概念，偶爾出現在永續發展或企業社會責任（CSR）與在地原住民社區合作的報導題型。",
+    "sentence": "The mining company consulted extensively with tribal leaders before proceeding with the pipeline project.",
+    "sentenceZh": "該採礦公司在推進管線專案之前，與部落領袖進行了廣泛諮商。"
+  },
+  {
+    "category": "General Business",
+    "word": "tribe",
+    "pos": "n",
+    "zh": "部落、族群",
+    "collocations": [
+      "local tribe (當地部落)",
+      "member of the tribe (部落成員)"
+    ],
+    "tip": "同 tribal，出現於文化旅遊（eco-tourism）或企業回饋在地少數族群之閱讀測驗情境中。",
+    "sentence": "The eco-tourism initiative provides sustainable employment opportunities for members of the local tribe.",
+    "sentenceZh": "這項生態旅遊計畫為當地部落成員提供了永續的就業機會。"
+  },
+  {
+    "category": "General Business",
+    "word": "trivial",
+    "pos": "a",
+    "zh": "瑣碎的、微不足道的",
+    "collocations": [
+      "trivial matter (微不足道的小事)",
+      "trivial error (輕微錯誤)"
+    ],
+    "tip": "反義詞為 significant / substantial。表示事情不影響大局，在品管或會議審查時常出現。",
+    "sentence": "The manager reminded the team not to waste valuable meeting time debating trivial administrative details.",
+    "sentenceZh": "經理提醒團隊不要浪費寶貴的會議時間去爭論瑣碎的行政細節。"
+  },
+  {
+    "category": "General Business",
+    "word": "truly",
+    "pos": "ad",
+    "zh": "真正地、真誠地",
+    "collocations": [
+      "truly remarkable (真正卓越非凡的)",
+      "Yours truly (您誠摯的 - 書信結尾)"
+    ],
+    "tip": "商業書信正式結尾常見 'Yours truly'；或在演說中作加強語氣副詞：We are truly grateful for your support.",
+    "sentence": "We are truly grateful to everyone who contributed to the extraordinary success of our charity gala.",
+    "sentenceZh": "我們由衷感激每一位為我們慈善晚會取得非凡成功做出貢獻的人。"
+  },
+  {
+    "category": "General Business",
+    "word": "trust",
+    "pos": "n",
+    "zh": "信任、信賴；信託",
+    "collocations": [
+      "mutual trust (互信)",
+      "breach of trust (背信、違背信任)",
+      "trust fund (信託基金)"
+    ],
+    "tip": "在商務談判中強調建立信任關係；在金融合約中 trust 可表示「信託」（如 investment trust）。",
+    "sentence": "Long-lasting client relationships are built primarily on mutual trust, transparency, and consistent reliability.",
+    "sentenceZh": "長久的客戶關係主要建立在互信、透明度與始終如一的可靠性之上。"
+  },
+  {
+    "category": "Contracts & Legal",
+    "word": "trustee",
+    "pos": "n",
+    "zh": "受託人、理事、董事",
+    "collocations": [
+      "board of trustees (董事會、理事會)",
+      "act as a trustee (擔任受託人)"
+    ],
+    "tip": "非營利機構、大學或基金會的管理核心常稱為 'Board of Trustees'，在閱讀測驗公告題型中相當常見。",
+    "sentence": "The board of trustees voted unanimously to approve the expansion plans for the university library.",
+    "sentenceZh": "理事會一致投票贊成批准大學圖書館的擴建計劃。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "turnover",
+    "pos": "n",
+    "zh": "人員流動率；營業額",
+    "collocations": [
+      "employee turnover (員工流動率)",
+      "annual turnover (年營業額)",
+      "high turnover rate (高離職率)"
+    ],
+    "tip": "多益雙核心考點：HR 指「離職率/人事流動」（staff turnover）；在英式英語/財務中常指「營業額、營業收入」。",
+    "sentence": "Competitive compensation packages and flexible working hours helped the agency reduce high employee turnover.",
+    "sentenceZh": "具競爭力的薪酬福利待遇和彈性工時協助該機構降低了偏高的員工流動率。"
+  },
+  {
+    "category": "General Vocabulary",
+    "word": "twice",
+    "pos": "ad",
+    "zh": "兩次、兩倍",
+    "collocations": [
+      "twice a year (一年兩次、每半年一次)",
+      "twice as many/much as (是...的兩倍)"
+    ],
+    "tip": "常考頻率片語 twice a week / twice a month；比較級倍數句型 'twice as large as...' 必背。",
+    "sentence": "Routine safety audits are conducted twice a year to ensure strict adherence to industrial standards.",
+    "sentenceZh": "例行工安審查每年進行兩次，以確保嚴格遵守工業標準。"
+  },
+  {
+    "category": "General Business",
+    "word": "two-sided",
+    "pos": "a",
+    "zh": "雙面的、有兩面的",
+    "collocations": [
+      "two-sided printing (雙面列印)",
+      "two-sided negotiation (雙方參與的談判)"
+    ],
+    "tip": "辦公室影印機（copier）設定常見 'two-sided / duplex printing'（雙面列印），以節約用紙倡導環保。",
+    "sentence": "To minimize paper consumption, office staff are advised to set default printer preferences to two-sided printing.",
+    "sentenceZh": "為儘量減少用紙量，建議辦公室同仁將預設印表機偏好設定調整為雙面列印。"
+  },
+  {
+    "category": "Office Technology",
+    "word": "type",
+    "pos": "n",
+    "zh": "類型、種類；打字",
+    "collocations": [
+      "type of product (產品類型)",
+      "type up a report (打好一份報告)"
+    ],
+    "tip": "作名詞表種類；作動詞常與 up 連用：type up（將手稿打成電子檔）。",
+    "sentence": "The software is designed to accommodate various types of financial transactions seamlessly.",
+    "sentenceZh": "該軟體旨在無縫相容各種類型的金融交易。"
+  },
+  {
+    "category": "General Business",
+    "word": "typical",
+    "pos": "a",
+    "zh": "典型的、具代表性的",
+    "collocations": [
+      "typical of (是...的典型特徵)",
+      "typical workday (典型的工作日)"
+    ],
+    "tip": "固定介系詞搭配：be typical of（是...貫有的特色/典型作風）。",
+    "sentence": "A typical workday for an account executive involves client consultations, market analysis, and product demos.",
+    "sentenceZh": "客戶主管典型的工作日包含客戶諮詢、市場分析及產品展示。"
+  },
+  {
+    "category": "General Business",
+    "word": "typo",
+    "pos": "n",
+    "zh": "排印錯誤、打字錯誤",
+    "collocations": [
+      "correct a typo (修正打字錯誤)",
+      "glaring typo (顯眼的錯字)"
+    ],
+    "tip": "口語及商務校對中極為常見（typographical error 的縮寫），常出現在請審核文稿（proofread）的 Email 中。",
+    "sentence": "Please proofread the press release carefully to catch any embarrassing typos before publication.",
+    "sentenceZh": "在刊登前請仔細校對該新聞稿，以免出現任何令人尷尬的錯別字。"
+  },
+  {
+    "category": "General Business",
+    "word": "ultimate",
+    "pos": "a",
+    "zh": "最終的、終極的",
+    "collocations": [
+      "ultimate goal (最終目標)",
+      "ultimate decision (最終決定)",
+      "ultimate responsibility (最終責任)"
+    ],
+    "tip": "同義字替換常考 final, eventual。修飾 goal, aim, objective 或 responsibility。",
+    "sentence": "The ultimate goal of the restructuring program is to optimize operational efficiency and cut overhead costs.",
+    "sentenceZh": "組織重組計劃的最終目標是優化營運效率並削減經常性開銷。"
+  },
+  {
+    "category": "General Business",
+    "word": "ultimately",
+    "pos": "ad",
+    "zh": "最終、終究",
+    "collocations": [
+      "ultimately lead to (最終導致)",
+      "ultimately responsible for (最終負責)"
+    ],
+    "tip": "副詞，修飾動詞或全句，常考同義詞代換 finally, in the end, eventually。",
+    "sentence": "Although negotiations were protracted, the two parties ultimately agreed on a five-year licensing contract.",
+    "sentenceZh": "儘管談判耗時漫長，雙方最終仍達成了一項為期五年的授權合約。"
+  },
+  {
+    "category": "General Business",
+    "word": "ultra",
+    "pos": "a",
+    "zh": "極端的、超等的",
+    "collocations": [
+      "ultra-modern facility (超現代化設施)",
+      "ultra-efficient system (極高效能的系統)"
+    ],
+    "tip": "常作為字首或形容詞修飾先進技術或現代化設備（如 ultra-high-speed, ultra-compact）。",
+    "sentence": "The new research center features an ultra-modern laboratory equipped with cutting-edge analytical tools.",
+    "sentenceZh": "該新研發中心擁有配備頂尖分析工具的超現代化實驗室。"
+  },
+  {
+    "category": "Customer Service",
+    "word": "unable",
+    "pos": "a",
+    "zh": "無法的、不能的",
+    "collocations": [
+      "unable to attend (無法出席)",
+      "unable to process (無法處理)"
+    ],
+    "tip": "文法必考：'be unable to + 原形動詞'。道歉信函極高頻：'We regret that we are unable to fulfill your request.'",
+    "sentence": "Due to a technical glitch on the website, we are currently unable to process online transactions.",
+    "sentenceZh": "由於網站發生技術故障，我們目前無法處理線上交易。"
+  },
+  {
+    "category": "Customer Service",
+    "word": "unacceptable",
+    "pos": "a",
+    "zh": "無法接受的、不合標準的",
+    "collocations": [
+      "unacceptable delay (無法接受的延誤)",
+      "unacceptable behavior (不可接受的行為)"
+    ],
+    "tip": "客訴信（Complaint Letters）與品管不合格通報的強烈措辭，常要求退款（refund）或道歉。",
+    "sentence": "The client considered the two-week delivery delay completely unacceptable and requested a full refund.",
+    "sentenceZh": "客戶認為延遲兩週交貨是完全無法接受的，並要求全額退款。"
+  },
+  {
+    "category": "General Business",
+    "word": "unaccountable",
+    "pos": "a",
+    "zh": "無法解釋的；不負責任的",
+    "collocations": [
+      "unaccountable delay (難以解釋的延誤)",
+      "hold unaccountable (不予追究責任)"
+    ],
+    "tip": "指原因不明，或在治理結構中未被課責（not held responsible）。多益偶現於調查報告。",
+    "sentence": "The sudden and unaccountable drop in website traffic prompted an emergency IT investigation.",
+    "sentenceZh": "網站流量突然發生無法解釋的下滑，引發了資訊部門的緊急調查。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "unaccustomed",
+    "pos": "a",
+    "zh": "不習慣的、不熟悉的",
+    "collocations": [
+      "unaccustomed to (不習慣於...)",
+      "in an unaccustomed manner (以不尋常的方式)"
+    ],
+    "tip": "介系詞必接 to + N / V-ing，如 'unaccustomed to working remotely'（不習慣遠端辦公）。",
+    "sentence": "Many newly hired associates were initially unaccustomed to the rigorous pace of the consulting firm.",
+    "sentenceZh": "許多新進同仁最初都不習慣管理顧問公司緊湊嚴苛的工作節奏。"
+  },
+  {
+    "category": "Contracts & Legal",
+    "word": "unauthorized",
+    "pos": "a",
+    "zh": "未經授權的、未獲許可的",
+    "collocations": [
+      "unauthorized access (未經授權的存取)",
+      "unauthorized absence (擅離職守、曠職)",
+      "unauthorized personnel (未經授權人員)"
+    ],
+    "tip": "資安規範與廠區安全門禁核心詞彙：'Unauthorized access is strictly prohibited.'（嚴禁未經授權擅入/存取）。",
+    "sentence": "Strict encryption protocols have been established to prevent unauthorized access to sensitive financial records.",
+    "sentenceZh": "已建立嚴格的加密協定，以防止未經授權存取敏感的財務記錄。"
+  },
+  {
+    "category": "General Business",
+    "word": "unaware",
+    "pos": "a",
+    "zh": "未察覺的、不知情的",
+    "collocations": [
+      "unaware of (不知道...)",
+      "unaware that (未察覺到...)"
+    ],
+    "tip": "文法重點：'be unaware of + N' 或 'be unaware that + 子句'，反義字為 aware / conscious。",
+    "sentence": "Management was apparently unaware of the software defects until multiple clients began calling to complain.",
+    "sentenceZh": "在多位客戶開始致電投訴之前，管理層顯然並未察覺到該軟體的缺陷。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "unbalance",
+    "pos": "v",
+    "zh": "使失去平衡、使混亂",
+    "collocations": [
+      "unbalance the budget (打亂預算平衡)",
+      "unbalance the market (使市場失去平衡)"
+    ],
+    "tip": "商務中多指出乎意料的巨額支出打亂了既定的財務平衡（unbalance the budget）。",
+    "sentence": "Unforeseen supply chain expenditures threatened to unbalance the department's annual budget.",
+    "sentenceZh": "不可預見的供應鏈開銷差點打破該部門年度預算的平衡。"
+  },
+  {
+    "category": "Marketing & Advertising",
+    "word": "unbeatable",
+    "pos": "a",
+    "zh": "無與倫比的、無法匹敵的、無敵的",
+    "collocations": [
+      "unbeatable price (無與倫比的超低價)",
+      "unbeatable quality (無可比擬的品質)"
+    ],
+    "tip": "廣告促銷傳單超高頻誇飾修飾語：unbeatable prices（最優惠價格，同 matchless / peerless）。",
+    "sentence": "Our wholesale store offers top-quality electronics at truly unbeatable prices this holiday season.",
+    "sentenceZh": "我們的批發門市在此節慶檔期以真正無可匹敵的價格提供頂級電子產品。"
+  },
+  {
+    "category": "General Business",
+    "word": "unbiased",
+    "pos": "a",
+    "zh": "公正的、無偏見的、客觀的",
+    "collocations": [
+      "unbiased opinion (客觀公正的意見)",
+      "unbiased review/assessment (不偏不倚的審查/評估)"
+    ],
+    "tip": "常用於獨立第三方顧問（independent consultant）或稽核員出具的無偏私評估報告。",
+    "sentence": "We hired an independent consulting agency to conduct an unbiased evaluation of our internal management structure.",
+    "sentenceZh": "我們聘請了獨立顧問機構對內部的管理結構進行公正客觀的評估。"
+  },
+  {
+    "category": "General Business",
+    "word": "uncertain",
+    "pos": "a",
+    "zh": "不確定的、未定數的",
+    "collocations": [
+      "uncertain economic outlook (不明朗的經濟前景)",
+      "remain uncertain (依然懸而未決)"
+    ],
+    "tip": "在市場預測中常修飾 economic conditions, outlook 或 future；名詞形式為 uncertainty。",
+    "sentence": "Given the uncertain market conditions, the board decided to postpone the planned initial public offering.",
+    "sentenceZh": "鑑於不明朗的市場情勢，董事會決定推遲原定的首次公開募股（IPO）計畫。"
+  },
+  {
+    "category": "General Business",
+    "word": "uncertainty",
+    "pos": "n",
+    "zh": "不確定性、懸而未決",
+    "collocations": [
+      "economic uncertainty (經濟不確定性)",
+      "cope with uncertainty (應對不確定局面)"
+    ],
+    "tip": "多益商業趨勢分析常考字：'amid economic uncertainty'（在經濟動盪/不確定性籠罩之中）。",
+    "sentence": "Prolonged geopolitical tensions have created substantial uncertainty across global energy markets.",
+    "sentenceZh": "長期的地緣政治緊張局勢在全球能源市場中造成了巨大的不確定性。"
+  },
+  {
+    "category": "Marketing & Advertising",
+    "word": "unconventional",
+    "pos": "a",
+    "zh": "非常規的、新穎創新的",
+    "collocations": [
+      "unconventional marketing strategy (打破常規的行銷策略)",
+      "unconventional approach (非傳統手法)"
+    ],
+    "tip": "在多益中多作正面讚揚，形容打破傳統創新的經營或宣傳點子，同 innovative, creative。",
+    "sentence": "The startup gained widespread publicity through an unconventional viral marketing campaign on social media.",
+    "sentenceZh": "這家新創公司透過社群媒體上非傳統的病毒式行銷活動獲得了廣泛宣傳。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "underestimate",
+    "pos": "v",
+    "zh": "低估、看輕",
+    "collocations": [
+      "underestimate the cost (低估成本)",
+      "underestimate demand (低估需求)"
+    ],
+    "tip": "相反詞為 overestimate（高估）。商務上常因低估成本或交期導致專案超支或延誤。",
+    "sentence": "The project manager admitted that he had significantly underestimated the time required for system testing.",
+    "sentenceZh": "專案經理坦承，他大幅低估了系統測試所需的時間。"
+  },
+  {
+    "category": "Real Estate & Property",
+    "word": "underground",
+    "pos": "a",
+    "zh": "地下的；秘密的",
+    "collocations": [
+      "underground parking lot (地下停車場)",
+      "underground cable (地下電纜)"
+    ],
+    "tip": "不動產物業描述中極常考 'underground parking garage / facility'（地下停車庫）。",
+    "sentence": "Tenants of the office complex enjoy direct elevator access to the secure underground parking facility.",
+    "sentenceZh": "該辦公大樓的承租戶享有搭乘電梯直達安全地下停車設施的便利。"
+  },
+  {
+    "category": "General Business",
+    "word": "underline",
+    "pos": "v",
+    "zh": "強調、凸顯；在...下方劃線",
+    "collocations": [
+      "underline the importance of (強調...的重要性)",
+      "underline a commitment (強調承諾)"
+    ],
+    "tip": "多益閱讀常作比喻義「強調」（等於 emphasize, stress, highlight）。",
+    "sentence": "The recent data breach underlines the urgent necessity of upgrading our company's cybersecurity infrastructure.",
+    "sentenceZh": "最近發生的數據外洩事件凸顯了升級本公司網路安全基礎設施的迫切必要性。"
+  },
+  {
+    "category": "General Business",
+    "word": "understand",
+    "pos": "v",
+    "zh": "理解、明白、體諒",
+    "collocations": [
+      "understand one's concern (理解某人的顧慮)",
+      "make oneself understood (把自己的意思表達清楚)"
+    ],
+    "tip": "客服信函中常見 'We fully understand your frustration'（我們完全體諒您的不滿/沮喪）。",
+    "sentence": "We completely understand your frustration regarding the shipping delay and are taking active steps to expedite delivery.",
+    "sentenceZh": "我們完全理解您對出貨延誤的沮喪之情，目前正採取積極措施加速遞送。"
+  },
+  {
+    "category": "General Business",
+    "word": "understatement",
+    "pos": "n",
+    "zh": "輕描淡寫、保留的陳述",
+    "collocations": [
+      "be an understatement to say (說...毫不為過/算是客氣了)"
+    ],
+    "tip": "多益常見慣用語：'To say the launch was successful is an understatement.'（說發表會很成功真是太輕描淡寫了/發表會極為成功）。",
+    "sentence": "To say that our sales team exceeded expectations this quarter is a major understatement.",
+    "sentenceZh": "說我們的銷售團隊本季超出了預期，實在太輕描淡寫了（實則遠超預期）。"
+  },
+  {
+    "category": "General Business",
+    "word": "underway",
+    "pos": "a",
+    "zh": "正在進行中的",
+    "collocations": [
+      "well underway (進行得如火如荼)",
+      "get underway (開始進行)",
+      "investigation is underway (調查正在進行)"
+    ],
+    "tip": "形容詞只置於 be 動詞後作表語，如 'Renovations are currently underway.'（裝修工程目前正在進行中）。",
+    "sentence": "Preparations for the annual regional sales conference are already well underway in the banquet hall.",
+    "sentenceZh": "年度區域銷售大會的籌備工作已經在宴會廳如火如荼地進行中。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "unfair",
+    "pos": "a",
+    "zh": "不公平的、不正當的",
+    "collocations": [
+      "unfair labor practice (不當勞動行為)",
+      "unfair competition (不公平競爭)"
+    ],
+    "tip": "出現在勞動法規或申訴信中：unfair dismissal（不當解雇）。",
+    "sentence": "The labor union filed a grievance alleging unfair treatment of warehouse workers regarding overtime compensation.",
+    "sentenceZh": "工會提出申訴，指控倉庫工人在加班補償方面遭受不平等待遇。"
+  },
+  {
+    "category": "General Business",
+    "word": "unforeseen",
+    "pos": "a",
+    "zh": "未預料到的、不可預見的、意外的",
+    "collocations": [
+      "unforeseen circumstances (不可抗力情況、意外情況)",
+      "unforeseen delays (意料之外的延誤)"
+    ],
+    "tip": "多益出題率 100% 的商務金句搭配：'Due to unforeseen circumstances...'（因不可預見的突發狀況...）。",
+    "sentence": "Due to unforeseen circumstances at the port, delivery of the raw materials will be delayed by three days.",
+    "sentenceZh": "由於港口發生不可預見的突發狀況，原物料的交貨將延遲三天。"
+  },
+  {
+    "category": "Customer Service",
+    "word": "unfortunately",
+    "pos": "ad",
+    "zh": "不幸地、遺憾地",
+    "collocations": [
+      "unfortunately unable to (遺憾地無法...)",
+      "unfortunately canceled (遺憾地取消了)"
+    ],
+    "tip": "商務婉拒信、取消通知、求職未錄取信的信號詞，後面必定跟隨壞消息或無法成行之事。",
+    "sentence": "Unfortunately, the keynote speaker had to cancel her appearance due to a sudden illness.",
+    "sentenceZh": "令人遺憾的是，主講嘉賓因突發疾病不得不取消出席。"
+  },
+  {
+    "category": "General Business",
+    "word": "uniform",
+    "pos": "n",
+    "zh": "制服；統一的、一致的",
+    "collocations": [
+      "wear a uniform (穿制服)",
+      "uniform standards (統一標準)",
+      "uniform quality (均勻一致的品質)"
+    ],
+    "tip": "名詞指「員工制服」；形容詞表示「一致的、規格劃一的」（uniform application of rules）。",
+    "sentence": "The franchise enforces uniform quality standards across all its international restaurant locations.",
+    "sentenceZh": "該加盟體系在所有跨國餐廳據點均貫徹統一的品質標準。"
+  },
+  {
+    "category": "General Business",
+    "word": "unify",
+    "pos": "v",
+    "zh": "統一、整合、使一致",
+    "collocations": [
+      "unify procedures (統一程序)",
+      "unify brand identity (統一品牌形象)"
+    ],
+    "tip": "企業併購後常考流程：unify internal communications / databases（整合內部通訊/資料庫）。",
+    "sentence": "Following the merger, executives worked swiftly to unify the accounting procedures of both corporations.",
+    "sentenceZh": "併購之後，高層主管迅速展開行動，以整合兩家公司的會計作業程序。"
+  },
+  {
+    "category": "General Business",
+    "word": "unimaginable",
+    "pos": "a",
+    "zh": "難以想像的、不可思議的",
+    "collocations": [
+      "unimaginable scale (難以想像的規模)",
+      "unimaginable success (不可思議的成功)"
+    ],
+    "tip": "形容詞，修飾極大程度的成就、災難或轉變。同義詞 unthinkable, inconceivable。",
+    "sentence": "The company's expansion into global e-commerce brought profits on an unimaginable scale.",
+    "sentenceZh": "該公司進軍全球電子商務帶來了難以想像規模的獲利。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "union",
+    "pos": "n",
+    "zh": "工會、聯合會",
+    "collocations": [
+      "labor union (工會)",
+      "union representative (工會代表)",
+      "union dues (工會會費)"
+    ],
+    "tip": "labor union 在多益勞資協商（collective bargaining）與罷工爭端文章中極常見。",
+    "sentence": "Management met with union representatives yesterday to negotiate fair terms for the renewed labor contract.",
+    "sentenceZh": "資方昨天會見了工會代表，就續簽勞工合約的公平條款進行談判。"
+  },
+  {
+    "category": "Marketing & Advertising",
+    "word": "unique",
+    "pos": "a",
+    "zh": "獨特的、獨一無二的",
+    "collocations": [
+      "unique selling proposition/point (USP, 獨特銷售賣點)",
+      "unique feature (獨特特色)"
+    ],
+    "tip": "行銷題型必考：unique selling point（獨特賣點，簡稱 USP）。修飾 unique 通常不加 more 或 very（本身已是絕對形容詞）。",
+    "sentence": "The eco-friendly packaging is a unique feature that sets our cosmetics apart from competitors.",
+    "sentenceZh": "環保包裝是一項獨特的特點，使我們的化妝品在競爭對手中脫穎而出。"
+  },
+  {
+    "category": "Marketing & Advertising",
+    "word": "uniquely",
+    "pos": "ad",
+    "zh": "獨特地、唯一地",
+    "collocations": [
+      "uniquely positioned (處於獨一無二的有利優勢)",
+      "uniquely qualified (具有無可替代的資歷資格)"
+    ],
+    "tip": "多益職場自薦信高頻搭配：'uniquely qualified for the role'（極具勝任該職位的獨特資歷）。",
+    "sentence": "With fifteen years of industry experience, Ms. Lin is uniquely qualified to lead our regional expansion.",
+    "sentenceZh": "憑藉十五年的產業經驗，林女士在引領我們區域業務擴展方面具備無可替代的資格。"
+  },
+  {
+    "category": "General Business",
+    "word": "uniqueness",
+    "pos": "n",
+    "zh": "獨特性、獨一無二",
+    "collocations": [
+      "uniqueness of the product (產品的獨特性)",
+      "emphasize the uniqueness (強調其獨創特色)"
+    ],
+    "tip": "名詞詞性考題常客。常與 distinctive nature 作同義轉換。",
+    "sentence": "The marketing presentation emphasized the uniqueness of our patent-pending solar technology.",
+    "sentenceZh": "行銷簡報強調了我們正在申請專利的太陽能技術所具有的獨特性。"
+  },
+  {
+    "category": "Purchasing & Inventory",
+    "word": "unit",
+    "pos": "n",
+    "zh": "單位、部門；件、臺",
+    "collocations": [
+      "unit cost/price (單價)",
+      "business unit (事業部門)",
+      "residential unit (住宅單位/戶)"
+    ],
+    "tip": "多益三大情境：生產庫存中指「單件產品」（1,000 units shipped）；財務指 unit price（單價）；企業組織指 business unit（事業單位）。",
+    "sentence": "By purchasing raw materials in bulk, the factory was able to reduce the manufacturing cost per unit.",
+    "sentenceZh": "透過大宗採購原料，工廠得以降低每件產品的製造成本。"
+  },
+  {
+    "category": "General Business",
+    "word": "unite",
+    "pos": "v",
+    "zh": "團結、使聯合",
+    "collocations": [
+      "unite in support of (團結一致支持...)",
+      "unite efforts (同心協力)"
+    ],
+    "tip": "動詞用法，常用於企業內部動員演說，或兩家企業攜手共抗危機的公關聲明中。",
+    "sentence": "The CEO called on all department heads to unite their efforts to achieve the company's carbon-neutral targets.",
+    "sentenceZh": "執行長呼籲所有部門主管同心協力，以實現公司的碳中和目標。"
+  },
+  {
+    "category": "General Business",
+    "word": "university",
+    "pos": "n",
+    "zh": "大學",
+    "collocations": [
+      "university degree (大學學位)",
+      "prestigious university (頂尖知名大學)",
+      "university graduate (大學畢業生)"
+    ],
+    "tip": "常出現在履歷表（Resume）、校園徵才（Campus Recruitment）或產學合作專案中。",
+    "sentence": "The firm actively recruits promising engineering graduates from prestigious national universities.",
+    "sentenceZh": "該事務所積極從國立知名頂尖大學招募有前途的工程專業畢業生。"
+  },
+  {
+    "category": "Contracts & Legal",
+    "word": "unless",
+    "pos": "conj",
+    "zh": "除非、如果不",
+    "collocations": [
+      "unless otherwise noted/stated (除非另有說明)",
+      "unless accompanied by (除非有人陪同)"
+    ],
+    "tip": "多益 Part 5 必考文法連接詞！等於 if...not。極常考固定句型：'unless otherwise specified/noted'（除非另有指定/註明）。",
+    "sentence": "All conference registration fees are non-refundable unless written notice is received at least two weeks prior.",
+    "sentenceZh": "所有研討會報名費概不退還，除非在至少兩週前收到書面通知。"
+  },
+  {
+    "category": "Customer Service",
+    "word": "unlimited",
+    "pos": "a",
+    "zh": "無限的、不受限制的",
+    "collocations": [
+      "unlimited mileage (不限里程)",
+      "unlimited data plan (吃到飽數據方案)",
+      "unlimited access (無限制存取)"
+    ],
+    "tip": "租車合約常標榜 'unlimited mileage'（不限里程數）；電信方案常見 'unlimited streaming/data'。",
+    "sentence": "Our premium car rental package includes comprehensive insurance coverage and unlimited mileage.",
+    "sentenceZh": "我們的頂級租車方案包含全方位保險及不限里程服務。"
+  },
+  {
+    "category": "Office Technology",
+    "word": "unlock",
+    "pos": "v",
+    "zh": "解鎖、開啟；發揮潛力",
+    "collocations": [
+      "unlock potential (發揮潛能)",
+      "unlock an account (解除帳號鎖定)"
+    ],
+    "tip": "在資安情境中指「解除帳號封鎖」；在企業演講中常作隱喻「釋放團隊潛能」（unlock team potential）。",
+    "sentence": "If you enter the wrong password three times, please contact IT support to unlock your network account.",
+    "sentenceZh": "如果您連續輸錯三次密碼，請聯繫資訊技術支援部門以解除您的網路帳號鎖定。"
+  },
+  {
+    "category": "General Business",
+    "word": "unnecessary",
+    "pos": "a",
+    "zh": "不必要的、多餘的",
+    "collocations": [
+      "eliminate unnecessary expenses (消除不必要的開支)",
+      "avoid unnecessary delay (避免不必要的延誤)"
+    ],
+    "tip": "常與 eliminate, avoid, reduce 搭配，出現在精簡成本（cost-cutting）的經營改善公告中。",
+    "sentence": "The administrative audit recommended digitizing forms to eliminate unnecessary paperwork and reduce storage costs.",
+    "sentenceZh": "行政審計建議將表單數位化，以消除不必要的文書作業並降低存檔成本。"
+  },
+  {
+    "category": "Health & Safety",
+    "word": "unsanitary",
+    "pos": "a",
+    "zh": "不衛生的、有礙健康的",
+    "collocations": [
+      "unsanitary conditions (不衛生的環境/條件)",
+      "unsanitary practice (不衛生的操作習慣)"
+    ],
+    "tip": "餐飲及衛生檢查（Health Inspection）情境核心詞，反義字為 sanitary / hygienic。",
+    "sentence": "The health inspector issued a citation to the restaurant kitchen for maintaining unsanitary food storage conditions.",
+    "sentenceZh": "衛生稽查員因餐廳廚房存在不衛生的食物存放環境而對其開具罰單。"
+  },
+  {
+    "category": "Customer Service",
+    "word": "unsatisfactory",
+    "pos": "a",
+    "zh": "令人不滿意的、不符合標準的",
+    "collocations": [
+      "unsatisfactory performance (不令人滿意的表現)",
+      "unsatisfactory service (不合格的服務)"
+    ],
+    "tip": "績效評核中指表現未達標準；客訴中指服務未符合預期。同義詞 unacceptable, subpar。",
+    "sentence": "The client requested a replacement after receiving an unsatisfactory response from the initial technician.",
+    "sentenceZh": "客戶在得到最初技師不令人滿意的回覆後，要求指派另一位替代人員。"
+  },
+  {
+    "category": "General Business",
+    "word": "upcoming",
+    "pos": "a",
+    "zh": "即將到來的",
+    "collocations": [
+      "upcoming event (即將舉行的活動)",
+      "upcoming conference (即將召開的會議)",
+      "upcoming election (即將到來的選舉)"
+    ],
+    "tip": "多益 Part 7 信件首段必備單字，同義詞 forthcoming, impending。修飾即將到來的會議、行程或產品發布。",
+    "sentence": "Detailed agenda items for the upcoming annual shareholder meeting will be distributed by email tomorrow.",
+    "sentenceZh": "即將召開的年度股東大會詳細議程事項將於明天透過電子郵件發送。"
+  },
+  {
+    "category": "Office Technology",
+    "word": "update",
+    "pos": "v",
+    "zh": "更新；最新資訊",
+    "collocations": [
+      "software update (軟體更新)",
+      "status update (進度更新)",
+      "update one's resume (更新履歷)"
+    ],
+    "tip": "名詞可指「最新進展消息」（I will give you an update tomorrow）；動詞指「更新資料或軟體系統」。",
+    "sentence": "The IT department will update the enterprise antivirus software tonight during off-peak maintenance hours.",
+    "sentenceZh": "資訊部門將於今晚非尖峰維護時段更新企業防毒軟體。"
+  },
+  {
+    "category": "Corporate Travel",
+    "word": "upgrade",
+    "pos": "v",
+    "zh": "升級、提升等級",
+    "collocations": [
+      "complimentary upgrade (免費升等)",
+      "upgrade to first class (升等至頭等艙)",
+      "system upgrade (系統升級)"
+    ],
+    "tip": "差旅題型超愛考：'be upgraded to business class'（被升等到商務艙）或 'upgrade the hotel suite'（升等套房）。",
+    "sentence": "Because the flight was overbooked, Mr. Davis received a complimentary upgrade to business class.",
+    "sentenceZh": "由於該航班超額預訂，戴維斯先生獲得了免費升等至商務艙的待遇。"
+  },
+  {
+    "category": "General Business",
+    "word": "upon",
+    "pos": "prep",
+    "zh": "在...之上；一...就...",
+    "collocations": [
+      "upon request (經要求、索取即提供)",
+      "upon arrival (一抵達就...)",
+      "upon completion (一完成就...)"
+    ],
+    "tip": "多益萬年常考高頻文法句型！'upon + N / V-ing' 表示「一...就...」，如 'upon receipt of payment'（一收到款項）。",
+    "sentence": "Additional product samples and comprehensive brochures will be provided upon request.",
+    "sentenceZh": "如有索取，我們將提供額外的產品樣品及詳盡的宣傳手冊。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "upwards",
+    "pos": "ad",
+    "zh": "向上地、往上",
+    "collocations": [
+      "upwards of (多於、在...以上)",
+      "revise upwards (向上修正)"
+    ],
+    "tip": "'upwards of + 數字' 等於 more than / over（多於、超過某數額）；也常指股價或營收向上調整。",
+    "sentence": "The major construction project is projected to cost upwards of twenty million dollars before completion.",
+    "sentenceZh": "預計這項大型建設專案在竣工前將耗資兩千萬美元以上。"
+  },
+  {
+    "category": "Real Estate & Property",
+    "word": "urban",
+    "pos": "a",
+    "zh": "城市的、都市的",
+    "collocations": [
+      "urban development (都市發展)",
+      "urban renewal (都市更新)",
+      "urban area (都市地區)"
+    ],
+    "tip": "反義字為 rural（鄉村的）。多益在不動產及市政建設題中常出現 urban planning（都市計畫）。",
+    "sentence": "The proposed light rail line aims to ease traffic congestion in rapidly expanding urban areas.",
+    "sentenceZh": "擬議興建的輕軌路線旨在緩解迅速擴張的都市地區的交通壅塞問題。"
+  },
+  {
+    "category": "Real Estate & Property",
+    "word": "urbanize",
+    "pos": "v",
+    "zh": "使都市化",
+    "collocations": [
+      "rapidly urbanizing region (迅速都市化的地區)",
+      "urbanize rural lands (將鄉村土地都市化)"
+    ],
+    "tip": "動詞形式，常以現在分詞或過去分詞形容詞形式（urbanized / urbanizing）出現在區域經濟報告中。",
+    "sentence": "As the province continues to urbanize, commercial property values near the highway have surged dramatically.",
+    "sentenceZh": "隨著該省持續都市化，公路附近的商業地產價值大幅飆升。"
+  },
+  {
+    "category": "General Business",
+    "word": "urgent",
+    "pos": "a",
+    "zh": "緊急的、急迫的",
+    "collocations": [
+      "urgent matter (緊急事項)",
+      "urgent attention (迫切關注)",
+      "urgent request (緊急請求)"
+    ],
+    "tip": "電子郵件主旨標籤常用 '[URGENT]'；搭配動詞：require urgent attention（需要緊急處理）。",
+    "sentence": "The managing director called an emergency meeting to address an urgent personnel dispute.",
+    "sentenceZh": "常務董事召開緊急會議，以處理一項迫在眉睫的人事紛爭。"
+  },
+  {
+    "category": "General Business",
+    "word": "use",
+    "pos": "v",
+    "zh": "使用、利用",
+    "collocations": [
+      "for official use only (僅限公務使用)",
+      "make use of (利用...)",
+      "directions for use (使用說明)"
+    ],
+    "tip": "多益標示或免責聲明常見片語：'For internal use only'（僅供內部使用）。",
+    "sentence": "Company-issued laptops are strictly intended for professional business use during working hours.",
+    "sentenceZh": "公司配發的筆記型電腦嚴格限於上班時間的專業公務使用。"
+  },
+  {
+    "category": "General Business",
+    "word": "useful",
+    "pos": "a",
+    "zh": "有用的、實用的",
+    "collocations": [
+      "useful tool (實用的工具)",
+      "useful feedback (有益的反饋)",
+      "prove useful (證明很管用)"
+    ],
+    "tip": "常修飾 feedback, suggestions, tips, tools。同義字 helpful, valuable。",
+    "sentence": "The workshop participants provided highly useful feedback that will help refine future training modules.",
+    "sentenceZh": "工作坊與會者提供了極具參考價值的反饋，有助於完善未來的培訓模組。"
+  },
+  {
+    "category": "Customer Service",
+    "word": "useless",
+    "pos": "a",
+    "zh": "無用的、無價值的",
+    "collocations": [
+      "rendered useless (變得毫無用處)",
+      "useless effort (徒勞無功)"
+    ],
+    "tip": "常出現在產品缺陷投訴：'render the device completely useless'（導致設備完全無法使用）。",
+    "sentence": "Without the correct adapter, the newly purchased overseas electronics were temporarily rendered useless.",
+    "sentenceZh": "由於沒有正確的轉接頭，新購的海外電子產品暫時變得毫無用處。"
+  },
+  {
+    "category": "General Business",
+    "word": "usual",
+    "pos": "a",
+    "zh": "通常的、平常的",
+    "collocations": [
+      "as usual (照常、如往常一樣)",
+      "business as usual (照常營業)",
+      "than usual (比平時更...)"
+    ],
+    "tip": "商店整修公告必考金句：'Business will continue as usual during the renovation.'（裝修期間照常營業）。",
+    "sentence": "Despite the ongoing construction outside the branch, it will remain business as usual for our customers.",
+    "sentenceZh": "儘管分行門外正在施工，我們仍將如常為客戶提供各項營業服務。"
+  },
+  {
+    "category": "General Business",
+    "word": "usually",
+    "pos": "ad",
+    "zh": "通常、經常",
+    "collocations": [
+      "usually held on (通常於...舉行)",
+      "more quickly than usually expected (比平常預期更迅速)"
+    ],
+    "tip": "頻率副詞，位置通常在一般動詞前、be 動詞或助動詞後，指一般常規或習慣性發生的公務流程。",
+    "sentence": "Staff performance evaluations are usually conducted twice a year by department supervisors.",
+    "sentenceZh": "員工績效考核通常由部門主管每年進行兩次。"
+  },
+  {
+    "category": "Manufacturing & Operations",
+    "word": "utilization",
+    "pos": "n",
+    "zh": "利用、使用、運用",
+    "collocations": [
+      "capacity utilization (產能利用率)",
+      "resource utilization (資源利用)"
+    ],
+    "tip": "工廠製造產能題型必考：capacity utilization rate（產能利用率）；指資源發揮效能的程度。",
+    "sentence": "Improving resource utilization on the assembly line will significantly lower overall production overhead.",
+    "sentenceZh": "提高裝配線上的資源利用率將顯著降低整體生產的日常開支。"
+  },
+  {
+    "category": "General Business",
+    "word": "utilize",
+    "pos": "v",
+    "zh": "利用、運用",
+    "collocations": [
+      "utilize resources effectively (有效利用資源)",
+      "utilize modern software (運用現代軟體)"
+    ],
+    "tip": "商務書信高級用字，比 use 更具正式感與策略目的性，意為「充分發揮...的功能」。",
+    "sentence": "The marketing team plans to utilize social media influencers to expand our direct-to-consumer reach.",
+    "sentenceZh": "行銷團隊計畫利用社群媒體網紅來擴大我們直接觸及消費者的廣度。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "vacancy",
+    "pos": "n",
+    "zh": "職缺；空房",
+    "collocations": [
+      "job vacancy (工作職缺)",
+      "fill a vacancy (填補職缺)",
+      "no vacancy (客滿、無空房)"
+    ],
+    "tip": "多益雙大考點：招募徵才中指「工作職缺」（= job opening）；飯店住宿中指「空置客房」（No vacancy 客滿）。",
+    "sentence": "The human resources department announced two new vacancies in the corporate accounting division.",
+    "sentenceZh": "人力資源部公佈了企業會計處的兩個新職缺。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "vacant",
+    "pos": "a",
+    "zh": "空缺的、未被佔用的",
+    "collocations": [
+      "vacant position (空缺職位)",
+      "vacant seat (空位)",
+      "remain vacant (保持空缺)"
+    ],
+    "tip": "形容詞形式，同義字為 unoccupied, unfilled。注意不要與 vague（模糊的）混淆。",
+    "sentence": "The managerial position has remained vacant since Mr. Vance retired at the end of last quarter.",
+    "sentenceZh": "自從范斯先生在上季度末退休以來，該管理職位一直處於空缺狀態。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "vacation",
+    "pos": "n",
+    "zh": "休假、假期",
+    "collocations": [
+      "paid vacation (有薪年假)",
+      "on vacation (正在休假中)",
+      "take a vacation (度假)"
+    ],
+    "tip": "福利津貼（Benefits）常見 paid vacation days（給薪休假日數）；自動回覆 Email 常見 'I am currently on vacation'。",
+    "sentence": "Full-time employees receive three weeks of paid vacation annually after completing their initial probationary period.",
+    "sentenceZh": "全職員工在完成最初的試用期後，每年可享有三週的有薪年假。"
+  },
+  {
+    "category": "Health & Safety",
+    "word": "vaccinate",
+    "pos": "v",
+    "zh": "接種疫苗",
+    "collocations": [
+      "be vaccinated against (接種預防...的疫苗)",
+      "vaccinate employees (為員工接種疫苗)"
+    ],
+    "tip": "常考被動語態：be vaccinated against the flu（接種流感疫苗）；常出現在企業健康照護公告中。",
+    "sentence": "All international healthcare volunteers must be vaccinated against infectious diseases prior to departure.",
+    "sentenceZh": "所有國際醫療志工在出發前都必須接種傳染病預防疫苗。"
+  },
+  {
+    "category": "Health & Safety",
+    "word": "vaccination",
+    "pos": "n",
+    "zh": "疫苗接種",
+    "collocations": [
+      "proof of vaccination (疫苗接種證明)",
+      "annual flu vaccination (年度流感疫苗接種)"
+    ],
+    "tip": "出差差旅必備文件要求：proof of vaccination（疫苗施打紀錄證明書）。",
+    "sentence": "The corporate health clinic will offer complimentary annual flu vaccinations to all staff next Tuesday.",
+    "sentenceZh": "公司健康診所將於下週二為全體同仁提供免費的年度流感疫苗接種。"
+  },
+  {
+    "category": "General Business",
+    "word": "vain",
+    "pos": "a",
+    "zh": "徒勞的、枉然的；自負的",
+    "collocations": [
+      "in vain (徒勞無功、白費力氣)",
+      "vain attempt (徒勞的嘗試)"
+    ],
+    "tip": "超高頻片語：'in vain'（徒勞無功地）。例如：All our efforts to salvage the merger were in vain.",
+    "sentence": "The technicians worked throughout the night in a vain attempt to restore the corrupted database.",
+    "sentenceZh": "技術人員整夜奮戰，試圖搶救損壞的資料庫，但最終徒勞無功。"
+  },
+  {
+    "category": "Contracts & Legal",
+    "word": "valid",
+    "pos": "a",
+    "zh": "有效的、合法的、有充分依據的",
+    "collocations": [
+      "valid passport (有效護照)",
+      "valid for 30 days (有效期限為 30 天)",
+      "valid reason (正當理由)"
+    ],
+    "tip": "多益合約與折價券（Coupon）最常見單字：valid until [日期]（有效期至某日止）；反義字為 invalid。",
+    "sentence": "This promotional discount coupon is valid only for purchases made on our online store through June 30.",
+    "sentenceZh": "此促銷折扣券僅適用於 6 月 30 日前在我們線上商店完成的購物。"
+  },
+  {
+    "category": "Contracts & Legal",
+    "word": "validat",
+    "pos": "v",
+    "zh": "使生效、驗證、確認（註：validate 之誤植）",
+    "collocations": [
+      "validate parking (折抵/驗證停車票)",
+      "validate a ticket (驗票)",
+      "validate data (驗證數據)"
+    ],
+    "tip": "此單字為 validate 之誤植。百貨或餐廳櫃檯常考：validate your parking ticket（折抵停車票章）。",
+    "sentence": "Please present your receipt at the customer service desk to validate your parking ticket for two free hours.",
+    "sentenceZh": "請至客戶服務台出示您的發票，以驗證停車票享有兩小時免費停車優惠。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "valuable",
+    "pos": "a",
+    "zh": "寶貴的、有價值的",
+    "collocations": [
+      "valuable asset (寶貴的資產)",
+      "valuable contribution (寶貴的貢獻)",
+      "valuable insight (寶貴的見解)"
+    ],
+    "tip": "常形容員工是公司極有價值的資產（valuable asset）；注意 valuables（複數名詞）專指「貴重物品」。",
+    "sentence": "The guest speaker shared valuable insights regarding emerging market opportunities in Southeast Asia.",
+    "sentenceZh": "客座演講者分享了有關東南亞新興市場機會的寶貴見解。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "value",
+    "pos": "n",
+    "zh": "價值；重視、評估",
+    "collocations": [
+      "market value (市場價值)",
+      "great value for money (物超所值)",
+      "value one's opinion (重視某人的意見)"
+    ],
+    "tip": "多益雙性考點：名詞常用於 'good value for money'（高性價比）；動詞表「高度珍惜/重視某人某事」。",
+    "sentence": "Our enterprise deeply values customer loyalty and strives to deliver exceptional service every day.",
+    "sentenceZh": "我們企業高度重視客戶忠誠度，並致力於每天提供卓越的服務。"
+  },
+  {
+    "category": "Corporate Travel",
+    "word": "van",
+    "pos": "n",
+    "zh": "廂型車、客貨小貨車",
+    "collocations": [
+      "shuttle van (接駁廂型車)",
+      "delivery van (外送/遞送貨車)"
+    ],
+    "tip": "多益機場與飯店接送常見 'complimentary shuttle van'（免費接駁廂型車）。",
+    "sentence": "A complimentary shuttle van runs between the airport terminal and the conference hotel every thirty minutes.",
+    "sentenceZh": "機場航廈與研討會飯店之間每三十分鐘有一班免費接駁廂型車巡迴行駛。"
+  },
+  {
+    "category": "General Business",
+    "word": "vandalize",
+    "pos": "v",
+    "zh": "蓄意破壞（公共財產等）",
+    "collocations": [
+      "vandalize property (破壞公私財產)",
+      "heavily vandalized (遭到嚴重破壞)"
+    ],
+    "tip": "名詞形式為 vandalism（毀損公物罪）。商務合約保險條款中常列為不保事項或理賠審查項目。",
+    "sentence": "Security cameras were installed in the parking garage after several company vehicles were vandalized.",
+    "sentenceZh": "在數輛公司車輛遭到惡意破壞後，停車場內安裝了防盜監視器。"
+  },
+  {
+    "category": "Manufacturing & Operations",
+    "word": "variable",
+    "pos": "a",
+    "zh": "易變的、變動的；變數",
+    "collocations": [
+      "variable interest rate (浮動利率)",
+      "variable cost (變動成本)",
+      "key variable (關鍵變數)"
+    ],
+    "tip": "金融財務題必考：variable interest rate（浮動利率，反義為 fixed interest rate）；會計指 variable costs（變動成本）。",
+    "sentence": "Borrowers opted for a fixed loan rather than one with a variable interest rate to avoid market volatility.",
+    "sentenceZh": "借款人選擇了固定利率貸款而非浮動利率貸款，以規避市場波動風險。"
+  },
+  {
+    "category": "Manufacturing & Operations",
+    "word": "variation",
+    "pos": "n",
+    "zh": "變化、變動、變異",
+    "collocations": [
+      "seasonal variation (季節性變化)",
+      "slight variation (細微的差異)",
+      "price variation (價格變動)"
+    ],
+    "tip": "品管（Quality Control）與銷售分析常用詞，指產品規格或不同季度的業績波動差異。",
+    "sentence": "Quality control inspectors detected a slight variation in the thickness of the aluminum sheets.",
+    "sentenceZh": "品管稽查員檢測到鋁板厚度存在細微的公差變異。"
+  },
+  {
+    "category": "Purchasing & Inventory",
+    "word": "variety",
+    "pos": "n",
+    "zh": "多樣化、種類",
+    "collocations": [
+      "a wide variety of (各式各樣的)",
+      "product variety (產品多樣性)"
+    ],
+    "tip": "多益閱讀與聽力超必備片語：'a wide variety of + 複數名詞'，等於 'a wide range / array of'。",
+    "sentence": "Our newly expanded showroom displays a wide variety of ergonomic office furniture.",
+    "sentenceZh": "我們新擴建的展廳展示了各式各樣的人體工學辦公家具。"
+  },
+  {
+    "category": "Marketing & Advertising",
+    "word": "various",
+    "pos": "a",
+    "zh": "各式各樣的、各種不同的",
+    "collocations": [
+      "various reasons (各種原因)",
+      "for various purposes (出於多種目的)",
+      "meet with various clients (會晤各類客戶)"
+    ],
+    "tip": "形容詞後必接複數名詞（various options / methods）。在簡介或型錄中出現頻率極高。",
+    "sentence": "Representatives from various multinational corporations gathered in Geneva for the annual trade summit.",
+    "sentenceZh": "來自各跨國企業的代表齊聚日內瓦參加年度貿易高峰會。"
+  },
+  {
+    "category": "General Business",
+    "word": "vary",
+    "pos": "v",
+    "zh": "相異；變化；改變",
+    "collocations": [
+      "vary depending on (視...而有所不同)",
+      "vary widely (差異極大)",
+      "vary from ... to ... (從...到...不等)"
+    ],
+    "tip": "常考短語 vary depending on。名詞為 variation 或 variety（a variety of 各式各樣），形容詞 various/varied 亦為聽力與閱讀的高頻替換詞。",
+    "sentence": "Delivery times may vary depending on the destination and shipping method selected at checkout.",
+    "sentenceZh": "運送時間可能會因結帳時所選擇的目的地與運送方式而有所不同。"
+  },
+  {
+    "category": "General Vocabulary",
+    "word": "vast",
+    "pos": "a",
+    "zh": "廣大的；龐大的",
+    "collocations": [
+      "vast majority of (絕大多數)",
+      "vast network (龐大網絡)",
+      "vast experience (豐富廣泛的經驗)"
+    ],
+    "tip": "原詞形修正為 vast。多益聽力與閱讀最常考 'the vast majority of + 複數名詞/不可數名詞'，意指「絕大多數」，為強調高比例的關鍵用詞。",
+    "sentence": "The vast majority of surveyed employees expressed high satisfaction with the new hybrid work policy.",
+    "sentenceZh": "絕大多數接受調查的員工對新的混合辦公政策表示高度滿意。"
+  },
+  {
+    "category": "Dining & Entertainment",
+    "word": "vegetable",
+    "pos": "n",
+    "zh": "蔬菜",
+    "collocations": [
+      "fresh vegetables (新鮮蔬菜)",
+      "locally grown vegetables (在地種植的蔬菜)",
+      "organic vegetables (有機蔬菜)"
+    ],
+    "tip": "在餐飲、外燴（catering）選單情境中常出現，常與 dietary restrictions（飲食限制）搭配出現。",
+    "sentence": "The catering menu features dishes prepared exclusively with locally sourced organic vegetables.",
+    "sentenceZh": "該外燴菜單的特色是完全採用當地採購的有機蔬菜所製成的菜餚。"
+  },
+  {
+    "category": "Dining & Entertainment",
+    "word": "vegetarian",
+    "pos": "n / a",
+    "zh": "素食者；素食的",
+    "collocations": [
+      "vegetarian option (素食選項)",
+      "strict vegetarian (嚴格素食者)",
+      "vegetarian menu (素食菜單)"
+    ],
+    "tip": "多益聽力 Part 3/4 及閱讀訂餐信件中，常問「某人點了什麼或需要什麼安排」，答案常落於 vegetarian option 或 vegan meal。",
+    "sentence": "Please inform the event coordinator in advance if you require a vegetarian option for the banquet.",
+    "sentenceZh": "若您宴會需要素食餐點，請提前通知活動協調員。"
+  },
+  {
+    "category": "Corporate Travel",
+    "word": "vehicle",
+    "pos": "n",
+    "zh": "車輛；交通工具；手段",
+    "collocations": [
+      "company vehicle (公司車輛)",
+      "electric vehicle (電動車)",
+      "vehicle maintenance (車輛維護)"
+    ],
+    "tip": "可作為具體的汽車統稱（automobile/car 的上位詞，常在 Part 7 題目中被換字改寫），也可引申為投資或傳播的「媒介、工具（investment vehicle）」。",
+    "sentence": "All company vehicles must undergo a safety inspection before being dispatched for long-distance trips.",
+    "sentenceZh": "所有公司車輛在派遣進行長途行駛前，都必須通過安全檢查。"
+  },
+  {
+    "category": "General Vocabulary",
+    "word": "veil",
+    "pos": "n / v",
+    "zh": "面紗；遮蔽物；掩蓋",
+    "collocations": [
+      "under the veil of (在...的面紗下)",
+      "lift the veil on (揭開...的面紗)",
+      "veil the truth (掩蓋真相)"
+    ],
+    "tip": "商務閱讀多以比喻方式出現，如 'lift the veil on the new project' 表示公開揭曉新企劃；多益更常考同根動詞 unveil（發表、公開亮相），務必特別背誦。",
+    "sentence": "The tech firm finally lifted the veil on its much-anticipated next-generation smartphone.",
+    "sentenceZh": "該科技公司終於揭開了其備受期待的新一代智慧型手機的神秘面紗。"
+  },
+  {
+    "category": "Purchasing & Inventory",
+    "word": "vend",
+    "pos": "v",
+    "zh": "販售；出售",
+    "collocations": [
+      "vend goods (銷售商品)",
+      "vending machine (自動販賣機)",
+      "licensed to vend (獲許可銷售)"
+    ],
+    "tip": "動詞 vend 本身較少單獨出現，最常考其衍生詞 vending machine（自動販賣機）以及 vendor（供應商、攤販）。",
+    "sentence": "The street market allows local artisans to vend their handmade crafts during weekends.",
+    "sentenceZh": "該市集允許當地手工藝者在週末販賣他們的手工藝品。"
+  },
+  {
+    "category": "Purchasing & Inventory",
+    "word": "vendor",
+    "pos": "n",
+    "zh": "供應商；攤販",
+    "collocations": [
+      "preferred vendor (首選供應商)",
+      "approved vendor (核准供應商)",
+      "select a vendor (選擇廠商)"
+    ],
+    "tip": "採購題型極高頻核心字。常與 supplier 互相替換。在招標（RFP）與採購合約情境中出現率近乎百分百。",
+    "sentence": "The procurement committee decided to renew the contract with our primary IT vendor.",
+    "sentenceZh": "採購委員會決定與我們主要的 IT 供應商續簽合約。"
+  },
+  {
+    "category": "General Business",
+    "word": "venture",
+    "pos": "n / v",
+    "zh": "新創企業；風險投資；冒險",
+    "collocations": [
+      "joint venture (合資企業)",
+      "venture capital (創投資本)",
+      "venture into new markets (大膽進軍新市場)"
+    ],
+    "tip": "多益商務合夥最常考片語為 joint venture（合資企業，縮寫 JV）。當動詞時常接 into，表跨足新業務領域。",
+    "sentence": "The two logistics companies formed a joint venture to expand their presence in the Asian market.",
+    "sentenceZh": "這兩家物流公司成立了合資企業，以擴大其在亞洲市場的業務版圖。"
+  },
+  {
+    "category": "Contracts & Legal",
+    "word": "verify",
+    "pos": "v",
+    "zh": "核對；證實；驗證",
+    "collocations": [
+      "verify employment (核實受僱資訊)",
+      "verify credentials (驗證資歷)",
+      "verify details (核對細節)"
+    ],
+    "tip": "人事背景調查與帳單核對極高頻動詞。同義詞為 confirm, double-check。名詞形式 verification（驗證）也是常考字。",
+    "sentence": "Please verify your account details before submitting the online bank transfer.",
+    "sentenceZh": "在送出線上銀行轉帳之前，請先核實您的帳戶資料。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "versatile",
+    "pos": "a",
+    "zh": "多才多藝的；多功能的",
+    "collocations": [
+      "versatile tool (多功能工具)",
+      "versatile employee (全方位的員工)",
+      "versatile performer (多才多藝的人才)"
+    ],
+    "tip": "在徵才廣告（Job Posting）中用來形容具備跨領域技能的人才；在產品推廣中則形容功能齊全多元（adaptable, multipurpose）。",
+    "sentence": "We are seeking a versatile project manager capable of handling both technical and marketing tasks.",
+    "sentenceZh": "我們正在尋找一位能夠兼顧技術與行銷任務的全方位專案經理。"
+  },
+  {
+    "category": "Office Technology",
+    "word": "version",
+    "pos": "n",
+    "zh": "版本；說法",
+    "collocations": [
+      "updated version (更新版本)",
+      "latest version (最新版本)",
+      "trial version (試用版)"
+    ],
+    "tip": "軟體升級與文件修訂情境必備詞。常與 release, launch 或 install 搭配使用。",
+    "sentence": "Employees are advised to install the latest version of the antivirus software immediately.",
+    "sentenceZh": "建議員工立即安裝最新版本的防毒軟體。"
+  },
+  {
+    "category": "Corporate Travel",
+    "word": "vessel",
+    "pos": "n",
+    "zh": "大型船隻；容器；導管",
+    "collocations": [
+      "cargo vessel (貨輪)",
+      "commercial vessel (商船)",
+      "pressure vessel (壓力容器)"
+    ],
+    "tip": "在海運與物流題目中，vessel 經常作為 ship 或 boat 的正式同義字改寫出現在閱讀測驗中。",
+    "sentence": "The cargo vessel is scheduled to dock at the international port early tomorrow morning.",
+    "sentenceZh": "該貨輪預計於明早清晨靠泊國際港口。"
+  },
+  {
+    "category": "Corporate Travel",
+    "word": "via",
+    "pos": "prep",
+    "zh": "經由；透過",
+    "collocations": [
+      "send via email (透過電子郵件寄送)",
+      "travel via Chicago (途經芝加哥)",
+      "connect via Wi-Fi (透過無線網路連線)"
+    ],
+    "tip": "介系詞用法，後接方式、管道或地點，等於 by means of 或 by way of。常出現在行程確認單（Itinerary）或聯繫方式提示中。",
+    "sentence": "You will receive your conference registration confirmation via email within two business days.",
+    "sentenceZh": "您將在兩個工作天內透過電子郵件收到會議註冊確認信。"
+  },
+  {
+    "category": "General Business",
+    "word": "viable",
+    "pos": "a",
+    "zh": "切實可行的；有望成功的",
+    "collocations": [
+      "commercially viable (商業上可行的)",
+      "viable alternative (可行的替代方案)",
+      "financially viable (財務上可行的)"
+    ],
+    "tip": "常形容 business plan, solution, option 是否可行（feasible）。多益常見副詞修飾 commercially viable 或 economically viable。",
+    "sentence": "Management concluded that developing a mobile app is the only viable solution to retain customers.",
+    "sentenceZh": "管理層認定，開發行動應用程式是留住客戶唯一切實可行的方案。"
+  },
+  {
+    "category": "Contracts & Legal",
+    "word": "vice",
+    "pos": "n / a",
+    "zh": "副的；缺陷；罪惡",
+    "collocations": [
+      "vice president (副總裁/副總經理)",
+      "vice versa (反之亦然)",
+      "vice chairman (副主席)"
+    ],
+    "tip": "在商務情境中大多作為職稱前綴，如 Vice President (VP)。",
+    "sentence": "The Vice President of Marketing announced a complete restructuring of the advertising department.",
+    "sentenceZh": "行銷副總裁宣布了廣告部門的全面重組。"
+  },
+  {
+    "category": "General Business",
+    "word": "vice versa",
+    "pos": "adv",
+    "zh": "反之亦然",
+    "collocations": [
+      "and vice versa (反之亦然)",
+      "from A to B and vice versa (從A到B，反過來也一樣)"
+    ],
+    "tip": "拉丁片語，作副詞用，通常置於句尾，指前述兩者關係互換亦成立。常考閱讀理解邏輯關係。",
+    "sentence": "Marketing must support the sales team with quality leads, and vice versa.",
+    "sentenceZh": "行銷部門必須為業務團隊提供優質的潛在客戶名單，反之亦然。"
+  },
+  {
+    "category": "Health & Safety",
+    "word": "victim",
+    "pos": "n",
+    "zh": "受害者；罹難者",
+    "collocations": [
+      "accident victim (事故受害者)",
+      "fall victim to (成為...的受害者)",
+      "victim of fraud (詐欺受害人)"
+    ],
+    "tip": "在工安意外、天然災害或資安漏洞（cyberattack/fraud）的通報與保險理賠文章中經常考出。",
+    "sentence": "Several clients fell victim to a phishing scam that compromised their sensitive banking data.",
+    "sentenceZh": "數名客戶成為網路釣魚詐騙的受害者，導致其敏感的銀行資料遭到外洩。"
+  },
+  {
+    "category": "General Business",
+    "word": "viewpoint",
+    "pos": "n",
+    "zh": "觀點；視角",
+    "collocations": [
+      "from a financial viewpoint (從財務角度來看)",
+      "differing viewpoints (不同的觀點)",
+      "share a viewpoint (持有相同觀點)"
+    ],
+    "tip": "同義詞為 point of view, perspective。常出現在會議討論、諮詢建議或意見調查的回饋信函中。",
+    "sentence": "From an operational viewpoint, outsourcing the customer service center will significantly lower overhead.",
+    "sentenceZh": "從營運的角度來看，將客服中心外包將顯著降低經常性開支。"
+  },
+  {
+    "category": "Contracts & Legal",
+    "word": "violation",
+    "pos": "n",
+    "zh": "違反；違規；侵害",
+    "collocations": [
+      "in violation of (違反...)",
+      "safety violation (安全違規)",
+      "copyright violation (侵犯版權)"
+    ],
+    "tip": "多益必背文法片語：in violation of + regulations/policies/terms（違反了規定/條款）。動詞為 violate。",
+    "sentence": "Parking in the reserved loading dock without a permit is in direct violation of facility policies.",
+    "sentenceZh": "未經許可停放在專用裝卸貨區，直接違反了設施管理規定。"
+  },
+  {
+    "category": "Office Technology",
+    "word": "virtual",
+    "pos": "a",
+    "zh": "虛擬的；線上的；實質上的",
+    "collocations": [
+      "virtual meeting (線上/視訊會議)",
+      "virtual assistant (虛擬助理)",
+      "virtual tour (線上導覽)"
+    ],
+    "tip": "在後疫情時代的多益考題中，virtual conference / virtual interview 出現頻率極高，常可替換為 online 或 remote。",
+    "sentence": "Due to international travel restrictions, the annual shareholder meeting will be held virtually.",
+    "sentenceZh": "由於國際旅行限制，年度股東大會將以線上虛擬方式舉行。"
+  },
+  {
+    "category": "Marketing & Advertising",
+    "word": "visibility",
+    "pos": "n",
+    "zh": "可見度；知名度；能見度",
+    "collocations": [
+      "brand visibility (品牌能見度/曝光度)",
+      "high visibility (高能見度)",
+      "low visibility (低能見度)"
+    ],
+    "tip": "除指天氣或視線能見度（常用於航班延誤文章）外，行銷情境常指「品牌曝光度、公眾知名度」。",
+    "sentence": "Sponsoring the international trade show significantly improved our brand visibility across Europe.",
+    "sentenceZh": "贊助國際貿易展顯著提升了我們品牌在全歐洲的知名度與曝光率。"
+  },
+  {
+    "category": "General Business",
+    "word": "visible",
+    "pos": "a",
+    "zh": "看得見的；明顯的",
+    "collocations": [
+      "visible improvement (顯著的改善)",
+      "clearly visible (清晰可見)",
+      "highly visible (顯眼的)"
+    ],
+    "tip": "常修飾 abstract results 或 marks。如 visible progress / visible signs 表示顯著跡象（= noticeable, discernible）。",
+    "sentence": "There has been a visible increase in productivity since the new workflow system was adopted.",
+    "sentenceZh": "自從採用新工作流程系統以來，生產力有了顯著的提升。"
+  },
+  {
+    "category": "General Business",
+    "word": "visit",
+    "pos": "v / n",
+    "zh": "參觀；訪問；拜訪",
+    "collocations": [
+      "site visit (現場考察)",
+      "pay a visit to (拜訪...)",
+      "official visit (官方訪問)"
+    ],
+    "tip": "片語 site visit（工地/現場勘察）是多益營造與廠房考察考點常客。及物動詞直接接賓語，不需加 to（如 visit the factory）。",
+    "sentence": "The regional director plans to conduct a site visit to the manufacturing facility next Tuesday.",
+    "sentenceZh": "區域總監計劃於下週二對製造工廠進行現場視察。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "visitor",
+    "pos": "n",
+    "zh": "訪客；參觀者",
+    "collocations": [
+      "visitor badge (訪客證)",
+      "register as a visitor (登記為訪客)",
+      "visitor parking (訪客停車位)"
+    ],
+    "tip": "在辦公室安全規定文章中，常出現 visitor pass / badge（訪客證）及 sign in at the front desk（在櫃檯登記簽到）。",
+    "sentence": "All visitors are required to wear identification badges while inside the corporate headquarters.",
+    "sentenceZh": "所有訪客在企業總部內部時，均須佩戴身份識別證。"
+  },
+  {
+    "category": "Marketing & Advertising",
+    "word": "visual",
+    "pos": "a / n",
+    "zh": "視覺的；視覺資料/教具",
+    "collocations": [
+      "visual aids (視覺輔助器材/投影片)",
+      "visual inspection (目視檢查)",
+      "visual presentation (視覺簡報)"
+    ],
+    "tip": "名詞複數 visuals 或 visual aids 經常指簡報中使用的圖表、幻燈片或展示品。",
+    "sentence": "The speaker used effective visual aids to illustrate the quarterly sales breakdown to investors.",
+    "sentenceZh": "演講者使用有效的視覺輔助教材向投資人說明季度銷售細分數據。"
+  },
+  {
+    "category": "General Business",
+    "word": "vital",
+    "pos": "a",
+    "zh": "極其重要的；不可或缺的",
+    "collocations": [
+      "vital to / for (對...極為重要)",
+      "play a vital role (扮演至關重要的角色)",
+      "vital information (極重要的資訊)"
+    ],
+    "tip": "原詞形修正為 vital。常接虛擬語氣句型：It is vital that + S + (should) + 原形動詞。同義字為 essential, crucial。",
+    "sentence": "Clear communication between department heads is vital to the successful execution of the project.",
+    "sentenceZh": "部門主管之間清晰的溝通，對於專案的成功執行至關重要。"
+  },
+  {
+    "category": "Marketing & Advertising",
+    "word": "vivid",
+    "pos": "a",
+    "zh": "生動的；鮮豔的",
+    "collocations": [
+      "vivid description (生動的描述)",
+      "vivid colors (鮮明鮮豔的色彩)",
+      "vivid illustration (生動的解說)"
+    ],
+    "tip": "常用於廣告設計或文案撰寫中，形容視覺色彩強烈吸睛，或演講者表達生動引起聽眾共鳴。",
+    "sentence": "The brochure incorporates vivid graphics to attract prospective buyers to the new property development.",
+    "sentenceZh": "該宣傳手冊融入了生動鮮明的圖形，以吸引潛在買家對新建案的關注。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "vocabulary",
+    "pos": "n",
+    "zh": "詞彙；字彙量",
+    "collocations": [
+      "business vocabulary (商務字彙)",
+      "technical vocabulary (專業技術術語)",
+      "expand vocabulary (擴充詞彙量)"
+    ],
+    "tip": "多出現在員工語言培訓（language training courses）或專業工作技能培訓的公告中。",
+    "sentence": "The corporate language workshop helps sales representatives master essential technical vocabulary.",
+    "sentenceZh": "企業語言工作坊協助業務代表掌握必備的專業技術字彙。"
+  },
+  {
+    "category": "Customer Service",
+    "word": "voice",
+    "pos": "n / v",
+    "zh": "聲音；意見；表達",
+    "collocations": [
+      "voice concerns (表達疑慮)",
+      "voice an opinion (表達意見)",
+      "customer voice (客戶心聲)"
+    ],
+    "tip": "動詞用法極高頻！voice concerns/objections（表達擔憂/反對意見），在 Part 5/6 常作為考查動賓搭配的核心考點。",
+    "sentence": "Staff members are encouraged to voice any safety concerns directly to the compliance manager.",
+    "sentenceZh": "鼓勵全體員工直接向合規經理表達對安全的任何疑慮。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "volatile",
+    "pos": "a",
+    "zh": "波動劇烈的；不穩定的",
+    "collocations": [
+      "volatile market (波動劇烈的市場)",
+      "volatile commodity prices (起伏不定的商品價格)",
+      "highly volatile (高度不穩定的)"
+    ],
+    "tip": "財經趨勢分析題核心形容詞。指股市或油價瞬息萬變，名詞為 volatility（市場波動度）。",
+    "sentence": "Financial analysts warned that the current volatile market conditions might delay the planned IPO.",
+    "sentenceZh": "金融分析師警告，目前市場劇烈波動的局勢可能會推遲計劃中的首次公開發行（IPO）。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "volunteer",
+    "pos": "n / v",
+    "zh": "志工；志願者；自願做",
+    "collocations": [
+      "volunteer for (自願參加/爭取做...)",
+      "volunteer work (志工工作)",
+      "call for volunteers (招募志工)"
+    ],
+    "tip": "動詞常考不及物接介系詞：volunteer for sth 或及物接不定詞：volunteer to do sth。",
+    "sentence": "Several staff members volunteered to assist with the registration desk at the annual gala.",
+    "sentenceZh": "數名員工自願在年度盛會的報到處提供協助。"
+  },
+  {
+    "category": "Customer Service",
+    "word": "voucher",
+    "pos": "n",
+    "zh": "折價券；代金券；憑證",
+    "collocations": [
+      "meal voucher (餐券)",
+      "travel voucher (旅行代金券)",
+      "redeem a voucher (兌換憑證/優惠券)"
+    ],
+    "tip": "航空誤點賠償或顧客投訴補償方案必考名詞！動詞多搭配 redeem（兌換）或 issue（發行給）。",
+    "sentence": "Passengers whose flights were delayed overnight were provided with hotel vouchers and meal tickets.",
+    "sentenceZh": "班機延誤過夜的旅客獲得了飯店住宿抵用券及餐券。"
+  },
+  {
+    "category": "Corporate Travel",
+    "word": "voyage",
+    "pos": "n / v",
+    "zh": "航程；航海；旅行",
+    "collocations": [
+      "maiden voyage (首航)",
+      "long voyage (漫長航行)",
+      "voyage across (橫渡...)"
+    ],
+    "tip": "常形容長途海運或郵輪航行，高頻商業搭配為 maiden voyage（新郵輪/新船隻的首航）。",
+    "sentence": "The luxury cruise ship will embark on its maiden voyage from Southampton next month.",
+    "sentenceZh": "這艘豪華郵輪將於下個月從南安普敦啟程進行首航。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "wage",
+    "pos": "n / v",
+    "zh": "工資；薪水；發動（戰爭/宣傳活動）",
+    "collocations": [
+      "hourly wage (時薪)",
+      "minimum wage (基本工資)",
+      "wage increase (調薪)"
+    ],
+    "tip": "多益中主要考名詞：wage 通常指按時或按日計酬的工資（藍領或計時工作），而 salary 則是固定月薪/年薪。",
+    "sentence": "The proposed legislation includes a gradual increase in the national minimum wage over two years.",
+    "sentenceZh": "擬議中的法案包括在兩年內逐步提高全國最低工資。"
+  },
+  {
+    "category": "Manufacturing & Operations",
+    "word": "wagon",
+    "pos": "n",
+    "zh": "貨運車廂；四輪馬車",
+    "collocations": [
+      "railway wagon (鐵路貨車廂)",
+      "station wagon (旅行車)",
+      "load the wagon (裝載車廂)"
+    ],
+    "tip": "在工廠、採礦或鐵路物流貨運情境中偶爾出現，常指裝卸大宗貨物的開頂貨車。",
+    "sentence": "Heavy machinery was safely loaded onto the freight wagons for rail transport across the country.",
+    "sentenceZh": "重型機械被安全地裝上貨運車廂，以便透過鐵路運往全國各地。"
+  },
+  {
+    "category": "Health & Safety",
+    "word": "waist",
+    "pos": "n",
+    "zh": "腰；腰部",
+    "collocations": [
+      "waist measurement (腰圍)",
+      "waist-high (齊腰高的)",
+      "fasten around the waist (繫在腰部)"
+    ],
+    "tip": "在工安防護裝備指南（Safety Harness / PPE 說明）或服飾成衣訂購單的尺寸表（Size Chart）中常考。",
+    "sentence": "Workers working on elevated platforms must secure the safety harness firmly around their waist.",
+    "sentenceZh": "在高架平台上作業的工人必須將安全帶牢固地繫在腰部。"
+  },
+  {
+    "category": "General Business",
+    "word": "wait",
+    "pos": "v / n",
+    "zh": "等待；等候",
+    "collocations": [
+      "wait for (等待...)",
+      "wait in line (排隊等候)",
+      "long wait (漫長等待)"
+    ],
+    "tip": "wait 是不及物動詞，等待某人或某物必須加介系詞 for（wait for sb/sth）；若要及物動詞則用 await。",
+    "sentence": "Passengers are requested to wait in the designated lounge until their boarding group is called.",
+    "sentenceZh": "乘客請在指定的候機室等候，直到廣播通知其登機組別。"
+  },
+  {
+    "category": "Dining & Entertainment",
+    "word": "waiter",
+    "pos": "n",
+    "zh": "男服務生；侍者",
+    "collocations": [
+      "attentive waiter (體貼周到的服務生)",
+      "call the waiter (召喚服務生)",
+      "tip the waiter (給服務生小費)"
+    ],
+    "tip": "聽力 Part 1 常見圖片描述：A waiter is taking an order / serving food。現代英文多以性別中立詞 server 代替。",
+    "sentence": "The waiter promptly refilled our water glasses and answered questions about the specials.",
+    "sentenceZh": "服務生迅速為我們加水，並親切回答了有關今日特餐的問題。"
+  },
+  {
+    "category": "Dining & Entertainment",
+    "word": "waitress",
+    "pos": "n",
+    "zh": "女服務生",
+    "collocations": [
+      "experienced waitress (經驗豐富的女服務員)",
+      "waitress staff (女性外場服務人員)"
+    ],
+    "tip": "在聽力測驗餐廳情境對話中出現，同義詞常泛指 server 或 restaurant staff。",
+    "sentence": "The waitress politely informed the guests that the kitchen would be closing in twenty minutes.",
+    "sentenceZh": "女服務生禮貌地告知客人廚房將於二十分鐘後關閉。"
+  },
+  {
+    "category": "Contracts & Legal",
+    "word": "waive",
+    "pos": "v",
+    "zh": "免除；放棄（權益或費用）",
+    "collocations": [
+      "waive the fee (免除費用)",
+      "waive the requirement (豁免要求)",
+      "waive rights (放棄權利)"
+    ],
+    "tip": "多益超級明星動詞！常考 'waive the registration/shipping fee'（免除報名費/運費），名詞形式為 waiver（豁免；免責聲明書）。",
+    "sentence": "The bank agreed to waive the foreign transaction fees as a courtesy to long-standing account holders.",
+    "sentenceZh": "該銀行同意免除長期存戶的跨國交易手續費，以示優待禮遇。"
+  },
+  {
+    "category": "General Vocabulary",
+    "word": "wallet",
+    "pos": "n",
+    "zh": "皮夾；錢包",
+    "collocations": [
+      "digital wallet (數位錢包)",
+      "lost wallet (遺失的皮夾)",
+      "leather wallet (真皮皮夾)"
+    ],
+    "tip": "失物招領（Lost & Found）極常見物件；現代多益也常提及行動支付相關的 digital wallet / mobile wallet。",
+    "sentence": "Consumers are increasingly using digital wallets on their smartphones instead of carrying physical cash.",
+    "sentenceZh": "消費者越來越習慣在智慧型手機上使用數位錢包，而非攜帶實體現金。"
+  },
+  {
+    "category": "Office Technology",
+    "word": "wallpaper",
+    "pos": "n",
+    "zh": "壁紙；電腦桌布",
+    "collocations": [
+      "hang wallpaper (貼壁紙)",
+      "desktop wallpaper (桌面背景/桌布)",
+      "decorative wallpaper (裝飾壁紙)"
+    ],
+    "tip": "在多益裝修合約（Renovation）中指牆面壁紙；在辦公資訊設備指南中則指螢幕桌布。",
+    "sentence": "The renovation project for the conference room includes installing modern, acoustic wallpaper.",
+    "sentenceZh": "會議室的裝修工程包括安裝現代化的吸音壁紙。"
+  },
+  {
+    "category": "Manufacturing & Operations",
+    "word": "warehouse",
+    "pos": "n",
+    "zh": "倉庫；倉儲",
+    "collocations": [
+      "warehouse manager (倉庫經理)",
+      "warehouse capacity (倉儲容量)",
+      "central warehouse (中央物流中心/倉庫)"
+    ],
+    "tip": "製造業與供應鏈題型必考字。衍生字 warehousing（倉儲業務），常與 inventory（庫存）、distribution center 共同出現。",
+    "sentence": "All items ordered before noon will be shipped directly from our central warehouse today.",
+    "sentenceZh": "所有於中午前訂購的商品將於今日直接從我們的中央倉庫出貨。"
+  },
+  {
+    "category": "General Vocabulary",
+    "word": "warm",
+    "pos": "a / v",
+    "zh": "溫暖的；熱情的；使變暖",
+    "collocations": [
+      "warm welcome (熱烈歡迎)",
+      "warm regards (祝安好/信末敬語)",
+      "warm up (暖身/加熱)"
+    ],
+    "tip": "商務書信常見結尾敬語 'Warm regards'；在活動致詞時常考 'extend a warm welcome to + 人'（熱烈歡迎某人）。",
+    "sentence": "The keynote speaker received a warm welcome from the audience as he stepped onto the stage.",
+    "sentenceZh": "主講人走上講台時受到聽眾的熱烈歡迎。"
+  },
+  {
+    "category": "Health & Safety",
+    "word": "warn",
+    "pos": "v",
+    "zh": "警告；告誡",
+    "collocations": [
+      "warn sb about/of sth (警告某人某事)",
+      "warn sb against doing sth (警告某人切勿做某事)",
+      "warn sb to do sth (告誡某人要做某事)"
+    ],
+    "tip": "常考搭配句型：warn sb against -ing（警告某人不要做某事，表禁止或提防）。",
+    "sentence": "The security manual warns personnel against downloading unapproved third-party software.",
+    "sentenceZh": "資訊安全手冊告誡全體同仁切勿下載未經授權的第三方軟體。"
+  },
+  {
+    "category": "Health & Safety",
+    "word": "warning",
+    "pos": "n",
+    "zh": "警告；警報",
+    "collocations": [
+      "advance warning (事先預警)",
+      "weather warning (天氣警報)",
+      "without warning (毫無預警地)"
+    ],
+    "tip": "注意常見搭配片語：give advance warning（給予事先預警）及 without prior warning（未經事先通知/警告）。",
+    "sentence": "The facility maintenance team issued an advance warning about scheduled power outages tomorrow.",
+    "sentenceZh": "廠房維護團隊針對明天預定的停電發布了事先預警。"
+  },
+  {
+    "category": "Customer Service",
+    "word": "warranty",
+    "pos": "n",
+    "zh": "保固；保證書",
+    "collocations": [
+      "under warranty (在保固期內)",
+      "extended warranty (延長保固)",
+      "warranty period (保固期限)"
+    ],
+    "tip": "多益保證必考字！核心片語 'be covered under warranty'（在保固範圍內），常與 guarantee 混考，但 warranty 專指產品售後保固書。",
+    "sentence": "Repairs are provided free of charge, provided that the electronic device is still under warranty.",
+    "sentenceZh": "只要該電子設備仍在保固期內，維修均免費提供。"
+  },
+  {
+    "category": "Manufacturing & Operations",
+    "word": "waste",
+    "pos": "n / v",
+    "zh": "浪費；廢棄物；浪費",
+    "collocations": [
+      "waste management (廢棄物處理管理)",
+      "reduce waste (減少浪費)",
+      "hazardous waste (危險廢棄物)"
+    ],
+    "tip": "ESG 與環保政策常考主題。片語 'a waste of time/money'（浪費時間/金錢）；工業文章中常考 industrial/hazardous waste。",
+    "sentence": "The production department implemented lean manufacturing practices to significantly minimize material waste.",
+    "sentenceZh": "生產部門實施精實生產流程，以大幅減少物料浪費。"
+  },
+  {
+    "category": "General Business",
+    "word": "watch",
+    "pos": "v / n",
+    "zh": "觀看；注視；手錶；監視",
+    "collocations": [
+      "watch closely (嚴密注視/密切關注)",
+      "keep watch on (監視/留意)",
+      "watch out for (當心...)"
+    ],
+    "tip": "商務分析常考比喻用法，如 'analysts are watching market trends closely'（分析師正密切關注市場趨勢）。",
+    "sentence": "Investors will be watching the upcoming earnings announcement closely to evaluate the company's growth.",
+    "sentenceZh": "投資人將密切關注即將發布的財報公告，以評估該公司的成長前景。"
+  },
+  {
+    "category": "General Vocabulary",
+    "word": "wave",
+    "pos": "n / v",
+    "zh": "海浪；揮手；浪潮",
+    "collocations": [
+      "a wave of (一波...浪潮)",
+      "wave to (向...揮手)",
+      "heat wave (熱浪)"
+    ],
+    "tip": "多益聽力 Part 1 偶爾考肢體動作（waving to someone）；閱讀測驗則常指新一波趨勢，如 a new wave of investments（新一波投資潮）。",
+    "sentence": "The sudden rise in consumer demand sparked a new wave of hiring across the retail sector.",
+    "sentenceZh": "消費需求的驟增引發了整個零售業新一波的招聘熱潮。"
+  },
+  {
+    "category": "General Business",
+    "word": "waver",
+    "pos": "v",
+    "zh": "動搖；猶豫不決",
+    "collocations": [
+      "waver in one's commitment (在承諾上動搖)",
+      "without wavering (毫不動搖地)",
+      "waver between (在...之間猶豫不決)"
+    ],
+    "tip": "同義字為 hesitate 或 falter。注意拼寫不要與 waiver（放棄；棄權書）混淆，waver 為動詞，表搖擺動搖。",
+    "sentence": "Despite challenging economic conditions, the board did not waver in its commitment to renewable energy.",
+    "sentenceZh": "儘管經濟形勢嚴峻，董事會對發展再生能源的承諾仍未曾動搖。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "weak",
+    "pos": "a",
+    "zh": "虛弱的；疲弱的；不足的",
+    "collocations": [
+      "weak sales (疲弱的銷售表現)",
+      "weak currency (弱勢貨幣)",
+      "weak demand (需求疲軟)"
+    ],
+    "tip": "財報分析必考修飾詞。常修飾 market, economy, revenue，表「疲弱不振的」，反義詞為 robust, strong。",
+    "sentence": "The retailer reported lower quarterly profits due to weak consumer demand for luxury goods.",
+    "sentenceZh": "由於消費者對奢侈品的需求疲軟，該零售商公布的季度利潤有所下滑。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "weakness",
+    "pos": "n",
+    "zh": "弱點；缺點；衰弱",
+    "collocations": [
+      "strengths and weaknesses (優勢與劣勢)",
+      "identify a weakness (找出弱點)",
+      "overcome a weakness (克服弱點)"
+    ],
+    "tip": "在面試或績效考核（Performance Appraisal）中常考 SWOT 分析概念：strengths, weaknesses, opportunities, threats。",
+    "sentence": "During the interview, candidates were asked to describe how they overcome their professional weaknesses.",
+    "sentenceZh": "在面試過程中，求職者被要求說明他們如何克服自己在專業上的弱點。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "wealth",
+    "pos": "n",
+    "zh": "財富；豐富",
+    "collocations": [
+      "a wealth of experience (極豐富的經驗)",
+      "wealth management (財富管理)",
+      "accumulate wealth (累積財富)"
+    ],
+    "tip": "多益雙重考點：除了指金錢財產外，常見搭配 'a wealth of + 抽象名詞（如 experience / knowledge）'，意為「極其豐富的...」。",
+    "sentence": "The new consultant brings a wealth of experience in supply chain optimization to our firm.",
+    "sentenceZh": "這位新顧問為我們公司帶來了在供應鏈優化方面極為豐富的經驗。"
+  },
+  {
+    "category": "Purchasing & Inventory",
+    "word": "weight",
+    "pos": "n",
+    "zh": "重量；分量；負擔",
+    "collocations": [
+      "weight limit (重量限制)",
+      "gross weight (總重/毛重)",
+      "carry weight (具有份量/影響力)"
+    ],
+    "tip": "貨運與快遞規則常考 maximum weight allowance 或 overweight charges（超重費）；動詞形式為 weigh（稱重）。",
+    "sentence": "Packages exceeding the maximum weight limit will incur an additional handling surcharge.",
+    "sentenceZh": "超過最大重量限制的包裹將被收取額外的手續附加費。"
+  },
+  {
+    "category": "General Business",
+    "word": "whereas",
+    "pos": "conj",
+    "zh": "然而；反之；鑑於",
+    "collocations": [
+      "whereas ..., ... (然而/反之...)",
+      "while / whereas (表強烈對比)"
+    ],
+    "tip": "連接詞文法考點常客！用來連接兩個對比的子句，等於 while / in contrast。若出現在法律合約最前端，則意為「鑑於（說明背景）」。",
+    "sentence": "Domestic sales increased by 15 percent, whereas international revenue experienced a slight decline.",
+    "sentenceZh": "國內銷售額成長了 15%，然而國際市場營收卻出現了輕微下滑。"
+  },
+  {
+    "category": "General Business",
+    "word": "whether",
+    "pos": "conj",
+    "zh": "是否；無論是否",
+    "collocations": [
+      "whether ... or not (是否...)",
+      "whether S + V or ... (無論是...還是...)",
+      "decide whether to (決定是否要...)"
+    ],
+    "tip": "常考搭配 whether ... or not 或 whether to + 原形動詞（不定詞片語）。注意與 if 的區別：whether 可引導主詞子句、介系詞後的受詞子句及直接接不定詞。",
+    "sentence": "The board has not yet determined whether to accept the buyout offer from the competitor.",
+    "sentenceZh": "董事會尚未決定是否接受競爭對手的收購要約。"
+  },
+  {
+    "category": "General Vocabulary",
+    "word": "whole",
+    "pos": "a / n",
+    "zh": "全體的；全部的；整體",
+    "collocations": [
+      "the whole team (整個團隊)",
+      "on the whole (大體上/總的來說)",
+      "as a whole (作為一個整體)"
+    ],
+    "tip": "文法陷阱：the whole + 單數名詞（= all the + 複數名詞或不可數名詞），例如 the whole process = all the process steps。",
+    "sentence": "The CEO congratulated the whole staff on completing the factory audit ahead of schedule.",
+    "sentenceZh": "執行長祝賀全體同仁提前完成工廠審計工作。"
+  },
+  {
+    "category": "Marketing & Advertising",
+    "word": "widespread",
+    "pos": "a",
+    "zh": "廣泛的；普遍的",
+    "collocations": [
+      "widespread acceptance (普遍接受)",
+      "widespread acclaim (廣泛讚譽)",
+      "widespread adoption (普遍採納)"
+    ],
+    "tip": "常用於市場趨勢與新技術應用，如 'gain widespread popularity/adoption'（獲得廣泛普及與歡迎）。",
+    "sentence": "The new cloud-based collaboration software has gained widespread adoption across the corporation.",
+    "sentenceZh": "這款新的雲端協同作業軟體已在全公司範圍內得到廣泛採用。"
+  },
+  {
+    "category": "Manufacturing & Operations",
+    "word": "width",
+    "pos": "n",
+    "zh": "寬度；幅度",
+    "collocations": [
+      "in width (在寬度上)",
+      "overall width (總寬度)",
+      "width and height (寬度與高度)"
+    ],
+    "tip": "尺寸規格（Dimensions）必備詞彙。常與 length（長）、height（高）、depth（深）共同出現在產品規格說明書（Specifications）中。",
+    "sentence": "Please measure the exact width of the doorway before ordering the new conference table.",
+    "sentenceZh": "在訂購新會議桌之前，請先測量門口的準確寬度。"
+  },
+  {
+    "category": "General Business",
+    "word": "will",
+    "pos": "aux / n",
+    "zh": "將會；意志；意願；遺囑",
+    "collocations": [
+      "will do sth (將做某事)",
+      "last will and testament (遺囑)",
+      "strong will (堅強意志)"
+    ],
+    "tip": "除了作助動詞表未來式外，名詞可表示「個人意願」或法律上的「遺囑（will and testament）」。",
+    "sentence": "The firm's founder left a comprehensive will detailing the distribution of her corporate shares.",
+    "sentenceZh": "該公司的創辦人留下了一份詳盡的遺囑，詳細說明了她公司股份的分配方式。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "willingness",
+    "pos": "n",
+    "zh": "意願；樂意",
+    "collocations": [
+      "willingness to learn (學習意願)",
+      "demonstrate a willingness to (展現...的意願)",
+      "express willingness (表達意願)"
+    ],
+    "tip": "固定文法搭配：willingness 後恆接 to + 原形動詞。招聘與評鑑最愛考 'willingness to travel / relocate'（出差/外派意願）。",
+    "sentence": "The hiring manager praised the applicant's proven track record and strong willingness to learn.",
+    "sentenceZh": "招聘經理稱讚了該應徵者過往的亮眼實績以及強烈的學習意願。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "wire",
+    "pos": "n / v",
+    "zh": "電線；金屬線；電匯；匯款",
+    "collocations": [
+      "wire transfer (電匯)",
+      "wire money (匯款)",
+      "exposed wires (裸露的電線)"
+    ],
+    "tip": "多益金融必考 wire transfer（電匯），常考及物動詞 'wire funds directly to an account'（直接將資金電匯至帳戶）。",
+    "sentence": "The accounting team will wire the payment directly to the contractor upon receipt of the invoice.",
+    "sentenceZh": "會計團隊收到發票後，將直接把款項電匯給承包商。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "withdraw",
+    "pos": "v",
+    "zh": "提款；撤銷；退出",
+    "collocations": [
+      "withdraw money from an ATM (從提款機提款)",
+      "withdraw a bid (撤回投標)",
+      "withdraw from the market (退出市場)"
+    ],
+    "tip": "動詞三態為 withdraw, withdrew, withdrawn。考題常見雙重語義：銀行「提款」或商業「撤銷投標/召回產品（recall/withdraw）」。",
+    "sentence": "Customers can withdraw up to one thousand dollars per day without incurring additional bank charges.",
+    "sentenceZh": "客戶每天最多可提領一千美元，而不會產生額外的銀行費用。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "withdrawal",
+    "pos": "n",
+    "zh": "提款；撤退；收回",
+    "collocations": [
+      "cash withdrawal (提領現金)",
+      "withdrawal limit (提款上限)",
+      "product withdrawal (產品撤回/下架)"
+    ],
+    "tip": "withdraw 的名詞形式。常出現在銀行月結單（bank statement）中，表示扣款或提領金額，對應存款為 deposit。",
+    "sentence": "The monthly bank statement clearly lists all recent deposits, transfers, and ATM withdrawals.",
+    "sentenceZh": "每月的銀行對帳單清楚列出了近期所有的存款、轉帳以及 ATM 提款紀錄。"
+  },
+  {
+    "category": "Contracts & Legal",
+    "word": "within",
+    "pos": "prep",
+    "zh": "在...範圍內；在...之內",
+    "collocations": [
+      "within 30 days (在30天之內)",
+      "within walking distance (在步行距離內)",
+      "within the budget (在預算之內)"
+    ],
+    "tip": "多益介系詞題天王字！接時間（within a week）表期限內；接地點（within 5 miles）；接限制（within budget / within reason）。",
+    "sentence": "Defective merchandise may be returned for a full refund within thirty days of purchase.",
+    "sentenceZh": "有瑕疵的商品可在購買後三十天內退回以獲得全額退費。"
+  },
+  {
+    "category": "General Business",
+    "word": "withstand",
+    "pos": "v",
+    "zh": "承受；禁得起；抵擋",
+    "collocations": [
+      "withstand pressure (承受壓力)",
+      "withstand intense heat (耐受高溫)",
+      "withstand scrutiny (禁得起檢驗)"
+    ],
+    "tip": "動詞三態為 withstand, withstood, withstood。產品測試情境中常形容耐用度（durable），如 withstand harsh conditions。",
+    "sentence": "The new industrial casing is engineered to withstand extreme temperatures and physical impacts.",
+    "sentenceZh": "這款新型工業外殼經過工程設計，能夠耐受極端溫度與物理撞擊。"
+  },
+  {
+    "category": "Contracts & Legal",
+    "word": "witness",
+    "pos": "n / v",
+    "zh": "見證人；目擊者；目擊；見證",
+    "collocations": [
+      "witness the signing (見證簽署)",
+      "expert witness (專家證人)",
+      "bear witness to (為...作證/證明)"
+    ],
+    "tip": "合約簽署最後常有 Witness Signature（見證人簽名）；也可作動詞指業務歷經繁榮，如 'The company witnessed tremendous growth'。",
+    "sentence": "The legal counsel was present to witness the signing of the multi-million-dollar acquisition agreement.",
+    "sentenceZh": "法律顧問在場見證了這項價值數百萬美元的收購協議簽署。"
+  },
+  {
+    "category": "General Vocabulary",
+    "word": "woeful",
+    "pos": "a",
+    "zh": "悲慘的；極差的；令人遺憾的",
+    "collocations": [
+      "woeful performance (糟糕至極的表現)",
+      "woefully inadequate (嚴重不足的)",
+      "woeful lack of (極度缺乏)"
+    ],
+    "tip": "閱讀測驗中常以副詞 woefully 修飾形容詞出現，如 'woefully inadequate / unprepared'（極度不足/準備嚴重不足）。",
+    "sentence": "The audit revealed that the warehouse had a woefully inadequate fire safety system in place.",
+    "sentenceZh": "審計結果顯示，該倉庫配備的消防安全系統極其不足。"
+  },
+  {
+    "category": "General Business",
+    "word": "wonder",
+    "pos": "v / n",
+    "zh": "想知道；感到納悶；驚奇",
+    "collocations": [
+      "wonder if / whether (想知道是否...)",
+      "no wonder (難怪)",
+      "work wonders (創造奇蹟/產生極佳效果)"
+    ],
+    "tip": "商務書信客氣詢問常用開頭：'I was wondering if you could...'（我想請問您是否能...），為極高頻委婉用語。",
+    "sentence": "I was wondering if you might have time to review the proposal before Friday's conference.",
+    "sentenceZh": "我想請問您在週五的會議之前，是否有時間審閱這份提案。"
+  },
+  {
+    "category": "Marketing & Advertising",
+    "word": "woo",
+    "pos": "v",
+    "zh": "爭取；爭取...的支持；拉攏",
+    "collocations": [
+      "woo customers (拉攏顧客)",
+      "woo investors (爭取投資人)",
+      "woo new clients (爭取新客戶)"
+    ],
+    "tip": "原清單 'wo' 補正為 woo。商業新聞常見動詞，指企業採取折扣、公關等手段積極爭取客戶或投資人好感。",
+    "sentence": "The airline launched a generous frequent-flyer promotion in an attempt to woo business travelers.",
+    "sentenceZh": "該航空公司推出了一項優渥的常客哩程促銷活動，試圖拉攏商務旅客。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "work",
+    "pos": "v / n",
+    "zh": "工作；運作；作品；工廠",
+    "collocations": [
+      "work remotely (遠端工作)",
+      "work closely with (與...密切合作)",
+      "work ethic (職業道德/敬業精神)"
+    ],
+    "tip": "文法重點：work 當「工作」時為不可數名詞（不能加 a/s）；但當「著作/藝術作品」時為可數名詞（works of art）。",
+    "sentence": "Employees are permitted to work remotely up to two days a week with supervisor approval.",
+    "sentenceZh": "經主管核准後，員工每週最多可有兩天申請遠端工作。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "workaholic",
+    "pos": "n",
+    "zh": "工作狂",
+    "collocations": [
+      "self-confessed workaholic (自認的工作狂)",
+      "burnout among workaholics (工作狂的過勞現象)"
+    ],
+    "tip": "多益職場健康、工作與生活平衡（Work-life balance）專題中常見名詞，源自 alcohol + -ic 的構詞演變。",
+    "sentence": "HR organized a wellness seminar to encourage self-confessed workaholics to take their allotted vacation days.",
+    "sentenceZh": "人資部門舉辦了一場健康講座，鼓勵那些自認是工作狂的員工休完法定年假。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "workshop",
+    "pos": "n",
+    "zh": "工作坊；研討會；車間/工廠",
+    "collocations": [
+      "conduct a workshop (舉辦工作坊)",
+      "training workshop (培訓工作坊)",
+      "attend a workshop (參加研習營)"
+    ],
+    "tip": "員工教育訓練（seminar / training session）的極高頻同義替換詞，常搭配 hold, organize 或 facilitate。",
+    "sentence": "All department managers are required to attend a leadership workshop scheduled for next Monday.",
+    "sentenceZh": "所有部門主管皆須參加排定於下週一舉行的領導力工作坊。"
+  },
+  {
+    "category": "General Business",
+    "word": "world",
+    "pos": "n",
+    "zh": "世界；領域",
+    "collocations": [
+      "business world (商業世界/商界)",
+      "around the world (全世界)",
+      "in the corporate world (在企業界)"
+    ],
+    "tip": "常用於引申為特定專業領域或環境，如 the corporate world（企業界）、the academic world（學術界）。",
+    "sentence": "Staying ahead of technological disruption is essential for sustained success in today's business world.",
+    "sentenceZh": "在當今商業世界中，走在技術顛覆的前端是取得持久成功的關鍵。"
+  },
+  {
+    "category": "Marketing & Advertising",
+    "word": "worldwide",
+    "pos": "a / adv",
+    "zh": "全世界的；遍及全球地",
+    "collocations": [
+      "worldwide distribution (全球配送/分銷)",
+      "recognized worldwide (享譽全球)",
+      "worldwide sales (全球銷量)"
+    ],
+    "tip": "兼具形容詞與副詞功能，可作置後修飾語，如 'customers worldwide'（全球各地的客戶），等同於 across the globe。",
+    "sentence": "The pharmaceutical company employs over fifty thousand workers across its branches worldwide.",
+    "sentenceZh": "這家製藥公司在全球各地的分公司共僱用了超過五萬名員工。"
+  },
+  {
+    "category": "General Business",
+    "word": "worry",
+    "pos": "v / n",
+    "zh": "擔心；擔憂",
+    "collocations": [
+      "worry about (擔心...)",
+      "cause for worry (令人擔憂的原因)",
+      "worrying trend (令人擔憂的趨勢)"
+    ],
+    "tip": "動詞常與介系詞 about 連用。分詞形容詞 worrying（令人擔憂的）與 worried（感到焦慮的）常在文法題中對決。",
+    "sentence": "Investors worry that supply chain bottlenecks will impede manufacturing output throughout the quarter.",
+    "sentenceZh": "投資人擔心供應鏈瓶頸將阻礙整個季度的製造產出。"
+  },
+  {
+    "category": "General Business",
+    "word": "would",
+    "pos": "aux",
+    "zh": "將會；願意；過去常常",
+    "collocations": [
+      "would like to (想要做...)",
+      "would appreciate it if (若能...將不勝感激)",
+      "would rather (寧願)"
+    ],
+    "tip": "商業客套書信最高頻句型：'We would appreciate it if you could confirm your attendance'，表現禮貌與委婉。",
+    "sentence": "The management team would appreciate your feedback regarding the newly implemented training modules.",
+    "sentenceZh": "管理團隊若能收到您對新實施的培訓模組的反饋，將不勝感激。"
+  },
+  {
+    "category": "Health & Safety",
+    "word": "wrist",
+    "pos": "n",
+    "zh": "手腕；腕關節",
+    "collocations": [
+      "wrist rest (鍵盤手腕墊)",
+      "wrist injury (手腕受傷)",
+      "wrist strap (手腕防護帶)"
+    ],
+    "tip": "人因工程（Ergonomics）與工安常見詞，辦公環境常推廣 ergonomic keyboards and wrist rests（符合人體工學的鍵盤與腕墊）。",
+    "sentence": "Using an ergonomic keyboard and wrist support can prevent strain during prolonged typing sessions.",
+    "sentenceZh": "在長時間打字時使用人體工學鍵盤與腕墊，可預防手腕拉傷。"
+  },
+  {
+    "category": "Health & Safety",
+    "word": "X-ray",
+    "pos": "n / v",
+    "zh": "X光；X光檢查；用X光檢查",
+    "collocations": [
+      "X-ray examination (X光檢查)",
+      "chest X-ray (胸部X光)",
+      "X-ray screening (X光安檢掃描)"
+    ],
+    "tip": "常見於機場安檢（airport security baggage check）或員工健康體檢（annual medical checkup）通知中。",
+    "sentence": "All carry-on luggage must pass through the X-ray scanner prior to passenger boarding.",
+    "sentenceZh": "所有隨身行李在乘客登機前均必須通過 X 光掃描儀。"
+  },
+  {
+    "category": "Corporate Travel",
+    "word": "yacht",
+    "pos": "n",
+    "zh": "遊艇；快艇",
+    "collocations": [
+      "luxury yacht (豪華遊艇)",
+      "yacht charter (遊艇租賃)",
+      "board a yacht (登上遊艇)"
+    ],
+    "tip": "常出現在 VIP 招待、企業年會（corporate retreat）或頂級旅遊方案信件中。",
+    "sentence": "The executive committee chartered a private yacht for the celebratory dinner marking the merger.",
+    "sentenceZh": "執行委員會租了一艘私人遊艇，舉辦慶祝合併成功的晚宴。"
+  },
+  {
+    "category": "Real Estate & Property",
+    "word": "yard",
+    "pos": "n",
+    "zh": "院子；庭院；碼（長度單位）；特定場所",
+    "collocations": [
+      "freight yard (貨運調車場)",
+      "shipyard (造船廠)",
+      "yard maintenance (庭院維護)"
+    ],
+    "tip": "商務中除了指房產庭院外，也常指特定作業場所，如 lumberyard（木材廠）、freight yard（鐵路貨場）、shipyard（船塢）。",
+    "sentence": "Heavy containers are systematically organized in the freight yard before being loaded onto trains.",
+    "sentenceZh": "沉重的貨櫃在裝上火車之前，會在貨運場內進行系統性的歸類整理。"
+  },
+  {
+    "category": "General Vocabulary",
+    "word": "yawn",
+    "pos": "v / n",
+    "zh": "打哈欠；哈欠",
+    "collocations": [
+      "stifle a yawn (忍住哈欠)",
+      "suppress a yawn (壓抑哈欠)"
+    ],
+    "tip": "多益非常罕見，多出現在休閒讀物或聽力極生動的對話背景描述，形容疲勞（fatigue）。",
+    "sentence": "Exhausted from the overnight flight, the delegate struggled to stifle a yawn during the keynote address.",
+    "sentenceZh": "由於搭乘夜間航班而疲憊不堪，該代表在主題演講中努力忍住不打哈欠。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "year-end",
+    "pos": "n / a",
+    "zh": "年終；年終的",
+    "collocations": [
+      "year-end bonus (年終獎金)",
+      "year-end report (年終報告/年報)",
+      "year-end inventory (年終盤點)"
+    ],
+    "tip": "多益超高頻複合字！常搭配 bonus, review, financial report, inventory audit，是各類考題的大熱門考點。",
+    "sentence": "All department managers must submit their year-end budget proposals by Friday afternoon.",
+    "sentenceZh": "所有部門主管必須在週五下午前提交年終預算提案。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "yearly",
+    "pos": "a / adv",
+    "zh": "每年的；一年一度地",
+    "collocations": [
+      "yearly subscription (年度訂閱)",
+      "yearly revenue (年營收)",
+      "held yearly (每年舉辦一次)"
+    ],
+    "tip": "同義字為 annual / annually。注意 yearly 本身可直接當形容詞（a yearly meeting）亦可當副詞（renewed yearly）。",
+    "sentence": "Subscribers who choose the yearly billing cycle receive a fifteen percent discount on their membership.",
+    "sentenceZh": "選擇年度計費週期的訂戶可享有會費八五折的優惠。"
+  },
+  {
+    "category": "General Vocabulary",
+    "word": "yearn",
+    "pos": "v",
+    "zh": "渴望；切盼",
+    "collocations": [
+      "yearn for (渴望獲得...)",
+      "yearn to do sth (渴望做某事)"
+    ],
+    "tip": "情緒動詞，後接介系詞 for 或接不定詞 to do。商業文案中偶爾出現在追求生活平衡或創新願景的情境。",
+    "sentence": "Many remote workers yearn for more face-to-face interaction and collaborative office environments.",
+    "sentenceZh": "許多遠端工作者切盼能有更多面對面的交流互動與協同辦公環境。"
+  },
+  {
+    "category": "General Vocabulary",
+    "word": "yearningly",
+    "pos": "adv",
+    "zh": "渴望地；切盼地",
+    "collocations": [
+      "look yearningly at (渴望地望著)"
+    ],
+    "tip": "副詞形式，修飾視線或表情。在多益正式考試中極為罕見，掌握原形動詞 yearn 即可。",
+    "sentence": "The junior analyst looked yearningly at the overseas assignment list posted on the board.",
+    "sentenceZh": "初階分析師渴望地看著公佈欄上張貼的外派名單。"
+  },
+  {
+    "category": "Finance & Budgeting",
+    "word": "yield",
+    "pos": "v / n",
+    "zh": "產生；產出；屈服；收益率；產量",
+    "collocations": [
+      "high yield (高殖利率/高收益)",
+      "yield results (產生結果)",
+      "crop yield (作物產量)"
+    ],
+    "tip": "多益雙重關鍵考點：名詞常指投資「收益率/殖利率」（如 bond yield 債券收益率）；動詞常接 results, returns，表產生產出。",
+    "sentence": "The aggressive marketing campaign is expected to yield substantial financial returns within six months.",
+    "sentenceZh": "預期這場積極的行銷宣傳活動將在六個月內產生可觀的財務回報。"
+  },
+  {
+    "category": "General Vocabulary",
+    "word": "youngster",
+    "pos": "n",
+    "zh": "年輕人；少年",
+    "collocations": [
+      "talented youngster (有才華的年輕人)",
+      "programs for youngsters (針對年輕族群的計畫)"
+    ],
+    "tip": "指青年族群，常出現在非營利組織社區計畫、實習生計畫或針對青少年市場的行銷方案中。",
+    "sentence": "The foundation launched a mentorship program designed to inspire youngsters to pursue STEM careers.",
+    "sentenceZh": "該基金會啟動了一項導師計畫，旨在激勵年輕人投身 STEM（科學、技術、工程與數學）領域。"
+  },
+  {
+    "category": "Human Resources",
+    "word": "youth",
+    "pos": "n",
+    "zh": "青年；青年時期；年輕人",
+    "collocations": [
+      "youth employment (青年就業)",
+      "youth demographic (年輕客群)",
+      "in one's youth (在某人年輕時)"
+    ],
+    "tip": "集合名詞指青年群體時可用 the youth；在行銷文章中經常指年輕客群 demographic。",
+    "sentence": "The advertising agency focuses on creating social media campaigns that resonate with today's youth.",
+    "sentenceZh": "這家廣告代理商專注於打造能引起當今年輕人共鳴的社群媒體活動。"
+  },
+  {
+    "category": "General Vocabulary",
+    "word": "youthful",
+    "pos": "a",
+    "zh": "年輕的；富朝氣的",
+    "collocations": [
+      "youthful energy (青春活力)",
+      "youthful appearance (年輕的外表)",
+      "youthful audience (年輕受眾)"
+    ],
+    "tip": "褒義形容詞，常形容品牌形象清新有活力，例如 a youthful brand image。",
+    "sentence": "The brand redesigned its packaging to project a more youthful and environmentally conscious image.",
+    "sentenceZh": "該品牌重新設計了包裝，以展現更具活力且具環保意識的形象。"
+  },
+  {
+    "category": "Office Technology",
+    "word": "zip",
+    "pos": "n / v",
+    "zh": "拉鍊；壓縮（檔案）；飛馳",
+    "collocations": [
+      "zip file (壓縮檔案)",
+      "zip code (郵遞區號)",
+      "zip through (迅速處理/瀏覽)"
+    ],
+    "tip": "在商務與科技情境中，常指壓縮檔（zip a folder / zip file）或郵遞區號（ZIP code = postal code）。",
+    "sentence": "Please compress the presentation slides into a zip file before sending them as an attachment.",
+    "sentenceZh": "在將簡報投影片作為附件發送之前，請先將其壓縮成 zip 檔案。"
+  },
+  {
+    "category": "Real Estate & Property",
+    "word": "zone",
+    "pos": "n / v",
+    "zh": "區域；地帶；劃分區域",
+    "collocations": [
+      "commercial zone (商業區)",
+      "time zone (時區)",
+      "pedestrian zone (行人徒步區)"
+    ],
+    "tip": "都市規劃與地產高頻字。常考 commercial/residential/industrial zone，以及跨國會議預約時常提及的 time zone difference（時差）。",
+    "sentence": "The municipal council approved the development of a modern retail center in the designated commercial zone.",
+    "sentenceZh": "市議會核准了在指定商業區內興建現代化零售中心的企劃案。"
+  },
+  {
+    "category": "Office Technology",
+    "word": "zoom",
+    "pos": "v",
+    "zh": "快速移動；暴漲；鏡頭拉近拉遠",
+    "collocations": [
+      "zoom in on (放大檢視/聚焦於)",
+      "zoom out (縮小檢視)",
+      "prices zoom (物價飛漲)"
+    ],
+    "tip": "常考搭配 zoom in / zoom out；視訊會議（Zoom meeting）也是當代商務極常見語境。另外指數據急速飆升（soar）。",
+    "sentence": "The presenter asked the technician to zoom in on the specific data points displayed on the chart.",
+    "sentenceZh": "演講者請技術人員放大圖表上顯示的特定數據點以供檢視。"
+  },
+  {
+    "category": "Office Technology",
+    "word": "zoom in",
+    "pos": "v",
+    "zh": "放大（鏡頭或畫面）",
+    "collocations": [
+      "zoom in on a detail (放大檢視細節)",
+      "zoom in closer (拉近鏡頭)"
+    ],
+    "tip": "動詞片語，後接受詞時必須加介系詞 on（zoom in on sth）。在設計、工程繪圖軟體使用指南中極為常見。",
+    "sentence": "You can zoom in on the architectural blueprint using the mouse wheel to inspect the wiring layout.",
+    "sentenceZh": "您可以使用滑鼠滾輪放大建築藍圖，以檢查電線配置圖。"
+  },
+  {
+    "category": "Office Technology",
+    "word": "zoom out",
+    "pos": "v",
+    "zh": "縮小（鏡頭或畫面）",
+    "collocations": [
+      "zoom out to see (縮小以觀看...)",
+      "zoom out the view (縮小檢視畫面)"
+    ],
+    "tip": "原單字清單 'oom-out' 修正為 zoom out。為 zoom in 的反義詞，在數位地圖、相片編輯或投影片操作指引中常考。",
+    "sentence": "Zoom out to view the entire metropolitan delivery network on the logistics dashboard.",
+    "sentenceZh": "請將畫面縮小，以便在物流儀表板上檢視整個大都會區的配送網絡。"
   }
 ]
