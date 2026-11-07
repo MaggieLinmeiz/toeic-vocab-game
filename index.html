@@ -111,7 +111,7 @@
     .word-title {
       font-size: 36px;
       font-weight: 800;
-      margin: 10px 0 5px;
+      margin: 0;
       color: #111827;
     }
     .pos-tag { font-style: italic; color: #6b7280; margin-bottom: 8px; }
@@ -180,7 +180,29 @@
   <!-- 學習／測驗卡片區域 -->
   <div class="card" id="cardElement" onclick="handleCardClick()">
     <div id="categoryTag" class="category-tag">General</div>
-    <div id="wordTitle" class="word-title">載入中...</div>
+
+    <!-- 單字標題與發音按鈕區塊 -->
+    <div id="wordHeaderBox" style="display: flex; flex-direction: column; align-items: center; gap: 6px; margin: 10px 0 5px;" onclick="event.stopPropagation()">
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <div id="wordTitle" class="word-title">載入中...</div>
+        <!-- 發音喇叭按鈕 -->
+        <button onclick="speakWord()" title="播放發音" style="background: #f0f2f5; border: 1px solid #dcdfe6; border-radius: 50%; width: 38px; height: 38px; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s;" onmouseover="this.style.background='#e4e7ed'" onmouseout="this.style.background='#f0f2f5'">
+          🔊
+        </button>
+      </div>
+
+      <!-- 多國口音切換選單 -->
+      <div style="display: flex; align-items: center; gap: 6px; font-size: 13px; color: #606266; margin-top: 2px;">
+        <span>口音：</span>
+        <select id="accentSelect" onchange="changeAccent(this.value)" style="padding: 2px 6px; border-radius: 6px; border: 1px solid #d1d5db; font-size: 12px; cursor: pointer; background-color: #fff;">
+          <option value="en-US">🇺🇸 美音 (US)</option>
+          <option value="en-GB">🇬🇧 英音 (UK)</option>
+          <option value="en-AU">🇦🇺 澳音 (AU)</option>
+          <option value="random" selected>🎲 多益混合 (隨機)</option>
+        </select>
+      </div>
+    </div>
+
     <div id="posText" class="pos-tag"></div>
     <div id="zhText" class="meaning"></div>
 
@@ -220,6 +242,7 @@
   let masteredWords = new Set();
   let wrongWords = new Set();
   let currentMode = 'learn'; // 'learn', 'test', 'wrong', 'mastered'
+  let selectedAccent = 'random'; // 預設多益隨機口音
 
   window.onload = async () => {
     updateStreak();
@@ -268,7 +291,7 @@
 
   // 3. 一鍵重置所有學習進度
   function resetAllProgress() {
-    if (confirm('確定要清除所有已掌握與錯題紀錄，重新展開 1,800 單全新挑戰嗎？')) {
+    if (confirm('確定要清除所有已掌握與錯題紀錄，重新展開挑戰嗎？')) {
       localStorage.removeItem('toeic_mastered_words');
       localStorage.removeItem('toeic_wrong_words');
       localStorage.removeItem('toeic_current_index');
@@ -326,147 +349,11 @@
     const testArea = document.getElementById('testArea');
     const masterBtn = document.getElementById('masterBtn');
     const flipHint = document.getElementById('flipHint');
+    const wordHeaderBox = document.getElementById('wordHeaderBox');
 
     if (currentList.length === 0) {
       document.getElementById('progressText').textContent = `進度：0 / 0`;
       document.getElementById('wordTitle').textContent = "恭喜通關！";
+      wordHeaderBox.style.display = 'none';
       document.getElementById('posText').textContent = "";
-      document.getElementById('zhText').textContent = currentMode === 'learn' ? "此分類的未掌握單字已全部清空！" : "此清單目前沒有單字喔！";
-      document.getElementById('detailsArea').classList.remove('show');
-      testArea.style.display = 'none';
-      return;
-    }
-
-    const item = currentList[currentIndex];
-    document.getElementById('progressText').textContent = `進度：${currentIndex + 1} / ${currentList.length}`;
-    document.getElementById('categoryTag').textContent = item.category || 'General';
-    document.getElementById('posText').textContent = item.pos;
-    document.getElementById('zhText').textContent = item.zh;
-
-    // 模式判斷
-    if (currentMode === 'test') {
-      document.getElementById('wordTitle').textContent = "❓ 拼字挑戰";
-      testArea.style.display = 'block';
-      document.getElementById('spellInput').value = '';
-      document.getElementById('testFeedback').textContent = '';
-      masterBtn.style.display = 'none';
-      flipHint.style.display = 'none';
-    } else {
-      document.getElementById('wordTitle').textContent = item.word;
-      testArea.style.display = 'none';
-      masterBtn.style.display = 'block';
-      flipHint.style.display = 'block';
-      
-      if (currentMode === 'mastered') {
-        masterBtn.textContent = '移出已掌握';
-      } else {
-        masterBtn.textContent = '標記為已掌握 ✓';
-      }
-    }
-
-    // 搭配詞與例句
-    const colList = document.getElementById('collocationsList');
-    colList.innerHTML = '';
-    (item.collocations || []).forEach(c => {
-      const div = document.createElement('div');
-      div.textContent = `• ${c}`;
-      colList.appendChild(div);
-    });
-    document.getElementById('tipBox').textContent = item.tip || '';
-    document.getElementById('sentenceEn').textContent = item.sentence || '';
-    document.getElementById('sentenceZh').textContent = item.sentenceZh || '';
-
-    document.getElementById('detailsArea').classList.remove('show');
-  }
-
-  // 7. 拼字檢查邏輯
-  function checkSpelling() {
-    if (currentList.length === 0) return;
-    const item = currentList[currentIndex];
-    const inputVal = document.getElementById('spellInput').value.trim().toLowerCase();
-    const feedback = document.getElementById('testFeedback');
-    const details = document.getElementById('detailsArea');
-
-    if (inputVal === item.word.toLowerCase()) {
-      feedback.textContent = "🎉 完全正確！已晉升至【已掌握】！";
-      feedback.className = "test-feedback feedback-correct";
-      
-      masteredWords.add(item.word);
-      wrongWords.delete(item.word);
-      saveData();
-
-      setTimeout(() => {
-        updateCurrentList();
-        renderCard();
-      }, 1200);
-
-    } else {
-      feedback.textContent = `❌ 拼錯囉！正確答案是：${item.word}`;
-      feedback.className = "test-feedback feedback-wrong";
-      details.classList.add('show');
-      
-      wrongWords.add(item.word);
-      saveData();
-    }
-  }
-
-  // 8. 切換模式按鈕
-  function switchMode(mode) {
-    currentMode = mode;
-    ['Learn', 'Test', 'Wrong', 'Master'].forEach(m => {
-      document.getElementById(`btnMode${m}`).classList.remove('active');
-    });
-    
-    if (mode === 'learn') document.getElementById('btnModeLearn').classList.add('active');
-    if (mode === 'test') document.getElementById('btnModeTest').classList.add('active');
-    if (mode === 'wrong') document.getElementById('btnModeWrong').classList.add('active');
-    if (mode === 'mastered') document.getElementById('btnModeMaster').classList.add('active');
-
-    currentIndex = 0;
-    updateCurrentList();
-    renderCard();
-  }
-
-  function changeFilter() {
-    currentIndex = 0;
-    updateCurrentList();
-    renderCard();
-  }
-
-  function handleCardClick() {
-    if (currentMode !== 'test') {
-      document.getElementById('detailsArea').classList.toggle('show');
-    }
-  }
-
-  function markMastered() {
-    if (currentList.length === 0) return;
-    const item = currentList[currentIndex];
-    
-    if (masteredWords.has(item.word)) {
-      masteredWords.delete(item.word);
-    } else {
-      masteredWords.add(item.word);
-      wrongWords.delete(item.word);
-    }
-    
-    saveData();
-    updateCurrentList();
-    renderCard();
-  }
-
-  function nextWord() {
-    if (currentList.length === 0) return;
-    currentIndex = (currentIndex + 1) % currentList.length;
-    renderCard();
-  }
-
-  function prevWord() {
-    if (currentList.length === 0) return;
-    currentIndex = (currentIndex - 1 + currentList.length) % currentList.length;
-    renderCard();
-  }
-</script>
-
-</body>
-</html>
+      document.getElementById('
